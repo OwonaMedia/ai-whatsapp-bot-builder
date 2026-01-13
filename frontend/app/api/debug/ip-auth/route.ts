@@ -27,7 +27,7 @@ export async function GET() {
   const cfConnectingIP = h.get('cf-connecting-ip');
 
   const clientIP =
-    forwardedFor?.split(',')[0].trim() || realIP || cfConnectingIP || 'unknown';
+    forwardedFor?.split(',')[0]?.trim() || realIP || cfConnectingIP || 'unknown';
 
   const allowedIPsEnv = process.env.ALLOWED_IPS;
   const allowedIPs = parseAllowedIPs(allowedIPsEnv);
