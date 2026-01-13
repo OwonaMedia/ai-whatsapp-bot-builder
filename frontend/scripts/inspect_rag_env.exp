@@ -1,0 +1,30 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Check environment for Process 5
+send "echo '--- PROCESS 5 ENV CHECK ---'\r"
+send "pm2 env 5 | grep -E 'NEXT_PUBLIC_SUPABASE_URL|SUPABASE_SERVICE_ROLE_KEY'\r"
+expect "# "
+
+# Also check the .env.local file in the installation directory again
+send "cd /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend\r"
+send "grep -E 'NEXT_PUBLIC_SUPABASE_URL|SUPABASE_SERVICE_ROLE_KEY' .env.local\r"
+expect "# "
+
+send "exit\r"
+expect eof

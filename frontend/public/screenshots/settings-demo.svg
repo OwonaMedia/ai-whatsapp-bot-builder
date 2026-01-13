@@ -1,0 +1,6 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#f3f4f6"/>
+  <text x="960" y="540" font-family="Arial, sans-serif" font-size="48" fill="#6b7280" text-anchor="middle" dominant-baseline="middle">
+    settings-demo
+  </text>
+</svg>

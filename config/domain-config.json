@@ -1,0 +1,21 @@
+{
+  "production": {
+    "domain": "whatsapp.owona.de",
+    "protocol": "https",
+    "baseUrl": "https://whatsapp.owona.de",
+    "environment": "production"
+  },
+  "development": {
+    "domain": "localhost:3000",
+    "protocol": "http",
+    "baseUrl": "http://localhost:3000",
+    "environment": "development"
+  },
+  "staging": {
+    "domain": "staging.whatsapp.owona.de",
+    "protocol": "https",
+    "baseUrl": "https://staging.whatsapp.owona.de",
+    "environment": "staging"
+  }
+}
+

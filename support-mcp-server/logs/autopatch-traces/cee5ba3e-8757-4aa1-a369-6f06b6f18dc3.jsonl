@@ -1,0 +1,1 @@
+{"timestamp":"2025-11-28T08:39:18.492Z","ticketId":"cee5ba3e-8757-4aa1-a369-6f06b6f18dc3","patternId":"config-env_var-SUPABASE_SERVICE_URL","instructionCount":1,"instructions":[{"type":"env-add-placeholder","key":"SUPABASE_SERVICE_URL","value":"PLACEHOLDER_VALUE","comment":"# - `SUPABASE_SERVICE_ROLE_KEY = eyJ…` (nur auf dem Server setzen!)","file":".env.local"}]}

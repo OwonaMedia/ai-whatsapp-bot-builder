@@ -1,0 +1,33 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "ls -la /etc/nginx/sites-enabled/\r"
+expect "# "
+
+# Try to find config for whatsapp.owona.de. Probably in 'default' or a specific file.
+# We grep recursively in sites-enabled to find the server_name block
+send "grep -r 'whatsapp.owona.de' /etc/nginx/sites-enabled/\r"
+expect "# "
+
+# If we find a file, we cat it. Assuming it might be 'default' or 'whatsapp'
+# For now, let's just grep the proxy_pass to see the port
+send "grep -r 'proxy_pass' /etc/nginx/sites-enabled/ | grep -C 2 -r 'whatsapp.owona.de' /etc/nginx/sites-enabled/\r"
+expect "# "
+
+send "exit\r"
+expect eof

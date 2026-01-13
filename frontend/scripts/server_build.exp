@@ -1,0 +1,41 @@
+#!/usr/bin/expect -f
+
+set timeout 300
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "cd /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend\r"
+expect "# "
+
+# Disable linting during build to save time/resources if possible (Next.js config might override)
+# But we can try setting ENV vars
+send "export NEXT_TELEMETRY_DISABLED=1\r"
+expect "# "
+send "export NODE_ENV=production\r"
+expect "# "
+
+send "npm run build\r"
+expect {
+    "Creating an optimized production build" { exp_continue }
+    "Compiled successfully" { exp_continue }
+    "Finalizing page optimization" { exp_continue }
+    "Error" { 
+        # Capture error but don't exit to see output
+    }
+    "# " { }
+}
+
+send "exit\r"
+expect eof

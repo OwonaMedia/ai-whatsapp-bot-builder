@@ -1,0 +1,42 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "pm2 restart 5\r"
+expect "# "
+
+# Wait a bit for process to come up
+send "sleep 5\r"
+expect "# "
+
+# Create a dummy PDF file (minimal valid PDF)
+# We can use a base64 encoded PDF string
+send "echo 'JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAgUl0KL0NvdW50IDEKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL1R5cGUgL1BhZ2UKL1BhcmVudCAyIDAgUgovTWVkaWFCb3ggWzAgMCA1OTUgODQyXQovUmVzb3VyY2VzIDw8Ci9Gb250IDw8Ci9GMSA0IDAgUgo+Pgo+PgovQ29udGVudHMgNSAwIFIKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL1R5cGUgL1ZvbnQKL1N1YnR5cGUgL1R5cGUxCi9QmFzZUZvbnQgL0hlbHZldGljYQo+PgplbmRvYmoKNSAwIG9iago8PAovTGVuZ3RoIDQ0Cj4+CnN0cmVhbQpCVAovRjEgMjQgVGYKMTAwIDcwMCBUZAooSGVsbG8gV29ybGQpIFRqCkVUCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDEwIDAwMDAwIG4gCjAwMDAwMDAwNjAgMDAwMDAgbiAgCjAwMDAwMDAxNTcgMDAwMDAgbiAgCjAwMDAwMDAzMDYgMDAwMDAgbiAgCjAwMDAwMDAzOTQgMDAwMDAgbiAgCnRyYWlsZXIKPDwKL1NpemUgNgovUm9vdCAxIDAgUgo+PgpzdGFydHhyZWYKNDAwCiUlRU9GCg==' | base64 -d > /tmp/test.pdf\r"
+expect "# "
+
+# Test Upload (assuming endpoint is /api/knowledge/upload)
+# Need to check authentication. Usually requires session or API key?
+# The error was "Setting up fake worker failed", which happens AFTER auth, so maybe auth is not issue for reproducing the error if it fails early?
+# But if I want to verify SUCCESS, I need to pass auth.
+# If I don't have auth, I can at least trigger the parser.
+# Let's try to hit the endpoint.
+# But wait, to reach /api of the NEXT app, I use localhost:3000
+send "curl -v -F 'file=@/tmp/test.pdf' http://localhost:3000/api/knowledge/upload\r"
+expect "# "
+
+send "exit\r"
+expect eof

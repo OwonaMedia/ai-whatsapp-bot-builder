@@ -1,0 +1,719 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "Ana loda...",
+    "error": "Kuskure",
+    "success": "Nasara",
+    "save": "Ajiye",
+    "cancel": "Soke",
+    "delete": "Share",
+    "edit": "Gyara",
+    "create": "Ƙirƙira",
+    "back": "Koma baya",
+    "next": "Na gaba",
+    "previous": "Na baya",
+    "close": "Rufe",
+    "search": "Nemo",
+    "filter": "Tace",
+    "actions": "Ayyuka",
+    "open": "Bude"
+  },
+  "pricing": {
+    "title": "Farashi mai sauƙi kuma bayyananne",
+    "subtitle": "Babu kuɗaɗen ɓoye. Za ka iya soke a kowane lokaci.",
+    "cta": "Fara gwajin kwanaki 14 kyauta"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Shaidar abokan ciniki",
+      "title": "Shaidar tasiri da albarkatu don hanzarta kaddamar da WhatsApp",
+      "subtitle": "Ga yadda kungiyoyi masu tsauraran ka'idoji ke amfani da WhatsApp Bot Builder kuma ku sauke playbook ɗin da muke amfani da su a aikace.",
+      "ctaPrimary": "Shirya tattaunawar dabaru",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Duba ɗakin karatu na samfura",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        { "label": "Gamsuwar abokan ciniki bayan kaddamarwa", "value": "99.2%" },
+        { "label": "Lokacin matsakaici zuwa bot ɗin farko", "value": "kwanaki 14" },
+        { "label": "Ƙarin jagorori daga aikin atomatik", "value": "+23%" }
+      ]
+    },
+    "partners": {
+      "title": "Masu dogaro da mu",
+      "subtitle": "Kungiyoyi na lafiya, kasuwanci da SaaS a cikin EU",
+      "description": "Sassan Compliance, CX da Growth suna amfani da WhatsApp Bot Builder a matsayin ginshiƙin tsarin atomatik ɗinsu.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Labaran tasiri",
+      "title": "Yadda muke bayar da sakamako mai aunawa",
+      "subtitle": "Kowane case study yana haɗa sadarwa mai bin doka da biyan kuɗi, analytics da KPI masu auna nasara.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Lafiya",
+          "title": "Triage ta atomatik a asibitoci 7",
+          "description": "Tambayoyin marasa lafiya ana tantance su gaba, ana turawa ga ƙungiyar da ta dace kuma ana rikodin su ba tare da aikin hannu ba.",
+          "metrics": [
+            "Lokacin amsa hotline ya ragu da 38%",
+            "Tambayoyi 1,200 na alƙawari a kowane wata"
+          ],
+          "result": "DPA, ikon wucewa da handover zuwa ma'aikata sun kammala cikin ƙasa da makonni biyu.",
+          "ctaLabel": "Nemi playbook na asibiti",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "Sayarwa",
+          "title": "Checkout ta tattaunawa ga alamar kaya",
+          "description": "Shawarwari na samfur, biyan kuɗi da bin diddigin jigilar kaya suna gudana a WhatsApp yayin da Stripe da PayPal ke bibiyar ma'amala.",
+          "metrics": [
+            "+23% dawo da keken kaya",
+            "€8.4k ƙarin kudaden shiga na wata"
+          ],
+          "result": "Playbooks suna haɗa data samfur, rubutu na harsuna da dama da dashboard na kasuwanci.",
+          "ctaLabel": "Sauke kayan aikin retail",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Hukuma & Shawara",
+          "title": "Sabis na white-label mai auna",
+          "description": "Hukumar dijital ta gabatar da bots 18 a cikin makonni shida tare da branding, invoicing da dashboard na nasara.",
+          "metrics": [
+            "Awanni 72 matsakaicin aiwatarwa",
+            "35% ƙarin retainer ta atomatik SLA"
+          ],
+          "result": "Workflows na n8n masu sake amfani da su da tsarin Supabase suna ba da damar isarwa cikin sauri.",
+          "ctaLabel": "Duba blueprint na hukuma",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Dakin karatu",
+      "title": "Albarkatu masu saukewa don hanzarta isarwa",
+      "subtitle": "Ana sabunta kowace albarkatu kowane kwata da sabbin samfura, jerin duba da dabarun atomatik daga ayyukan abokan ciniki.",
+      "categories": ["Playbooks", "Checklists", "Automation"],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "Enterprise rollout playbook",
+          "description": "Jagorar mataki-by-mataki don ƙungiyoyin shari'a, samfur da ayyuka.",
+          "highlights": [
+            "Checklist ta gudanarwa ga WhatsApp Business API",
+            "Samfuran sadarwa da masu ruwa da tsaki",
+            "Tsare-tsaren dawowa da martanin gaggawa"
+          ],
+          "ctaLabel": "Nemi playbook",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Compliance",
+          "title": "GDPR da biyan kuɗi compliance kit",
+          "description": "Tarin takardun TOM, samfuran DPA da misalan invoice masu bin ƙa'ida.",
+          "highlights": [
+            "Samfuran TOM da AV da aka cika",
+            "Tsarin invoice tare da dokar ƙaramar kasuwanci",
+            "Amsoshi ga tambayoyin tsaro na yau da kullum"
+          ],
+          "ctaLabel": "Samu compliance kit",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automation",
+          "title": "Automation recipes don n8n & Supabase",
+          "description": "Taron flows masu amfani da yawa don rarraba leads, kunna biyan kuɗi da dawo da biyan kuɗi.",
+          "highlights": [
+            "Workflows 6 na n8n masu shirye",
+            "Ƙananan bayanai na SQL na Supabase don bin kwota",
+            "Checklist ta gwaji don hanyoyin biyan kuɗi na madadin"
+          ],
+          "ctaLabel": "Bude automation recipes",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Sako",
+          "title": "Dakin karatu na sako masu harsuna da dama",
+          "description": "Templates da aka amince da su don onboarding, tallafi da biyan kuɗi da harshen Jamusanci, Ingilishi da Faransanci.",
+          "highlights": [
+            "Jerinsu 8 na onboarding",
+            "Saƙonni 12 na tunatar da biyan kuɗi",
+            "Checklist na murya da salo"
+          ],
+          "ctaLabel": "Sauke messaging pack",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Tabbacin aiki",
+      "assuranceHeadline": "Kowane albarkatu ya wuce gwaji a kan abokan ciniki",
+      "assuranceSubtitle": "Muna raba audit trail, KPI da darussa don WhatsApp automation mai auna.",
+      "assurance": [
+        "Sabuntawa na kowane kwata daga retros na abokan ciniki",
+        "Binciken ƙungiyoyin shari'a, compliance da success",
+        "Kamance da ake kwatanta cikin lafiya, kasuwanci da SaaS"
+      ],
+      "assuranceCtaLabel": "Yi magana da masani na mafita",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Maganganun abokan ciniki",
+      "title": "Dalilin da yasa kungiyoyi ke amfani da mu",
+      "subtitle": "Shugabannin CX, ayyuka da compliance suna bayyana ROI da suke sa ido a kai.",
+      "items": [
+        {
+          "quote": "Playbooks masu zurfi sun ceci makonni na daidaiton ciki. Kowane ɓangare ya san abin da za a yi tun daga rana ta farko.",
+          "name": "Leonie Hartmann",
+          "role": "Shugabar Sabis ɗin Marasa lafiya, Klinikverbund Nord",
+          "metric": "Raguwa 36% a eskalations na hannu"
+        },
+        {
+          "quote": "Mun sake amfani da recipes kuma mun kaddamar da hanyoyin biyan kuɗi na ƙasashe da dama ba tare da ƙarin lambar haɗi ba.",
+          "name": "André Becker",
+          "role": "Jagoran Atomatik, UrbanFit Retail",
+          "metric": "Kasuwanni huɗu sabbi cikin kwanaki 90"
+        },
+        {
+          "quote": "Abokan ciniki suna amincewa da sauri saboda muna nuna takardun compliance, rubutun GDPR da misalan invoice nan da nan.",
+          "name": "Noemi Alvarez",
+          "role": "Daraktan Gudanarwa, Converso Digital",
+          "metric": "Lokacin tallace-tallace ya ragu da 60%"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Shirye don irin waɗannan sakamakon?",
+      "subtitle": "Tsara zaman da aka jagoranta ko fara da kunshin albarkatun mu don hanzarta aikin ku na WhatsApp.",
+      "primary": "Nemi demo kai tsaye",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Bincika duk samfura",
+      "secondaryHref": "templates"
+    }
+  },
+  "monitoring": {
+    "title": "Atomatik & Kula da ayyuka",
+    "subtitle": "Kwanaki {days} da suka gabata · {from} – {to}",
+    "actions": {
+      "refresh": "Sabunta bayanai",
+      "refreshing": "Ana sabuntawa..."
+    },
+    "errors": {
+      "loadFailed": "An kasa ɗaukar bayanan Snapshot na baya-bayan nan"
+    },
+    "stats": {
+      "totalRevenue": "Jimillar riba",
+      "successRate": "Kimar nasara",
+      "failedPayments": "Biya da suka gaza",
+      "webhookFailures": "Kurakuran webhook"
+    },
+    "payments": {
+      "title": "Abubuwan da suka shafi biya",
+      "subtitle": "Takaitaccen tarihin mu'amaloli na Stripe da PayPal",
+      "total": "Abubuwa {count}",
+      "headers": {
+        "date": "Rana",
+        "status": "Matsayi",
+        "amount": "Adadi",
+        "provider": "Mai bada sabis",
+        "subscription": "Biyan kuɗi",
+        "details": "Cikakkun bayanai"
+      },
+      "empty": "Babu wasu bayanan biyan kuɗi a cikin wannan lokacin."
+    },
+    "webhooks": {
+      "title": "Ayyukan webhook",
+      "subtitle": "Ayyukan Stripe & PayPal",
+      "total": "Abubuwa {count}",
+      "headers": {
+        "date": "Rana",
+        "provider": "Mai bada sabis",
+        "event": "Abu",
+        "status": "Matsayi",
+        "details": "Cikakkun bayanai"
+      },
+      "empty": "Babu bayanan webhook da aka rubuta a cikin wannan lokacin."
+    },
+    "silentCheck": {
+      "running": "Ina bincika muku yanzu…",
+      "paymentStatusOk": "Biyan kuɗi yana lafiya. Babu kuskuren webhook da aka samu.",
+      "deploymentHealthy": "Shigarwa da sabis suna tafiya yadda ya kamata.",
+      "uiTraceCaptured": "An ɗauki sawun UI. Ƙungiyar mu za ta duba cikakkun bayanai.",
+      "completed": "An kammala bincike.",
+      "error": "Binciken ya gaza. Da fatan za a sake gwadawa daga baya."
+    },
+    "autoEscalated": "An adana amsa – an tura tikitin kai tsaye zuwa Tier 2.",
+    "status": {
+      "succeeded": "Ya yi nasara",
+      "failed": "Ya gaza",
+      "pending": "Ana jira",
+      "refunded": "An mayar",
+      "canceled": "An soke",
+      "processed": "An sarrafa",
+      "received": "An karɓa"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "Ƙirƙiri WhatsApp Business Bots masu amfani da AI waɗanda suka dace da DSGVO ba tare da code ba",
+    "startNow": "Fara yanzu",
+    "dashboard": "Dashboard",
+    "ragDemo": {
+      "title": "Misali na RAG Chat",
+      "description": "Ƙara tushen ilimi (PDF ko URL) kuma yi magana da AI wanda ya dogara da wannan tushen kawai"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "Ya dace da DSGVO",
+        "description": "Ajiye bayanai na EU, sarrafa yarda da cikakken bin doka"
+      },
+      "ai": {
+        "title": "Yana goyon bayan AI",
+        "description": "Tattaunawa masu hankali tare da haɗin GROQ AI"
+      },
+      "nocode": {
+        "title": "Babu Code",
+        "description": "Mai gina bot na gani tare da interface na ja da saki"
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Sakamakon gaskiya daga abokan ciniki",
+        "subtitle": "Masana'antar lafiya, e-commerce da hukumomi suna amfani da dandamalinmu don sarrafa WhatsApp cikin aminci",
+        "items": {
+          "healthcare": {
+            "industry": "Lafiya",
+            "headline": "Rarraba marasa lafiya ta atomatik ga cibiyar asibitoci",
+            "description": "Bot yana amsa tambayoyi da aka saba yi, yana tace bukatun alƙawari kuma yana rage nauyin layin kira.",
+            "metrics": [
+              "An rage lokacin jiran layin waya da kashi 38%",
+              "Alƙawura 1,200 a kowane wata ana sarrafa su ba tare da hannu ba"
+            ],
+            "result": "An kaddamar cikin kwanaki 14 tare da DPA, sarrafa matsayin mai amfani da rikodin sa ido."
+          },
+          "retail": {
+            "industry": "E-commerce",
+            "headline": "Siyayya ta tattaunawa ga kamfanin tufafi na D2C",
+            "description": "WhatsApp yana jagorantar mai siye daga shawarar samfur zuwa biyan kuɗi da bin diddigin jigilar kaya awanni 24.",
+            "metrics": [
+              "Karuwa da kashi 23% wajen dawo da jakunkuna da aka bari",
+              "€8.4k ƙarin kuɗin shiga na wata saboda upsell ta atomatik"
+            ],
+            "result": "Stripe, PayPal, Apple Pay da Klarna suna aiki kai tsaye ba tare da aikin hannu ba."
+          },
+          "agency": {
+            "industry": "Hukumomi",
+            "headline": "Tayen white-label mai auna kai ga hukumar dijital",
+            "description": "An kaddamar da bot 18 ga abokan ciniki cikin makonni shida tare da tambari, rahoto da lissafi masu hade.",
+            "metrics": [
+              "Awanni 72 matsakaicin lokacin aiwatarwa",
+              "Ƙaruwa da kashi 35% a kudaden sabis saboda SLA ta atomatik"
+            ],
+            "result": "Gudanar da abokan ciniki masu yawa, tallafi da nazari ana sarrafa su daga dashboard guda."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Abokan ciniki suna ba da shaida",
+        "subtitle": "Kungiyoyin CX, e-commerce da SaaS a faɗin Turai",
+        "points": {
+          "speed": "An kaddamar da mafita cikin 'yan kwanaki maimakon watanni na haɓaka",
+          "compliance": "Jerinan duba GDPR, DPA da takardun TOM suna zuwa tare da tsarin",
+          "support": "Manaja na nasara daga shirin Professional"
+        },
+        "items": {
+          "agency": {
+            "quote": "Mun fitar da bot ɗin abokin ciniki na farko cikin kwanaki goma sha ɗaya. Yanzu muna samun sabbin kwangila a duk mako ba tare da ƙara ma'aikata ba.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "+23% ƙarin jagora masu inganci cikin watan farko"
+          },
+          "retail": {
+            "quote": "Bot yana kula da shawarwarin samfur, matsayi na isarwa da biyan kuɗi. Ƙungiyar tallafinmu yanzu tana da lokaci don tattaunawar da ke samar da kuɗi.",
+            "name": "Leonard Fischer",
+            "role": "Jagoran E-Commerce, UrbanFit",
+            "metric": "Ajiye awanni 18 na aikin hannu a kowane mako"
+          },
+          "saas": {
+            "quote": "Muna tsara hanyoyin onboarding a kasuwanni uku lokaci guda. Haɗin n8n, Supabase da Apple Pay shi ne ya sa muka canza.",
+            "name": "Mira Albrecht",
+            "role": "Daraktan Nasarar Abokin Ciniki, Finovate SaaS",
+            "metric": "99.2% gamsuwar abokin ciniki bayan kaddamarwa"
+          }
+        }
+      },
+      "security": {
+        "title": "Tsaro da bin doka daga tushe",
+        "subtitle": "Gine-ginen da aka ajiye a EU tare da binciken masu zaman kansu da takardu masu gaskiya",
+        "features": [
+          "Gudanar da biyan kuɗi na PCI DSS Level 1 ta Stripe da PayPal",
+          "Tsaron TLS daga ƙarshe zuwa ƙarshe tare da adanawa mai zaman kanta idan an buƙata",
+          "Rajistan rijistar bincike da ba za a iya canzawa ba, amincewa bisa matsayin aiki da sa ido kan aiki"
+        ],
+        "assuranceTitle": "Abin da zaku iya dogaro da shi",
+        "assurance": [
+          "Hosting a Frankfurt (eu-central-1) tare da ajiyar bayanai na yau da kullum",
+          "Yarjejeniyar sarrafa bayanai da takardun TOM a shirye don sa hannu",
+          "Gwaje-gwajen tsaro na kowane kwata da binciken tsaro na kai tsaye"
+        ],
+        "ctaPrimary": "Nemi takaddun fasaha",
+        "ctaSecondary": "Duba bayanin tsaro"
+      },
+      "pricingPage": {
+        "header": {
+          "title": "Farashi a bayyane",
+          "subtitle": "Zaɓi shirin da ya dace da ƙungiyar ku. Dukkan matakai suna bin GDPR kuma ana adana su a EU.",
+          "billing": {
+            "monthly": "Kowane wata",
+            "yearly": "Kowace shekara",
+            "yearlyTag": "Ajiye 17%"
+          }
+        },
+        "onboarding": {
+          "title": "Fara da matakai uku",
+          "subtitle": "Mai taimako zai kai ku daga rajista zuwa bot ɗin farko a kan layi.",
+          "steps": {
+            "account": {
+              "title": "1. Ƙirƙiri asusu kuma gayyaci ƙungiya",
+              "description": "Yi rajista, ƙara bayanan kamfani kuma ka bai wa mambobi izini."
+            },
+            "connect": {
+              "title": "2. Haɗa WhatsApp",
+              "description": "Zaɓi Meta Business Account, tabbatar da webhook kuma kunna hanyoyin biyan kuɗi."
+            },
+            "launch": {
+              "title": "3. Fitar da bot ɗin farko",
+              "description": "Zaɓi samfur, gyara abun ciki kuma ka tura shi a kan layi."
+            }
+          },
+          "ctaPrimary": "Fara onboarding kyauta",
+          "ctaSecondary": "Duba jagorar mataki zuwa mataki",
+          "footnote": "Ba a buƙatar katin kuɗi. Gwada duk fasaloli har tsawon kwanaki 14."
+        },
+        "roi": {
+          "title": "Kimanta ribar ku",
+          "subtitle": "Ga yadda kuɗin kai tsaye da tanadin lokaci ke ba da shawara kan matakin da ya dace.",
+          "disclaimerTagline": "Matsakaici daga bayanan abokan cinikinmu",
+          "fields": {
+            "industry": "Masana'antu",
+            "leadsPerMonth": "Sabbin jagorori a kowane wata",
+            "closeRate": "Kimar rufewa",
+            "averageDeal": "Matsakaicin darajar ciniki (EUR)",
+            "supportTickets": "Takardun tallafi a wata",
+            "supportCost": "Farashin aiki na kowane tikiti",
+            "supportCostUnit": "/tikiti"
+          },
+          "industries": {
+            "agency": "Kamfanonin tallace-tallace da shawara",
+            "ecommerce": "E-commerce da sayarwa",
+            "service": "Masu ba da sabis"
+          },
+          "help": {
+            "leads": "Haɗa dukkan jagororin WhatsApp, hira ko fom da kuke sarrafawa yanzu.",
+            "supportTickets": "Adadin tikitin tallafi da ƙungiyar ku ke magancewa a kowane wata."
+          },
+          "results": {
+            "monthlyBenefitLabel": "Fa'ida da ake tsammani a kowane wata",
+            "additionalRevenue": "Ƙarin kuɗaɗen shiga",
+            "supportSavings": "Tanadin tallafi",
+            "disclaimer": "Wannan ƙididdiga ce ta kimantawa — daidaita zuwa yanayin kasuwancin ku.",
+            "recommendedPlanLabel": "Shirin da ya dace",
+            "recommendedPlanDescription": "Da kusan saƙonni {messages} a wata wannan mataki ya fi dacewa.",
+            "planPricing": "Kudin kowane wata: {price}",
+            "planCustom": "Ana samun farashi na musamman ta hanyar ƙungiyarmu.",
+            "yearlyBenefit": "Tasiri na shekara: {value}",
+            "roiMultiple": "≈ {multiple}x ROI idan kuna amfani da shirin da aka ba da shawara",
+            "coveredBySavings": "Tanadin tallafi ya rufe kuɗin shirin gaba ɗaya.",
+            "ctaStart": "Ci gaba zuwa biyan kuɗi",
+            "ctaEnterprise": "Tanadi zaman dabaru"
+          }
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "Tushen Ilimi",
+    "addUrl": "Ƙara URL",
+    "uploadPdf": "Loda PDF",
+    "noSources": "Babu tushen da aka ƙara",
+    "processing": "Ana aiki...",
+    "ready": "Shiri",
+    "error": "Kuskure",
+    "sourcesReady": "{count} tushen(ni) shiri",
+    "chatTitle": "Yi magana da AI",
+    "chatDescription": "AI tana amsawa ne kawai bisa tushen ilimi da aka ƙara.",
+    "placeholder": "Tambayarka...",
+    "send": "Aika",
+    "emptyChat": "Yi tambaya bisa tushen iliminku.",
+    "emptyChatHint": "AI na iya amfani da bayanai daga tushen da aka ƙara kawai.",
+    "sources": "Tushen"
+  },
+  "auth": {
+    "login": "Shiga",
+    "signup": "Yi rajista",
+    "logout": "Fita",
+    "email": "Imel",
+    "password": "Kalmar sirri",
+    "forgotPassword": "Ka manta kalmar sirri?",
+    "rememberMe": "Ka tuna ni",
+    "noAccount": "Ba ka da asusu?",
+    "hasAccount": "Tuni kana da asusu?",
+    "welcomeBack": "Barka da dawowa",
+    "loginDescription": "Shiga don ci gaba",
+    "emailPlaceholder": "imel@email.com",
+    "fillAllFields": "Da fatan cika duk filayen.",
+    "invalidEmail": "Imel ba daidai ba",
+    "invalidEmailMessage": "Da fatan shigar da adireshin imel daidai.",
+    "loginFailed": "Shiga ya gaza",
+    "checkCredentials": "Da fatan duba takaddun shiga.",
+    "loginSuccess": "An shiga cikin nasara",
+    "redirecting": "Ana turawa...",
+    "signupLink": "Yi rajista yanzu",
+    "emailVerificationFailed": {
+      "title": "Tabbatarwar Imel Ya Gaza",
+      "description": "Hanyar tabbatarwa ba ta aiki ko ta ƙare. Wannan zai iya faruwa idan:",
+      "reason1": "An riga an yi amfani da hanyar sau ɗaya",
+      "reason2": "An jira hanyar da yawa (fiye da sa'o'i 24)",
+      "reason3": "Hanyar tana nuna zuwa yankin da ba daidai ba",
+      "resendPrompt": "Kuna son karɓar sabuwar imel ta tabbatarwa a {email}?",
+      "enterEmail": "Shigar da adireshin imel ɗin ku don karɓar sabuwar imel ta tabbatarwa:",
+      "resendButton": "Aika Sake Imel ta Tabbatarwa",
+      "resending": "Ana aika imel...",
+      "resendSuccess": "An Aika Imel Sake",
+      "resendSuccessMessage": "Da fatan duba akwatin saƙonnin ku don sabuwar hanyar tabbatarwa.",
+      "resendError": "Ba za a iya aika imel ba sake.",
+      "enterEmailError": "Da fatan shigar da adireshin imel ɗin ku.",
+      "invalidEmailError": "Imel ba daidai ba",
+      "invalidEmailMessage": "Da fatan shigar da adireshin imel daidai.",
+      "genericError": "Kuskure da ba a zata ba ya faru.",
+      "backToLogin": "Komawa Zuwa Shiga",
+      "newSignup": "Yi Rajista Sabo",
+      "supabaseConfigWarning": "Muhimmanci: Saitunan Supabase",
+      "supabaseConfigMessage": "Idan hanyar tana nuna zuwa localhost:3000, URL na rukunin yanar gizo a Dashboard na Supabase dole ne a canza shi zuwa https://whatsapp.owona.de."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Barka da dawowa!",
+    "yourBots": "Botuna",
+    "createBot": "Ƙirƙiri Bot Sabo",
+    "noBots": "Ba ka ƙirƙiro bot ba tukuna.",
+    "noFilteredBots": "Babu bot da ta dace da tacewar yanzu.",
+    "resetFilters": "Share tacewa",
+    "botCount": "{count} bot(una)",
+    "searchPlaceholder": "Bincika bot…",
+    "filters": {
+      "all": "Dukkan matakai"
+    },
+    "quickActions": {
+      "title": "Ayyuka masu sauri",
+      "items": {
+        "create": {
+          "title": "Ƙirƙiri bot",
+          "description": "Fara daga sabon gudana ko zaɓi samfuri."
+        },
+        "connect": {
+          "title": "Haɗa WhatsApp",
+          "description": "Haɗa asusun WhatsApp Business ɗinka kuma tabbatar da webhook."
+        },
+        "templates": {
+          "title": "Maktabar samfura",
+          "description": "Duba samfuran masana'antu kuma ka shigo da su nan take."
+        }
+      }
+    },
+    "recentActivity": {
+      "title": "Sabbin ayyuka",
+      "empty": "Babu sabbin ayyuka tukuna.",
+      "createdOn": "An ƙirƙira a {date}"
+    }
+  },
+  "bots": {
+    "create": "Ƙirƙiri Bot Sabo",
+    "edit": "Gyara Bot",
+    "delete": "Share Bot",
+    "deleteConfirm": "Shin ka gasa son share wannan bot? Wannan aikin ba za a iya mayar da shi ba.",
+    "name": "Sunan Bot",
+    "description": "Bayani",
+    "status": {
+      "draft": "Daftarin aiki",
+      "active": "Yana aiki",
+      "paused": "An tsayar",
+      "archived": "An adana"
+    },
+    "activate": "Kunna",
+    "pause": "Tsayar",
+    "settings": "Saituna",
+    "stats": {
+      "conversations": "Tattaunawa",
+      "messages": "Saƙonni",
+      "conversion": "Canzawa"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "Shigar da sunan bot...",
+    "nodeCount": "{nodes} Nodes, {edges} haɗin",
+    "create": "Ƙirƙira",
+    "save": "Ajiye",
+    "nodePalette": "Palette na Node",
+    "dragDropHint": "Ja nodes zuwa canvas ko danna don ƙara",
+    "tips": {
+      "title": "Nasiha:",
+      "tip1": "• Kowane gudana yana buƙatar abin motsa jiki",
+      "tip2": "• Haɗa nodes ta hanyar ja da saki",
+      "tip3": "• Danna nodes don saita"
+    }
+  },
+  "errors": {
+    "generic": "Wani abu ya ɓace. Da fatan sake gwadawa.",
+    "notFound": "Shafin bai samu ba",
+    "unauthorized": "Ba ka da izini",
+    "forbidden": "An hana shiga"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "bots": "Bots",
+    "templates": "Tsarukanamu",
+    "resources": "Albarkatu",
+    "support": "Tallafi",
+    "monitoring": "Kulawa",
+    "settings": "Saituna",
+    "logout": "Fita",
+    "menu": "Menu",
+    "openMenu": "Buɗe menu",
+    "closeMenu": "Rufe menu",
+    "language": "Harshe"
+  },
+  "support": {
+    "cta": "Bayar da rahoton matsala",
+    "title": "Ƙirƙiri tikitin tallafi",
+    "subtitle": "Ka bayyana matsalar ka taƙaice, ƙungiyarmu za ta tuntube ka cikin gaggawa.",
+    "close": "Rufe panel",
+    "cancel": "Soke",
+    "submit": "Aika tikitin",
+    "disclaimer": "Dukkan bayanai ana sarrafa su bisa ka'idojin GDPR.",
+    "statusOverview": {
+      "heading": "Matakai na gaba",
+      "personal": "Muna keɓance amsoshi kuma muna daidaita su da halin tikitin ka na yanzu.",
+      "escalation": "Bayan amsarka ta farko, muna turawa ta atomatik zuwa Tier 2.",
+      "updates": "Za ka sami sabuntawar matsayi kai tsaye idan wani abu ya canza."
+    },
+    "form": {
+      "category": "Rukuni",
+      "title": "Take",
+      "titlePlaceholder": "Takaitaccen bayani game da matsalar",
+      "description": "Bayani",
+      "descriptionPlaceholder": "Me ya faru? Da fatan a saka matakan da aka bi ko hanyoyin haɗi.",
+      "metadataNotice": "Bayanan fasaha (browser, shafi, lokaci) za su tafi ta atomatik domin taimaka wa bincike."
+    },
+    "categories": {
+      "bug": "Kuskure",
+      "billing": "Biya",
+      "integration": "Haɗawa",
+      "ux": "UX / Fuskar mai amfani",
+      "other": "Sauran"
+    },
+    "success": {
+      "title": "An aika tikitin",
+      "message": "Mun gode! Ƙungiyar tallafinmu za ta tuntube ka nan ba da jimawa ba.",
+      "nextSteps": "Za ka karɓi tabbaci nan ba da jimawa ba kuma za mu aika sabuntawa da zarar Tier 2 ta fara aiki da tikitin."
+    },
+    "errors": {
+      "requiredTitle": "Ana bukatar take da bayani",
+      "requiredMessage": "Da fatan za a cike dukkan filayen dole kafin a tura tikitin.",
+      "submitTitle": "An kasa aika tikitin",
+      "submitMessage": "Da fatan a sake gwadawa ko a tuntube mu ta imel."
+    },
+    "inbox": {
+      "title": "Akwatin tallafi",
+      "subtitle": "Bi diddigin takardun tambayarka kuma yi magana kai tsaye da ƙungiyar tallafi.",
+      "emptyTitle": "Babu tikiti tukuna",
+      "emptyDescription": "Madalla! Idan wani abu ya samu matsala, danna \"Bayar da rahoton matsala\" kuma za mu shiga tsakani.",
+      "openTicket": "Ƙirƙiri sabon tikiti",
+      "refresh": "Sabunta",
+      "lastUpdated": "An sabunta karshe",
+      "replyLabel": "Sako naka",
+      "replyPlaceholder": "Rubuta sabuntawa ga ƙungiyar tallafi…",
+      "replySubmit": "Aika amsa",
+      "customerReply": "Kai",
+      "supportReply": "Tallafi",
+      "systemMessage": "Tsari",
+      "status": {
+        "new": "Sabo",
+        "investigating": "Ana bincike",
+        "waiting_customer": "Ana jira kai",
+        "resolved": "An warware",
+        "closed": "An rufe"
+      },
+      "priority": {
+        "low": "Ƙananan",
+        "normal": "Na al'ada",
+        "high": "Mafi yawa",
+        "urgent": "Gaggawa"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "Ƙirƙiri WhatsApp Business Bots masu bin DSGVO waɗanda AI ke sarrafawa ba tare da code ba. Maganin chatbot na ƙwararru na kasuwancin ku.",
+      "copyright": "WhatsApp Bot Builder. Duk haƙƙoƙin da aka keɓe."
+    },
+    "customer": {
+      "title": "Tallafi & Kula",
+      "supportInbox": "Saƙonnin tallafi",
+      "reportIssue": "Bayar da matsala",
+      "monitoring": "Kula",
+      "support": "Tallafi"
+    },
+    "legal": {
+      "title": "Doka",
+      "privacy": "Manufar Sirrin",
+      "terms": "Sharuɗɗa da Yanayi",
+      "imprint": "Rubuta",
+      "cookies": "Manufar Cookies",
+      "dataProcessing": "Yarjejeniyar Sarrafa Bayanai"
+    },
+    "contact": {
+      "title": "Tuntuɓi da Tallafi",
+      "email": "info@owona.de",
+      "support": "Tallafi"
+    },
+    "disclaimer": "Wannan aikace-aikacen don ƙirƙirar WhatsApp Business chatbots ne. Amfani a kan haɗarin ku.",
+    "rights": "Duk haƙƙoƙin da aka keɓe."
+  },
+  "payments": {
+    "supportedMethodsLabel": "Biya cikin tsaro ta hanyar",
+    "additionalMethodsLabel": "Ƙarin zaɓuɓɓuka ta Stripe",
+    "badges": {
+      "comingSoon": "Zai iso ba da jimawa ba"
+    },
+    "trust": {
+      "heading": "Biyan kuɗi mai kariya",
+      "subheading": "Dukkan ma'amaloli ana sarrafa su cikin ɓoye ta Stripe & PayPal",
+      "items": [
+        "Bin ka'idar PCI DSS Mataki na 1 da 3D Secure 2",
+        "Apple Pay, Google Pay da tabbacin ɗan yatsa/ fuska",
+        "Ragowar kuɗi da bayanan abokan ciniki suna ajiye a EU bisa GDPR"
+      ],
+      "footerNote": "Ana sarrafa ta Stripe & PayPal – kariya ta 256-bit TLS"
+    },
+    "links": {
+      "pricingLabel": "Farashi",
+      "templatesLabel": "Samfura",
+      "docsLabel": "Takardu",
+      "resourcesLabel": "Albarkatu"
+    }
+  }
+}
+

@@ -1,0 +1,31 @@
+# Project: OWONA WhatsApp Platform
+
+## Tech Stack
+
+- Next.js 15 App Router
+- Supabase Auth (PKCE Flow)
+- TypeScript
+- Tailwind CSS
+- PM2 Deployment
+- Multilingual: /[locale]/ routing
+
+## Key Patterns
+
+- Client-side Supabase: createBrowserClient()
+- Server-side: createServerClient()
+- Auth pages: app/[locale]/auth/*
+- RLS active on all tables
+
+## Common Issues
+
+- PKCE codes consumed by email link scanners
+- Apple Mail preview triggers auth links
+- Need explicit user interaction before exchangeCodeForSession()
+
+## Coding Style
+
+- Use TypeScript strict mode
+- Prefer server components, mark 'use client' explicitly
+- Error handling with try-catch and user-friendly messages
+- Toast notifications for user feedback
+

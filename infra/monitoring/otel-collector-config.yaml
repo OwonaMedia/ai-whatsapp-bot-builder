@@ -1,0 +1,44 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+processors:
+  batch:
+    send_batch_size: 1024
+    timeout: 5s
+  memory_limiter:
+    check_interval: 1s
+    limit_percentage: 75
+    spike_limit_percentage: 85
+
+exporters:
+  prometheus:
+    endpoint: "0.0.0.0:9464"
+  loki:
+    endpoint: http://loki:3100/loki/api/v1/push
+    labels:
+      resource: service.name
+      severity: severity_text
+  otlphttp/prometheus:
+    endpoint: http://prometheus:9090/api/v1/otlp
+    compression: none
+  logging:
+    verbosity: normal
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [memory_limiter, batch]
+      exporters: [logging]
+    metrics:
+      receivers: [otlp]
+      processors: [memory_limiter, batch]
+      exporters: [prometheus]
+    logs:
+      receivers: [otlp]
+      processors: [memory_limiter, batch]
+      exporters: [loki]
+

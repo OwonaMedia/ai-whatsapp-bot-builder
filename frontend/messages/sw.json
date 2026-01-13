@@ -1,0 +1,894 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "create": "Unda",
+    "back": "Rudi",
+    "next": "Ifuatayo",
+    "previous": "Iliyotangulia",
+    "close": "Funga",
+    "search": "Tafuta",
+    "filter": "Chuja",
+    "actions": "Vitendo",
+    "open": "Fungua"
+  },
+  "pricing": {
+    "title": "",
+    "subtitle": "Hakuna ada zilizofichwa. Unaweza kughairi wakati wowote.",
+    "cta": "Anza jaribio lako la bure la siku 14"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Uthibitisho wa wateja",
+      "title": "Matokeo halisi na rasilimali za kuharakisha uzinduzi wa WhatsApp",
+      "subtitle": "Jifunze jinsi timu katika sekta zilizo na udhibiti mkali zinavyotumia WhatsApp Bot Builder na pakua playbook zile zile tunazotumia kwenye miradi ya wateja.",
+      "ctaPrimary": "Panga kikao cha mkakati",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Angalia maktaba ya violezo",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        { "label": "Kuridhika baada ya kwenda hewani", "value": "99.2%" },
+        { "label": "Muda wa wastani hadi bot ya kwanza ya uzalishaji", "value": "Siku 14" },
+        { "label": "Ukuaji wa lead katika miradi ya kiotomatiki", "value": "+23%" }
+      ]
+    },
+    "partners": {
+      "title": "Inatumika na",
+      "subtitle": "Timu za afya, biashara na SaaS barani Ulaya",
+      "description": "Timu shirikishi kutoka Compliance, CX na Growth hutegemea WhatsApp Bot Builder kama msingi wa mnyororo wao wa kiotomatiki.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Hadithi za mafanikio",
+      "title": "Jinsi tunavyopima athari kwa wateja",
+      "subtitle": "Kila kesi inaunganisha mawasiliano yanayozingatia GDPR na malipo salama, uchanganuzi na KPIs zinazoonekana.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Afya",
+          "title": "Triage ya wagonjwa katika hospitali 7",
+          "description": "Maombi ya wagonjwa yanachujwa mapema, kutumwa kwa daktari sahihi na kuhifadhiwa kwenye EMR bila kazi ya mikono.",
+          "metrics": [
+            "38% muda mfupi wa kujibu kwenye kituo cha simu",
+            "Maombi 1,200 ya miadi kila mwezi yanaendeshwa kiotomatiki"
+          ],
+          "result": "Mikataba ya usindikaji wa data, uidhinishaji wa majukumu na mtiririko wa kukabidhiwa ulitekelezwa ndani ya wiki mbili.",
+          "ctaLabel": "Omba playbook ya hospitali",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "Biashara mtandaoni",
+          "title": "Checkout ya mazungumzo kwa chapa ya mitindo",
+          "description": "Ushauri wa bidhaa, malipo na ufuatiliaji wa utoaji hufanyika ndani ya WhatsApp huku Stripe na PayPal zikirekodi kila hatua.",
+          "metrics": [
+            "+23% trololi zilizorejeshwa",
+            "€8.4k mapato ya ziada kila mwezi"
+          ],
+          "result": "Playbook inajumuisha usawazishaji wa orodha ya bidhaa, hati za lugha nyingi na dashibodi za uuzaji.",
+          "ctaLabel": "Pakua kifurushi cha retail",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Wakala & Ushauri",
+          "title": "Huduma ya white-label inayoweza kupimwa",
+          "description": "Wakala wa kidijitali huwasilisha mabot 18 kwa wateja ndani ya wiki sita – pamoja na branding, ankara na ripoti.",
+          "metrics": [
+            "Masaa 72 ya utekelezaji wa wastani",
+            "35% retention kubwa kupitia SLA za kiotomatiki"
+          ],
+          "result": "Workflows za n8n zinazoweza kutumika tena na miundo ya Supabase huruhusu utoaji wa haraka kwa wateja wengi.",
+          "ctaLabel": "Tazama blueprint ya wakala",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Maktaba ya rasilimali",
+      "title": "Vipakuliwa vya kukusaidia kwenda hewani haraka",
+      "subtitle": "Kila kifurushi kinasasishwa kila robo mwaka na violezo, orodha za ukaguzi na mbinu mpya za kiotomatiki.",
+      "categories": ["Playbooks", "Orodha za ukaguzi", "Automation"],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "Playbook ya uzinduzi kwa Enterprise",
+          "description": "Mwongozo wa hatua kwa hatua kwa timu za kisheria, bidhaa na uendeshaji katika mazingira yenye udhibiti mkali.",
+          "highlights": [
+            "Checklist ya utawala kwa WhatsApp Business API",
+            "Violezo vya mawasiliano kwa wadau",
+            "Mipango ya rollback na mwitikio wa tukio"
+          ],
+          "ctaLabel": "Omba playbook",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Uzima wa sheria",
+          "title": "Kifurushi cha uzingatiaji wa GDPR & malipo",
+          "description": "Seti ya nyaraka za TOM, violezo vya mkataba wa usindikaji data na mifano ya ankara iliyo tayari.",
+          "highlights": [
+            "Violezo vya TOM na AV vilivyojazwa",
+            "Muundo wa ankara wenye kanuni ya mjasiriamali mdogo",
+            "Majibu ya maswali ya usalama ya kawaida"
+          ],
+          "ctaLabel": "Pakua kifurushi cha compliance",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automation",
+          "title": "Mapishi ya kiotomatiki kwa n8n & Supabase",
+          "description": "Mkusanyiko wa flows zinazoweza kutumika tena kwa upangaji wa lead, uanzishaji wa usajili na urejeshaji wa malipo.",
+          "highlights": [
+            "Workflows 6 za n8n tayari kwa uingizaji",
+            "Vipande vya SQL vya Supabase kwa ufuatiliaji wa matumizi",
+            "Checklist ya majaribio ya njia mbadala za malipo"
+          ],
+          "ctaLabel": "Fungua mapishi ya automation",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Ujumbe",
+          "title": "Maktaba ya ujumbe wa lugha nyingi",
+          "description": "Violezo vilivyopitishwa kwa onboarding, msaada na malipo kwa Kijerumani, Kiingereza na Kifaransa.",
+          "highlights": [
+            "Mfuatano 8 wa onboarding",
+            "Ujumbe 12 wa kukumbusha malipo",
+            "Checklist ya mtindo wa sauti ya chapa"
+          ],
+          "ctaLabel": "Pakua kifurushi cha ujumbe",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Hakikisho la uendeshaji",
+      "assuranceHeadline": "Kila resursi imejaribiwa kwenye miradi ya moja kwa moja",
+      "assuranceSubtitle": "Tunashiriki audit trail, KPI na masomo ya utekelezaji kwa WhatsApp inayopimika.",
+      "assurance": [
+        "Maboresho ya robo mwaka kutoka kwa mafunzo ya wateja",
+        "Mapitio ya wataalam wa sheria, compliance na success",
+        "Viwango rejea vya afya, biashara na SaaS"
+      ],
+      "assuranceCtaLabel": "Ongea na mtaalam wa suluhisho",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Sauti kutoka kwa wateja",
+      "title": "Kwa nini timu zinaendelea na WhatsApp Bot Builder",
+      "subtitle": "Viongozi wa CX, uendeshaji na compliance hushiriki takwimu zao muhimu.",
+      "items": [
+        {
+          "quote": "Playbook zenye kina ziliokoa wiki za uratibu wa ndani. Kila mtu alijua majukumu yake kuanzia siku ya kwanza.",
+          "name": "Leonie Hartmann",
+          "role": "Mkuu wa Huduma za Wagonjwa, Klinikverbund Nord",
+          "metric": "36% ya kesi zinazopelekwa kwa mikono zimepungua"
+        },
+        {
+          "quote": "Tulitumia mapishi ya automation tena na kufungua mikondo ya malipo ya kimataifa bila kuandika msimbo wa ziada.",
+          "name": "André Becker",
+          "role": "Automation Lead, UrbanFit Retail",
+          "metric": "Masoko 4 mapya ndani ya siku 90"
+        },
+        {
+          "quote": "Wateja wanatia saini haraka kwa sababu tunapeleka nyaraka za compliance, maandishi ya GDPR na mifano ya ankara mapema.",
+          "name": "Noemi Alvarez",
+          "role": "Mkurugenzi Mkuu, Converso Digital",
+          "metric": "Mzunguko wa mauzo umefupishwa kwa 60%"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Uko tayari kuonyesha matokeo kama haya?",
+      "subtitle": "Panga kikao kinachoongozwa au anza na kifurushi cha rasilimali ili kuharakisha mradi wako wa WhatsApp.",
+      "primary": "Weka nafasi ya demo ya moja kwa moja",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Gundua violezo vyote",
+      "secondaryHref": "templates"
+    }
+  },
+  "internalPortal": {
+    "login": {
+      "pill": "Upatikanaji wa ndani",
+      "title": "Kituo cha usaidizi",
+      "subtitle": "Upatikanaji ni kwa wanachama waliothibitishwa pekee. Kila kuingia kunaandikwa.",
+      "emailLabel": "Barua pepe",
+      "emailPlaceholder": "sm@owona.de",
+      "passwordLabel": "Nenosiri",
+      "passwordPlaceholder": "Weka nenosiri",
+      "submit": "Ingia ndani"
+    },
+    "hero": {
+      "pill": "Udhibiti wa Usaidizi wa Ndani",
+      "title": "Kituo cha Udhibiti wa Usaidizi",
+      "subtitle": "Umeingia kama <strong>{email}</strong>. Kila hatua inahifadhiwa."
+    },
+    "systemStatus": {
+      "heading": "Hali ya Mfumo",
+      "subtitle": "Hali ya moja kwa moja ya MCP na ufuatiliaji wa tiketi",
+      "lastHeartbeat": "Heartbeat ya mwisho: {timestamp}",
+      "status": {
+        "up": "Mtandaoni",
+        "degraded": "Inachelewa",
+        "down": "Haipo mtandaoni"
+      },
+      "services": {
+        "support-mcp": "Seva ya MCP",
+        "support-ticket-monitor": "Kichunguzi cha Tiketi"
+      },
+      "metaLabels": {
+        "processedTickets": "Tiketi zilizoshughulikiwa (jumla)",
+        "processingTickets": "Eskalasheni hai",
+        "lastDispatchAt": "Hatua ya mwisho ya tiketi",
+        "lastTier2RunAt": "Hatua ya mwisho ya tier-2",
+        "lastCustomerReplyAt": "Jibu la mwisho la mteja",
+        "lastPollingAt": "Ukaguzi wa mwisho",
+        "lastCycleAt": "Mzunguko wa mwisho wa monitor",
+        "lastRealtimeAt": "Ishara ya mwisho ya muda halisi",
+        "monitorIntervalMs": "Muda wa ukaguzi (ms)"
+      }
+    },
+    "actions": {
+      "logout": "Toka"
+    },
+    "metrics": {
+      "total": "Tiketi jumla",
+      "active": "Zinazoendelea kushughulikiwa",
+      "activeDetails": "Uchunguzi: {investigating} · Inasubiri: {waiting}",
+      "escalated": "Eskalisheni",
+      "escalatedDescription": "Tiketi zilizo na Tier‑2",
+      "resolved": "Zimetatuliwa",
+      "resolutionAvg": "Muda wa wastani kutatua {hours}h",
+      "resolutionMissing": "Hakuna data ya utatuzi bado",
+      "knowledge": "Moduli za maarifa hai",
+      "knowledgeDescription": "Kulingana na hifadhidata ya MCP",
+      "gaps": "Mapengo ya maarifa yamegunduliwa",
+      "gapsDescription": "Vipindi vya wataalamu vinapendekezwa",
+      "slaBreaches": "Hatari ya SLA",
+      "slaBreachesDescription": "Tiketi wazi zaidi ya saa 36",
+      "firstResponse": "First response ya kati",
+      "firstResponseDescription": "Muda hadi jibu la kwanza la Tier‑1",
+      "firstResponseMissing": "Hakuna data ya majibu bado"
+    },
+    "insights": {
+      "title": "Insights za wakati halisi",
+      "subtitle": "Mwelekeo wa backlog, hatari za kipaumbele na mzigo wa mawakala",
+      "empty": "Hakuna data kwa kipindi hiki",
+      "backlog": {
+        "title": "Backlog na throughput",
+        "subtitle": "Siku 14 zilizopita",
+        "series": {
+          "open": "Wazi",
+          "new": "Mpya",
+          "resolved": "Zimetatuliwa",
+          "sla": "Hatari ya SLA"
+        }
+      },
+      "priority": {
+        "title": "Hatari kwa kipaumbele",
+        "subtitle": "Tiketi wazi dhidi ya >36h",
+        "series": {
+          "open": "Wazi",
+          "aged": "Imechelewa >36h"
+        },
+        "labels": {
+          "low": "Ya chini",
+          "normal": "Kawaida",
+          "high": "Juu",
+          "urgent": "Haraka"
+        }
+      },
+      "agentLoad": {
+        "title": "Mzigo wa mawakala",
+        "subtitle": "Tiketi hai kwa kila mhusika",
+        "series": {
+          "active": "Hai",
+          "waiting": "Inasubiri mteja"
+        },
+        "unassigned": "Haijapangiwa"
+      }
+    },
+    "filters": {
+      "label": "Vichujio",
+      "searchPlaceholder": "Tafuta kwa kichwa, mteja au maelezo…",
+      "all": "Zote",
+      "active": "Zinashughulikiwa",
+      "waiting": "Zinasubiri",
+      "resolved": "Zimetatuliwa",
+      "escalated": "Zimepandishwa",
+      "empty": "Hakuna tiketi zinazolingana na uchaguzi wako."
+    },
+    "tickets": {
+      "heading": "Tiketi za wateja",
+      "customerLabel": "Mteja:",
+      "unknownCustomer": "Mteja hajulikani",
+      "assigned": "Anayehusika: {agent}",
+      "planUnknown": "Hakuna mpango",
+      "statusUnknown": "Hali haijulikani",
+      "planInfo": "Mpango: {plan} ({status})",
+      "createdAt": "Imeundwa: {timestamp}",
+      "updatedAt": "Imesasishwa: {timestamp}",
+      "lastEscalation": "Eskalisheni ya mwisho: {timestamp}",
+      "noneSelected": "Hakuna tiketi iliyochaguliwa."
+    },
+    "knowledgeInventory": {
+      "heading": "Hazina ya maarifa",
+      "empty": "Bado hakuna maudhui ya MCP yaliyokaguliwa."
+    },
+    "suggestions": {
+      "heading": "Mapendekezo ya maarifa",
+      "empty": "Hakuna mapendekezo yanayosubiri. Mawakala wa MCP wako tayari.",
+      "title": "Ongeza maarifa kwa “{ticket}”",
+      "tags": {
+        "supabase": "Kagua au posha mwongozo wa Supabase Auth/RLS",
+        "hetzner": "Linganishia runbook za seva na uzinduzi ndani ya MCP",
+        "frontend": "Andika matokeo ya uchunguzi wa UI kutoka ukaguzi wa frontend",
+        "generic": "Omba tathmini ya ziada ya mtaalamu"
+      },
+      "recommended": {
+        "supabase-analyst-agent": "Washa mtaalamu wa Supabase na hifadhi matokeo kama moduli ya maarifa.",
+        "hetzner-ops-agent": "Washirikishe Hetzner Ops kwa ukaguzi wa miundombinu na sasisha nyaraka.",
+        "frontend-diagnostics-agent": "Mruhusu mtaalamu wa uchunguzi wa frontend afanye ukaguzi na kuhifadhi masomo.",
+        "default": "Anzisha kipindi cha mtaalamu ndani ya MCP na hifadhi matokeo kama moduli mpya."
+      },
+      "cta": "Anzisha kipindi cha mtaalamu"
+    },
+    "plan": {
+      "nextSteps": "Hatua zinazofuata (wakala: {agent})",
+      "tier1": "Tier‑1"
+    },
+    "timeline": {
+      "heading": "Mfululizo wa Tier 1 & Tier 2",
+      "tier2": "Tier 2",
+      "tier1": "Tier 1",
+      "system": "Mfumo",
+      "internalOnly": "Ya ndani"
+    },
+    "reply": {
+      "publicHeading": "Jibu kwa mteja (Tier 1)",
+      "waitingCustomer": "Hali: Inasubiri mteja",
+      "sendPublic": "Tuma jibu",
+      "internalHeading": "Dokezo la ndani / Tier 2",
+      "investigating": "Endelea kuchunguza",
+      "resolve": "Weka kama imetatuliwa",
+      "saveInternal": "Hifadhi dokezo la ndani"
+    },
+    "automation": {
+      "heading": "Matukio ya kiotomatiki"
+    }
+  },
+  "monitoring": {
+    "title": "Automation & Monitoring",
+    "subtitle": "Siku {days} zilizopita · {from} – {to}",
+    "actions": {
+      "refresh": "Onyesha data mpya",
+      "refreshing": "Inasasisha..."
+    },
+    "errors": {
+      "loadFailed": "Imeshindwa kupakia snapshot ya karibuni"
+    },
+    "stats": {
+      "totalRevenue": "Mapato halisi",
+      "successRate": "Kiwango cha mafanikio",
+      "failedPayments": "Malipo yaliyofeli",
+      "webhookFailures": "Hitilafu za webhook"
+    },
+    "payments": {
+      "title": "Matukio ya malipo",
+      "subtitle": "Rekodi ya miamala ya Stripe na PayPal",
+      "total": "Kumbukumbu {count}",
+      "headers": {
+        "date": "Tarehe",
+        "status": "Hali",
+        "amount": "Kiasi",
+        "provider": "Mtoa huduma",
+        "subscription": "Usajili",
+        "details": "Maelezo"
+      },
+      "empty": "Hakuna malipo yaliyorekodiwa katika kipindi hiki."
+    },
+    "webhooks": {
+      "title": "Ufuatiliaji wa webhook",
+      "subtitle": "Shughuli za Stripe & PayPal",
+      "total": "Matukio {count}",
+      "headers": {
+        "date": "Tarehe",
+        "provider": "Mtoa huduma",
+        "event": "Tukio",
+        "status": "Hali",
+        "details": "Maelezo"
+      },
+      "empty": "Hakuna matukio ya webhook yaliyorekodiwa katika kipindi hiki."
+    },
+    "status": {
+      "succeeded": "Imefanikiwa",
+      "failed": "Imeshindwa",
+      "pending": "Inasubiri",
+      "refunded": "Imerejeshwa",
+      "canceled": "Imeghairiwa",
+      "processed": "Ishughulikiwa",
+      "received": "Imepokelewa"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "Unda WhatsApp Business Bots zenye AI ambazo zinakubaliana na DSGVO bila kanuni",
+    "startNow": "Anza sasa",
+    "dashboard": "Dashibodi",
+    "ragDemo": {
+      "title": "Mfano wa Interaktifu: RAG Chat",
+      "description": "Ongeza chanzo cha maarifa (PDF au URL) na wasiliana na AI ambayo inategemea chanzo hicho tu"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "Inakubaliana na DSGVO",
+        "description": "Uhifadhi wa data wa EU, usimamizi wa idhini na uzingativu kamili"
+      },
+      "ai": {
+        "title": "Inaunga mkono AI",
+        "description": "Mazungumzo yenye akili na ujumuishaji wa GROQ AI"
+      },
+      "nocode": {
+        "title": "Bila Kanuni",
+        "description": "Mjenzi wa bot unaoonekana na kiolesura cha kuburuta na kuacha"
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Matokeo halisi kutoka kwa wateja",
+        "subtitle": "Sekta zilizo na udhibiti mkali hutumia WhatsApp Bot Builder kupeleka automatisering salama",
+        "items": {
+          "healthcare": {
+            "industry": "Huduma za Afya",
+            "headline": "Uchujaji wa wagonjwa kiotomatiki kwa mtandao wa hospitali",
+            "description": "Bot hushughulikia maswali yanayojirudia, hupanga maombi ya miadi na hupunguza mzigo wa timu za huduma kwa wateja.",
+            "metrics": [
+              "Muda wa kusubiri kwenye simu umepungua kwa 38%",
+              "Miadi 1,200 kwa mwezi hupangwa kiotomatiki"
+            ],
+            "result": "Uzinduzi ndani ya siku 14 pamoja na makubaliano ya uchakataji data, udhibiti wa majukumu na kumbukumbu za ukaguzi."
+          },
+          "retail": {
+            "industry": "E-commerce",
+            "headline": "Safari ya ununuzi kupitia mazungumzo kwa chapa ya mitindo ya D2C",
+            "description": "WhatsApp humwelekeza mteja kwenye ushauri wa bidhaa, chaguo la malipo na ufuatiliaji wa usafirishaji saa 24.",
+            "metrics": [
+              "Ongezeko la 23% katika urejeshaji wa mikokoteni iliyoachwa",
+              "Mapato ya ziada ya €8.4k kwa mwezi kupitia upsell za kiotomatiki"
+            ],
+            "result": "Stripe, PayPal, Apple Pay na Klarna zinaunganishwa bila hatua za mikono."
+          },
+          "agency": {
+            "industry": "Wakala na Ushauri",
+            "headline": "Huduma ya white-label inayoweza kupanuka kwa wakala wa kidijitali",
+            "description": "Boti 18 za wateja zilikabidhiwa ndani ya wiki sita zikiwa na chapa, ripoti na ankara zilizounganishwa.",
+            "metrics": [
+              "Masaa 72 wastani wa utekelezaji",
+              "Ongezeko la 35% la retainer kupitia SLA za automatisering"
+            ],
+            "result": "Udhibiti wa multi-tenant, usaidizi na uchambuzi unafanyika moja kwa moja ndani ya dashibodi."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Wateja wanasema nini",
+        "subtitle": "Timu za CX, e-commerce na SaaS zinategemea suluhisho hili",
+        "points": {
+          "speed": "Uzinduzi ndani ya siku badala ya miezi ya ukuzaji maalum",
+          "compliance": "Orodha za ukaguzi za GDPR, DPA na nyaraka za TOM zinapatikana",
+          "support": "Meneja wa mafanikio aliyejitolea kuanzia mpango wa Professional"
+        },
+        "items": {
+          "agency": {
+            "quote": "Tulileta bot ya kwanza ya mteja ndani ya siku kumi na moja. Sasa tunapata miradi mipya kila wiki bila kuongeza wafanyakazi.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "+23% ya miongozo iliyohitimu katika mwezi wa kwanza"
+          },
+          "retail": {
+            "quote": "Bot hushughulikia ushauri wa bidhaa, hali ya usafirishaji na malipo. Timu yetu ya usaidizi sasa inatumia muda kwa mazungumzo ya kuongeza mapato.",
+            "name": "Leonard Fischer",
+            "role": "E-Commerce Lead, UrbanFit",
+            "metric": "Kuokoa masaa 18 ya kazi ya mikono kila wiki"
+          },
+          "saas": {
+            "quote": "Tunaendesha safari za onboarding katika masoko matatu kwa wakati mmoja. Muunganiko wa n8n, Supabase na Apple Pay ndio uliotushawishi kubadilisha.",
+            "name": "Mira Albrecht",
+            "role": "Customer Success Director, Finovate SaaS",
+            "metric": "99.2% ya kuridhika kwa wateja baada ya uzinduzi"
+          }
+        }
+      },
+      "security": {
+        "title": "Usalama na utiifu vimejengwa ndani",
+        "subtitle": "Miundombinu iliyohifadhiwa EU, ukaguzi wa kujitegemea na nyaraka wazi",
+        "features": [
+          "Usindikaji wa malipo wa PCI DSS Level 1 kupitia Stripe na PayPal",
+          "Usimbaji fiche wa TLS kutoka mwanzo hadi mwisho na hifadhi ya hiari iliyotenganishwa",
+          "Rekodi za ukaguzi zisizoweza kubadilishwa, idhini kulingana na majukumu na ufuatiliaji wa shughuli"
+        ],
+        "assuranceTitle": "Uhifadhi wa usalama",
+        "assurance": [
+          "Uhifadhi Frankfurt (eu-central-1) na nakala rudufu za kila siku",
+          "Makubaliano ya uchakataji wa data na nyaraka za TOM tayari kwa kutiwa saini",
+          "Mitihani ya udukuzi kila robo na uchanganuzi endelevu wa kiotomatiki"
+        ],
+        "ctaPrimary": "Omba nyaraka za kiufundi",
+        "ctaSecondary": "Tazama muhtasari wa usalama"
+      },
+      "pricingPage": {
+        "header": {
+          "title": "Bei wazi",
+          "subtitle": "Chagua mpango unaolingana na timu yako. Kila kiwango kinatii GDPR na kuhifadhiwa EU.",
+          "billing": {
+            "monthly": "Kwa mwezi",
+            "yearly": "Kwa mwaka",
+            "yearlyTag": "Okoa 17%"
+          }
+        },
+        "onboarding": {
+          "title": "Anza kwa hatua tatu",
+          "subtitle": "Fuatilia msaidizi kutoka usajili hadi bot ya kwanza iko hewani.",
+          "steps": {
+            "account": {
+              "title": "1. Fungua akaunti na waalike timu",
+              "description": "Jisajili, ongeza taarifa za kampuni na upe ruhusa."
+            },
+            "connect": {
+              "title": "2. Unganisha WhatsApp",
+              "description": "Chagua Meta Business Account, hakiki webhook na anzisha malipo."
+            },
+            "launch": {
+              "title": "3. Chapisha bot yako ya kwanza",
+              "description": "Chagua templeti, rekebisha maudhui na uzindue."
+            }
+          },
+          "ctaPrimary": "Anza onboarding bila malipo",
+          "ctaSecondary": "Tazama mwongozo wa hatua kwa hatua",
+          "footnote": "Hakuna kadi ya malipo inayohitajika. Jaribu vipengele vyote kwa siku 14."
+        },
+        "roi": {
+          "title": "Kadiri faida yako",
+          "subtitle": "Pima athari ya uendeshaji kiotomatiki na uchague kiwango sahihi kulingana na takwimu zako.",
+          "disclaimerTagline": "Makadirio yanategemea data ya wateja",
+          "fields": {
+            "industry": "Sekta",
+            "leadsPerMonth": "Wateja wapya kwa mwezi",
+            "closeRate": "Kiwango cha kufunga mauzo",
+            "averageDeal": "Thamani ya wastani ya dili (EUR)",
+            "supportTickets": "Tiketi za usaidizi kwa mwezi",
+            "supportCost": "Gharama kwa tiketi",
+            "supportCostUnit": "/tiketi"
+          },
+          "industries": {
+            "agency": "Mashirika na ushauri",
+            "ecommerce": "Biashara mtandaoni na rejareja",
+            "service": "Huduma"
+          },
+          "help": {
+            "leads": "Chukua wateja wote wa WhatsApp, gumzo au fomu unaopokea sasa.",
+            "supportTickets": "Idadi ya wastani ya tiketi ambazo timu yako inashughulikia kwa mkono kila mwezi."
+          },
+          "results": {
+            "monthlyBenefitLabel": "Faida ya makadirio kwa mwezi",
+            "additionalRevenue": "Mapato ya ziada",
+            "supportSavings": "Akiba ya msaada",
+            "disclaimer": "Tumia makadirio haya kama mwongozo na uyalinganishe na biashara yako.",
+            "recommendedPlanLabel": "Mpango uliopendekezwa",
+            "recommendedPlanDescription": "Kwa takribani {messages} ujumbe kwa mwezi mpango huu unafaa zaidi.",
+            "planPricing": "Gharama kwa mwezi: {price}",
+            "planCustom": "Bei maalum inapatikana kupitia timu yetu.",
+            "yearlyBenefit": "Athari ya mwaka mzima: {value}",
+            "roiMultiple": "≈ {multiple}x ROI ukitumia mpango uliopendekezwa",
+            "coveredBySavings": "Akiba ya msaada tayari inafidia gharama ya mpango.",
+            "ctaStart": "Endelea hadi malipo",
+            "ctaEnterprise": "Panga kikao cha mkakati"
+          }
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "Vyanzo vya Maarifa",
+    "addUrl": "Ongeza URL",
+    "uploadPdf": "Pakia PDF",
+    "noSources": "Hakuna vyanzo vilivyoongezwa",
+    "processing": "Inachakata...",
+    "ready": "Tayari",
+    "error": "Hitilafu",
+    "sourcesReady": "{count} chanzo(nye) tayari",
+    "chatTitle": "Chat na AI",
+    "chatDescription": "AI inajibu tu kulingana na vyanzo vya maarifa vilivyoongezwa.",
+    "placeholder": "Swali lako...",
+    "send": "Tuma",
+    "emptyChat": "Uliza swali kulingana na vyanzo vyako vya maarifa.",
+    "emptyChatHint": "AI inaweza kutumia tu taarifa kutoka vyanzo vilivyoongezwa.",
+    "sources": "Vyanzo"
+  },
+  "auth": {
+    "login": "Ingia",
+    "signup": "Jisajili",
+    "logout": "Toka",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "forgotPassword": "Umesahau nenosiri?",
+    "rememberMe": "Nikumbuke",
+    "noAccount": "Huna akaunti?",
+    "hasAccount": "Tayari una akaunti?",
+    "welcomeBack": "Karibu tena",
+    "loginDescription": "Ingia ili kuendelea",
+    "emailPlaceholder": "barua@email.com",
+    "fillAllFields": "Tafadhali jaza maeneo yote.",
+    "invalidEmail": "Barua pepe si sahihi",
+    "invalidEmailMessage": "Tafadhali ingiza anwani ya barua pepe halali.",
+    "loginFailed": "Kuingia kumeshindwa",
+    "checkCredentials": "Tafadhali angalia haki zako za kuingia.",
+    "loginSuccess": "Umeingia kwa mafanikio",
+    "redirecting": "Inaelekeza...",
+    "signupLink": "Jisajili sasa",
+    "emailVerificationFailed": {
+      "title": "Uthibitishaji wa Barua Pepe Umeshindwa",
+      "description": "Kiungo cha uthibitishaji si sahihi au kimekwisha. Hii inaweza kutokea ikiwa:",
+      "reason1": "Kiungo tayari kimetumika mara moja",
+      "reason2": "Kiungo kimekusubiriwa kwa muda mrefu sana (zaidi ya masaa 24)",
+      "reason3": "Kiungo kinaelekeza kwenye kikoa kibaya",
+      "resendPrompt": "Je, ungependa kupokea barua pepe mpya ya uthibitishaji katika {email}?",
+      "enterEmail": "Ingiza anwani yako ya barua pepe ili kupokea barua pepe mpya ya uthibitishaji:",
+      "resendButton": "Tuma Tena Barua Pepe ya Uthibitishaji",
+      "resending": "Inatuma barua pepe...",
+      "resendSuccess": "Barua Pepe Ime Tumiwa Tena",
+      "resendSuccessMessage": "Tafadhali angalia kikasha chako kwa kiungo kipya cha uthibitishaji.",
+      "resendError": "Barua pepe haikuweza kutumiwa tena.",
+      "enterEmailError": "Tafadhali ingiza anwani yako ya barua pepe.",
+      "invalidEmailError": "Barua pepe si sahihi",
+      "invalidEmailMessage": "Tafadhali ingiza anwani ya barua pepe halali.",
+      "genericError": "Hitilafu isiyotarajiwa imetokea.",
+      "backToLogin": "Rudi Kwenye Kuingia",
+      "newSignup": "Jisajili Upya",
+      "supabaseConfigWarning": "Muhimu: Usanidi wa Supabase",
+      "supabaseConfigMessage": "Ikiwa kiungo kinaelekeza kwenye localhost:3000, URL ya tovuti kwenye Dashibodi ya Supabase lazima ibadilishwe kuwa https://whatsapp.owona.de."
+    }
+  },
+  "dashboard": {
+    "title": "Dashibodi",
+    "welcome": "Karibu tena!",
+    "yourBots": "Boti zako",
+    "createBot": "Unda Bot Mpya",
+    "noBots": "Hujaanza kuunda boti bado.",
+    "noFilteredBots": "Hakuna bot inayolingana na vichujio vya sasa.",
+    "resetFilters": "Weka upya vichujio",
+    "botCount": "{count} bot(i)",
+    "searchPlaceholder": "Tafuta roboti…",
+    "filters": {
+      "all": "Hali zote"
+    },
+    "quickActions": {
+      "title": "Hatua za haraka",
+      "items": {
+        "create": {
+          "title": "Unda bot",
+          "description": "Anza na mtiririko mpya au chagua kiolezo."
+        },
+        "connect": {
+          "title": "Unganisha WhatsApp",
+          "description": "Unganisha akaunti yako ya WhatsApp Business na uthibitishe webhook."
+        },
+        "templates": {
+          "title": "Maktaba ya violezo",
+          "description": "Vinjari violezo vya sekta na uvilete mara moja."
+        }
+      }
+    },
+    "recentActivity": {
+      "title": "Shughuli za hivi karibuni",
+      "empty": "Hakuna shughuli bado.",
+      "createdOn": "Imeundwa tarehe {date}"
+    }
+  },
+  "bots": {
+    "create": "Unda Bot Mpya",
+    "edit": "Hariri Bot",
+    "delete": "Futa Bot",
+    "deleteConfirm": "Je, unataka kweli kufuta bot hii? Kitendo hiki hakiwezi kutenduliwa.",
+    "name": "Jina la Bot",
+    "description": "Maelezo",
+    "status": {
+      "draft": "Rasimu",
+      "active": "Hai",
+      "paused": "Imezimwa",
+      "archived": "Imehifadhiwa"
+    },
+    "activate": "Amilisha",
+    "pause": "Zima",
+    "settings": "Mipangilio",
+    "stats": {
+      "conversations": "Mazungumzo",
+      "messages": "Ujumbe",
+      "conversion": "Ubadilishaji"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "Ingiza jina la bot...",
+    "nodeCount": "{nodes} Nodes, {edges} muunganisho",
+    "create": "Unda",
+    "save": "Hifadhi",
+    "nodePalette": "Paleti ya Node",
+    "dragDropHint": "Buruta nodes kwenye canvas au bofya kuongeza",
+    "tips": {
+      "title": "Mkidokezo:",
+      "tip1": "• Kila mfumo unahitaji kichocheo",
+      "tip2": "• Unganisha nodes kwa kuburuta na kuacha",
+      "tip3": "• Bofya nodes kusanidi"
+    }
+  },
+  "errors": {
+    "generic": "Kitu kimeshindwa. Tafadhali jaribu tena.",
+    "notFound": "Ukurasa haupatikani",
+    "unauthorized": "Hauna ruhusa",
+    "forbidden": "Upaji ufutwa"
+  },
+  "navigation": {
+    "dashboard": "Dashibodi",
+    "bots": "Boti",
+    "templates": "Violezo",
+    "resources": "Rasilimali",
+    "support": "Msaada",
+    "monitoring": "Ufuatiliaji",
+    "settings": "Mipangilio",
+    "logout": "Ondoka",
+    "menu": "Menyu",
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "language": "Lugha"
+  },
+  "support": {
+    "cta": "Ripoti tatizo",
+    "title": "Tuma tiketi ya usaidizi",
+    "subtitle": "Elezea kwa kifupi kilichotokea na timu yetu itawasiliana nawe haraka iwezekanavyo.",
+    "close": "Funga paneli",
+    "cancel": "Ghairi",
+    "submit": "Tuma tiketi",
+    "disclaimer": "Taarifa zote hushughulikiwa kwa kuzingatia GDPR.",
+    "statusOverview": {
+      "heading": "Hatua zinazofuata",
+      "personal": "Tunageuza majibu kuwa ya kibinafsi na kuyaoanisha na hali ya sasa ya tiketi yako.",
+      "escalation": "Baada ya jibu lako la kwanza tunapeleka tiketi moja kwa moja kwa Tier 2.",
+      "updates": "Utapokea taarifa za hali pindi tu kunapotokea mabadiliko."
+    },
+    "form": {
+      "category": "Kategoria",
+      "title": "Kichwa",
+      "titlePlaceholder": "Muhtasari mfupi wa tatizo",
+      "description": "Maelezo",
+      "descriptionPlaceholder": "Nini kilitokea? Tafadhali ongeza hatua muhimu au viungo.",
+      "metadataNotice": "Maelezo ya kiufundi (kivinjari, ukurasa, muda) yatatumwa kiotomatiki ili kuharakisha uchunguzi."
+    },
+    "categories": {
+      "bug": "Hitilafu",
+      "billing": "Malipo",
+      "integration": "Uunganishaji",
+      "ux": "UX / Muonekano",
+      "other": "Nyingine"
+    },
+    "success": {
+      "title": "Tiketi imetumwa",
+      "message": "Asante! Timu yetu ya msaada itawasiliana nawe haraka iwezekanavyo.",
+      "nextSteps": "Utapokea uthibitisho muda si mrefu na tutakutumia taarifa mara tu timu ya Tier 2 itakapoanza kushughulikia tiketi."
+    },
+    "errors": {
+      "requiredTitle": "Kichwa na maelezo yanahitajika",
+      "requiredMessage": "Tafadhali jaza sehemu zote muhimu kabla ya kutuma tiketi.",
+      "submitTitle": "Tiketi haikuweza kutumwa",
+      "submitMessage": "Jaribu tena au wasiliana nasi kwa barua pepe."
+    },
+    "inbox": {
+      "title": "Kisanduku cha msaada",
+      "subtitle": "Fatilia tiketi zako zilizo wazi na zungumza moja kwa moja na timu yetu.",
+      "emptyTitle": "Hakuna tiketi kwa sasa",
+      "emptyDescription": "Vizuri! Ukiona tatizo, bonyeza \"Ripoti tatizo\" hapa chini nasi tutalishughulikia.",
+      "openTicket": "Unda tiketi mpya",
+      "refresh": "Onyesha upya",
+      "lastUpdated": "Ilisasishwa mwisho",
+      "replyLabel": "Ujumbe wako",
+      "replyPlaceholder": "Andika sasisho kwa ajili ya timu yetu ya msaada…",
+      "replySubmit": "Tuma majibu",
+      "customerReply": "Wewe",
+      "supportReply": "Msaada",
+      "systemMessage": "Mfumo",
+      "internalOnly": "Ya ndani pekee",
+      "actions": {
+        "checkPayment": "Kagua malipo",
+        "checkDeployment": "Kagua utekelezaji",
+        "traceUi": "Anzisha uchunguzi wa UI"
+      },
+      "silentCheck": {
+        "running": "Naangalia hilo kwa ajili yako…",
+        "paymentStatusOk": "Malipo yako yako sawa. Hakuna makosa ya webhook yaliyo wazi.",
+        "deploymentHealthy": "Uwekaji na huduma vinafanya kazi kama inavyotarajiwa.",
+        "uiTraceCaptured": "Tumehifadhi rekodi ya UI. Timu yetu itaikagua.",
+        "completed": "Ukaguzi umekamilika.",
+        "error": "Ukaguzi umeshindikana. Tafadhali jaribu tena baadaye."
+      },
+      "autoEscalated": "Jibu limehifadhiwa – tiketi imepelekwa moja kwa moja kwa Tier 2.",
+      "status": {
+        "new": "Mpya",
+        "investigating": "Inachunguzwa",
+        "waiting_customer": "Inasubiri wewe",
+        "resolved": "Imetatuliwa",
+        "closed": "Imefungwa"
+      },
+      "priority": {
+        "low": "Ya chini",
+        "normal": "Ya kawaida",
+        "high": "Ya juu",
+        "urgent": "Ya dharura"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "Unda WhatsApp Business Bots zinazozingatia DSGVO na zinaendeshwa na AI bila kanuni. Suluhu za chatbot za kitaalamu za biashara yako.",
+      "copyright": "WhatsApp Bot Builder. Haki zote zimehifadhiwa."
+    },
+    "customer": {
+      "title": "Usaidizi & Ufuatiliaji",
+      "supportInbox": "Ujumbe wa usaidizi",
+      "reportIssue": "Ripoti tatizo",
+      "monitoring": "Monitoring",
+      "support": "Usaidizi"
+    },
+    "legal": {
+      "title": "Kisheria",
+      "privacy": "Sera ya Faragha",
+      "terms": "Masharti na Hali",
+      "imprint": "Chapisho",
+      "cookies": "Sera ya Vidakuzi",
+      "dataProcessing": "Makubaliano ya Uchakataji wa Data"
+    },
+    "contact": {
+      "title": "Wasiliana",
+      "email": "info@owona.de"
+    },
+    "disclaimer": "Programu hii ni ya kuunda WhatsApp Business chatbots. Tumia kwa hatari yako mwenyewe.",
+    "rights": "Haki zote zimehifadhiwa."
+  },
+  "payments": {
+    "supportedMethodsLabel": "Malipo salama kupitia",
+    "additionalMethodsLabel": "Chaguo zaidi kupitia Stripe",
+    "badges": {
+      "comingSoon": "Inakuja hivi karibuni"
+    },
+    "trust": {
+      "heading": "Malipo yako yamelindwa",
+      "subheading": "Miamala yote inafanywa kwa usimbaji fiche kupitia Stripe & PayPal",
+      "items": [
+        "Uzingatiaji wa PCI DSS Kiwango cha 1 na 3D Secure 2",
+        "Apple Pay, Google Pay na uthibitishaji wa biometriki",
+        "Ankara na data ya wateja kuhifadhiwa EU kwa kufuata GDPR"
+      ],
+      "footerNote": "Inachakatwa na Stripe & PayPal – inalindwa kwa usimbaji wa 256-bit TLS"
+    },
+    "links": {
+      "pricingLabel": "Bei",
+      "templatesLabel": "Violezo",
+      "docsLabel": "Nyaraka",
+      "resourcesLabel": "Rasilimali"
+    }
+  }
+}
+

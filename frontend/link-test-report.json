@@ -1,0 +1,3005 @@
+{
+  "timestamp": "2025-11-25T17:58:29.479Z",
+  "baseUrl": "https://whatsapp.owona.de",
+  "locale": "de",
+  "summary": {
+    "totalPages": 31,
+    "pagesWithErrors": 1,
+    "totalLinks": 88,
+    "brokenLinks": 2
+  },
+  "pages": [
+    {
+      "url": "https://whatsapp.owona.de/de/",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/dashboard",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/features",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/analytics",
+          "status": 500,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/knowledge",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/settings",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/pricing",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/checkout?tier=starter&amp;billing_cycle=monthly",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup?onboarding=assistant",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup?plan=free",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup?plan=starter",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup?plan=professional",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/pricing",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/templates",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/bots/new",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/templates",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/docs",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/registration-form.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/registration-email.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/registration-password.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/dashboard-overview.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/dashboard-stats.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/bot-creation-form.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/template-selector.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/bot-builder-canvas.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/node-palette.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/node-properties.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/node-connections.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/message-node.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/question-node.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/condition-node.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/ai-node.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/knowledge-node.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/whatsapp-setup-wizard.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/bsp-selection.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/gdpr-consent.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/360dialog-dashboard.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/360dialog-api-key.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/360dialog-success.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/twilio-credentials.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/messagebird-api-key.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/knowledge-overview.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/pdf-upload.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/url-add.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/text-input.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/knowledge-processing.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/analytics-dashboard.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/analytics-metrics.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/analytics-trends.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/template-multi-tier.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/template-customer-service.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/template-e-commerce.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/template-booking.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/compliance-panel.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/settings-profile.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/settings-account.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-code-generator.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-simple-mode.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-expert-mode.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-website-code.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-wordpress-code.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/docs/screenshots/embed-shopify-code.png",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/docs",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/legal/privacy",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://supabase.com/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": true
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://www.baden-wuerttemberg.datenschutz.de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": true
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/privacy",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/legal/terms",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://ec.europa.eu/consumers/odr/",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": true
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/terms",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/legal/cookies",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/cookies",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/legal/data-processing",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://supabase.com/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": true
+        },
+        {
+          "url": "https://360dialog.com/privacy",
+          "status": 404,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": true
+        },
+        {
+          "url": "https://www.twilio.com/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": true
+        },
+        {
+          "url": "https://www.messagebird.com/en/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": true
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/legal/data-processing",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/bot-builder",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/dashboard",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/bot-builder",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/dashboard",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/analytics",
+      "status": 500,
+      "links": []
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/knowledge",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/knowledge",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/settings",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/settings",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/features",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/features",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/designs/minimal",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/dashboard",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/minimal",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/designs/night",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/features",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/night",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/demo/designs/datawave",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/demo/analytics",
+          "status": 500,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/demo/designs/datawave",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/auth/login",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/login",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/auth/signup",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/signup",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/auth/forgot-password",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/auth/forgot-password",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/contact",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/contact",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/resources",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=case-study-healthcare",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=case-study-retail",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=case-study-agency",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=resource-enterprise-playbook",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=resource-compliance-kit",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=resource-automation-recipes",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=resource-messaging-library",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=solution-review",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/contact?topic=demo",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/resources",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/screenshots",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/screenshots",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/tools/geoview",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/tools/geoview",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/dashboard",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/bots",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/bots/new",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/bots/new",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/settings",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/settings",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/support/messages",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/support/messages",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "url": "https://whatsapp.owona.de/de/checkout",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://whatsapp.owona.de/de",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/pricing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/templates",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/login",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/auth/signup",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/support/messages",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/dashboard/monitoring",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/privacy",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/cookies",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/data-processing",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/legal/terms",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/docs",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        },
+        {
+          "url": "https://whatsapp.owona.de/de/resources",
+          "status": 200,
+          "sourcePage": "https://whatsapp.owona.de/de/checkout",
+          "isExternal": false
+        }
+      ]
+    }
+  ],
+  "brokenLinks": [
+    {
+      "url": "https://whatsapp.owona.de/de/demo/analytics",
+      "status": 500,
+      "foundOn": [
+        "https://whatsapp.owona.de/de/",
+        "https://whatsapp.owona.de/de/demo/designs/datawave"
+      ]
+    },
+    {
+      "url": "https://360dialog.com/privacy",
+      "status": 404,
+      "foundOn": [
+        "https://whatsapp.owona.de/de/legal/data-processing"
+      ]
+    }
+  ]
+}

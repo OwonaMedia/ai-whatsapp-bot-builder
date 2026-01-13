@@ -1,0 +1,25 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Fetch logs since restart (approx last 50-100 lines should cover recent user activity)
+send "echo '--- RECENT LOGS ---'\r"
+send "pm2 logs 5 --lines 50 --nostream\r"
+expect "# "
+
+send "exit\r"
+expect eof

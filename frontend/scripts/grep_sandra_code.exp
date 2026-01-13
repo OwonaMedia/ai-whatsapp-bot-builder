@@ -1,0 +1,34 @@
+#!/usr/bin/expect -f
+
+set timeout 30
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "cd /var/www/sandra\r"
+expect "# "
+
+# Search for .storage.from usage or 'bucket' keyword in the current directory recursively
+# We limit to .ts files to avoid binary garbage and huge logs
+# Using grep -r with case insensitive
+send "grep -r -i 'bucket' . --include=*.ts --include=*.js | head -n 20\r"
+expect "# "
+
+# Also try searching for the direct string from the error log if possible? No, log just says Bucket not found.
+# Try searching for "storage.from"
+send "grep -r 'storage.from' . --include=*.ts --include=*.js | head -n 20\r"
+expect "# "
+
+send "exit\r"
+expect eof

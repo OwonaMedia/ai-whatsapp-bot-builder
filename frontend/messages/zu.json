@@ -1,0 +1,719 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "Iyalayisha...",
+    "error": "Iphutha",
+    "success": "Impumelelo",
+    "save": "Gcina",
+    "cancel": "Khansela",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "create": "Dala",
+    "back": "Buyela emuva",
+    "next": "Okulandelayo",
+    "previous": "Ngaphambilini",
+    "close": "Vala",
+    "search": "Sesha",
+    "filter": "Hlunga",
+    "actions": "Izenzo",
+    "open": "Vula"
+  },
+  "pricing": {
+    "title": "Amanani alula, acacile",
+    "subtitle": "Awekho amakhasimende afihlekile. Ungakhansela noma nini.",
+    "cta": "Qala ukuhlolwa kwakho kwamahhala kwezinsuku eziyi-14"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Ubufakazi bekhasimende",
+      "title": "Imiphumela eqinisekisiwe nezinsiza zokusheshisa ukwethulwa kwakho kwe-WhatsApp",
+      "subtitle": "Bona ukuthi izinhlangano ezilawulwa ziqhuba kanjani i-WhatsApp Bot Builder bese ulanda ama-playbook esiwasebenzisa ezinhlelweni zangempela.",
+      "ctaPrimary": "Hlela ingxoxo yesu",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Bheka umtapo wezifanekiso",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        { "label": "% yokwaneliseka ngemva kokuqala", "value": "99.2%" },
+        { "label": "Isikhathi esimaphakathi sokuya ku-bot yokuqala", "value": "Izinsuku ezingu-14" },
+        { "label": "Ukukhula kwamahola okuhola", "value": "+23%" }
+      ]
+    },
+    "partners": {
+      "title": "Kusetshenziswa",
+      "subtitle": "Amaqembu emikhakheni yezempilo, ezokuthengisa ne-SaaS e-EU",
+      "description": "Ama-squad e-Compliance, CX ne-Growth asebenzisa i-WhatsApp Bot Builder njengesisekelo se-automation stack yawo.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Izibonelo",
+      "title": "Imiphumela emsulwa kubahlanganyeli bethu",
+      "subtitle": "Icala ngalinye lihlanganisa ukuhambisana ne-GDPR, izindlela eziphephile zokukhokha kanye nama-analytics agxile kuma-KPI.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Ezempilo",
+          "title": "I-triage ezenzakalelayo ezibhedlela eziyisikhombisa",
+          "description": "Izicelo zeziguli zihlukaniswa kusenesikhathi, zithunyelwa eqenjini elifanele futhi zigcinwe ngaphandle komsebenzi wesandla.",
+          "metrics": [
+            "38% ukwehla kwesikhathi sokuphendula ku-hotline",
+            "Izicelo eziyi-1 200 zohlelo emuva ngenyanga"
+          ],
+          "result": "Ukulawulwa kwe-DPA, amalungelo wemisebenzi nokudluliswa kwabantu kwaphela ngaphansi kwamasonto amabili.",
+          "ctaLabel": "Cela i-playbook yezibhedlela",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "Ezokuthengisa",
+          "title": "I-checkout yokuxoxa kumkhiqizo wezingubo",
+          "description": "Ukuqondiswa komkhiqizo, ukukhokha nokulandela ukulethwa kwenzeka ngaphakathi ku-WhatsApp kanti i-Stripe ne-PayPal zilandelela yonke i-transaction.",
+          "metrics": [
+            "+23% yokutakula izinqola",
+            "€8.4k wemali eyengeziwe ngenyanga"
+          ],
+          "result": "Ama-playbook aqukethe ukuvumelanisa idatha yomkhiqizo, okuqukethwe kwezilimi eziningi kanye namadeshibhodi wokukhangisa.",
+          "ctaLabel": "Landa i-toolkit yokuthengisa",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Ama-ejensi",
+          "title": "Isevisi ye-white-label esikalekayo",
+          "description": "I-ejensi yedijithali iletha ama-bot ayi-18 kumakhasimende emasontweni ayisithupha, kuhlanganise nokufaka uphawu, ama-invoice kanye namadeshibhodi e-success.",
+          "metrics": [
+            "Amahora angu-72 okusetshenziswa esimaphakathi",
+            "35% ukwanda kwe-retainer ngenxa ye-SLA ezenzakalelayo"
+          ],
+          "result": "Ama-workflow e-n8n aphindaphindwayo nama-schema e-Supabase avumela uk delivers okusheshayo kumakhasimende amaningi.",
+          "ctaLabel": "Buka i-blueprint ye-ejensi",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Umthombo",
+      "title": "Izinsiza ezilandiwayo ukuze uqale ngokushesha",
+      "subtitle": "Sibuyekeza zonke izinsiza njalo ngekota ngamaphethini amasha, ama-checklist kanye namasu okuzenzakalela.",
+      "categories": ["Playbooks", "Ama-checklist", "Automation"],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "I-playbook ye-enterprise rollout",
+          "description": "Incwadi yesinyathelo ngesinyathelo yezinkonzo zomthetho, komkhiqizo kanye nokusebenza.",
+          "highlights": [
+            "Uhlu lokuhlola lokuphatha i-WhatsApp Business API",
+            "Izifanekiso zokuxhumana nababambiqhaza",
+            "Amapulani okudlulisela emuva nokuphatha izigameko"
+          ],
+          "ctaLabel": "Cela i-playbook",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Ukuhambisana",
+          "title": "I-compliance kit ye-GDPR & izinkokhelo",
+          "description": "Umqulu wamadokhumenti e-TOM, izifanekiso ze-DPA kanye nezibonelo ze-invoyisi ezilungele ukusetshenziswa.",
+          "highlights": [
+            "Izifanekiso ze-TOM ne-AV ezigcwalisiwe",
+            "Isakhiwo se-invoyisi esihambisana nomthetho wezamabhizinisi amancane",
+            "Izimpendulo zemibuzo evamile yezokuphepha"
+          ],
+          "ctaLabel": "Thola i-compliance kit",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automation",
+          "title": "Ama-automation recipes e-n8n & Supabase",
+          "description": "Ukuqoqwa kwama-flows aphindaphindwayo okuphathwa kwemikhondo, ukusebenzisa ukubhalisela nokubuyisa izinkokhelo.",
+          "highlights": [
+            "Ama-workflow e-n8n ayisithupha alungele ukungeniswa",
+            "Ama-snippet e-SQL e-Supabase okuqapha izabelo",
+            "Uhlu lokuhlola lokuhlola izindlela ezihlukile zokukhokha"
+          ],
+          "ctaLabel": "Vula ama-recipes",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Imiyalezo",
+          "title": "Umthombo wemiyalezo yezilimi eziningi",
+          "description": "Amaphethini amisiwe okuqalisa, ukweseka kanye nezinkokhelo ezihunyushelwe esiJalimane, esiNgisi nesiFulentshi.",
+          "highlights": [
+            "Uchungechunge lokuqalisa olungu-8",
+            "Imiyalezo eyi-12 yokukhumbuza ukukhokha",
+            "Uhlu lokuhlola ithoni yebhrendi"
+          ],
+          "ctaLabel": "Landa i-messaging pack",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Isiqinisekiso sokusebenza",
+      "assuranceHeadline": "Zonke izinsiza zisekelwe emisebenzini yangempela",
+      "assuranceSubtitle": "Sabelana nge-audit trail, ama-KPI kanye nezifundo zokusetshenziswa ukuze i-WhatsApp automation isebenze ngezinga.",
+      "assurance": [
+        "Izibuyekezo zekota ezisuka kumazwi amakhasimende",
+        "Ukuhlolwa yizithangami zomthetho, compliance ne-success",
+        "Ama-benchmark kuzo zombili ezempilo, ezokuthengisa ne-SaaS"
+      ],
+      "assuranceCtaLabel": "Xoxa nochwepheshe wezixazululo",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Izwi lamakhasimende",
+      "title": "Kungani amaqembu ehlala ne-WhatsApp Bot Builder",
+      "subtitle": "Abaholi be-CX, ukusebenza kanye ne-compliance baxoxa nge-ROI abaqapha.",
+      "items": [
+        {
+          "quote": "Ama-playbook anemininingwane asisindise amasonto emvume yangaphakathi. Wonke umuntu wayazi umsebenzi wakhe ngosuku loku-1.",
+          "name": "Leonie Hartmann",
+          "role": "Inhloko yezinsiza zeziguli, Klinikverbund Nord",
+          "metric": "36% ukwehla kwezikhalo eziphakanyisiwe"
+        },
+        {
+          "quote": "Sisebenzise ama-recipes futhi samisa izindlela zokukhokha zamazwe amaningi ngaphandle kwekhowudi eyengeziwe.",
+          "name": "André Becker",
+          "role": "Umholi we-Automation, UrbanFit Retail",
+          "metric": "Izimakethe ezine ezintsha zingakapheli izinsuku ezingu-90"
+        },
+        {
+          "quote": "Amakhasimende ayavuma ngokushesha ngoba sinikeza imibhalo ye-compliance, amagama e-GDPR nezibonelo ze-invoyisi kusenesikhathi.",
+          "name": "Noemi Alvarez",
+          "role": "Umphathi Omkhulu, Converso Digital",
+          "metric": "Ukuncipha ngo-60% kwesikhathi sokuthengisa"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Usukulungele imiphumela efana nale?",
+      "subtitle": "Hlela iseshini eqondisiwe noma uqale ngephakheji yezinsiza ukuze usheshise iphrojekthi yakho ye-WhatsApp.",
+      "primary": "Bhukha i-demo ebukhoma",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Hlola zonke izifanekiso",
+      "secondaryHref": "templates"
+    }
+  },
+  "monitoring": {
+    "title": "Automation & Monitoring",
+    "subtitle": "Izinsuku {days} ezedlule · {from} – {to}",
+    "actions": {
+      "refresh": "Vuselela idatha",
+      "refreshing": "Kuvuselelwa..."
+    },
+    "errors": {
+      "loadFailed": "Ayikwazanga ukulanda i-snapshot yakamuva"
+    },
+    "stats": {
+      "totalRevenue": "Imali engenayo emsulwa",
+      "successRate": "Izinga lempumelelo",
+      "failedPayments": "Izinkokhelo ezihlulekile",
+      "webhookFailures": "Amaphutha e-webhook"
+    },
+    "payments": {
+      "title": "Iziganeko zokukhokha",
+      "subtitle": "Irekhodi lokulandelela ukuthengiselana kwe-Stripe ne-PayPal",
+      "total": "Okokufaka {count}",
+      "headers": {
+        "date": "Usuku",
+        "status": "Isimo",
+        "amount": "Inani",
+        "provider": "Umhlinzeki",
+        "subscription": "Ukubhalisa",
+        "details": "Imininingwane"
+      },
+      "empty": "Azikho izinkokhelo ezirekhodiwe kulesi sikhathi."
+    },
+    "webhooks": {
+      "title": "Ukucubungula i-webhook",
+      "subtitle": "Umsebenzi we-Stripe & PayPal",
+      "total": "Izigameko {count}",
+      "headers": {
+        "date": "Usuku",
+        "provider": "Umhlinzeki",
+        "event": "Umcimbi",
+        "status": "Isimo",
+        "details": "Imininingwane"
+      },
+      "empty": "Azikho izigameko ze-webhook ezirekhodiwe kulesi sikhathi."
+    },
+    "status": {
+      "succeeded": "Impumelelo",
+      "failed": "Ihlulekile",
+      "pending": "Ilinde",
+      "refunded": "Imbuyiselwe",
+      "canceled": "Ihoxisiwe",
+      "processed": "Isetshenzisiwe",
+      "received": "Iyamukelwe"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "Dala ama-WhatsApp Business Bots anomusa AI ahambisana ne-DSGVO ngaphandle kwekhodi",
+    "startNow": "Qala manje",
+    "dashboard": "Ideshibhodi",
+    "ragDemo": {
+      "title": "Isibonelo esisebenzayo: RAG Chat",
+      "description": "Engeza umthombo wolwazi (PDF noma URL) bese ukhuluma ne-AI esekelwe kulo mthombo kuphela"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "Ahambisana ne-DSGVO",
+        "description": "Ukugcinwa kwedatha ye-EU, ukuphathwa kwevumelo kanye nokulalelwa okuphelele"
+      },
+      "ai": {
+        "title": "Osekela i-AI",
+        "description": "Izingxoxo ezihlakaniphile ngokuhlanganiswa kwe-GROQ AI"
+      },
+      "nocode": {
+        "title": "Ngaphandle Kwekhodi",
+        "description": "Umakhi we-bot obonakalayo one-interface yokuhudula nokulahla"
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Imiphumela eqinisekisiwe evela kumakhasimende",
+        "subtitle": "Ezempilo, e-commerce namahhovisi okukhangisa asebenzisa i-WhatsApp Bot Builder ukuletha uxhaso oluqinile",
+        "items": {
+          "healthcare": {
+            "industry": "Ezempilo",
+            "headline": "Ukuhlukanisa iziguli ngokuzenzakalela enhlanganweni yezibhedlela",
+            "description": "I-bot iphendula imibuzo ephindaphindiwe, ihlele izicelo zamahlandlu futhi yehlise umthwalo wethimba lokunakekela amakhasimende.",
+            "metrics": [
+              "Ukwehla ngo-38% kwesikhathi sokulinda ocingweni",
+              "Izikhathi eziyi-1 200 ngenyanga zihlungwa ngokuzenzakalela"
+            ],
+            "result": "Ukumiliswa ezinsukwini eziyi-14 kufaka i-DPA, ukulawula amalungelo kanye namarekhodi okuhlola."
+          },
+          "retail": {
+            "industry": "E-commerce",
+            "headline": "Uhambo lokuthenga olusekelwe ezingxoxweni kumkhiqizo wezingubo we-D2C",
+            "description": "I-WhatsApp iqondisa amakhasimende kusukela ekwelulekeni komkhiqizo kuya ekukhetheni indlela yokukhokha nokulandela kuthunyelwe ubusuku nemini.",
+            "metrics": [
+              "Ukubuyiselwa kwamakhathoni alahliwe kukhuphuke ngo-23%",
+              "€8.4k wemali engenayo engeziwe ngenyanga ngenxa yokuthengisa okukodwa okuzenzakalelayo"
+            ],
+            "result": "I-Stripe, i-PayPal, i-Apple Pay ne-Klarna zisebenza ngaphandle kokungenelela kwesandla."
+          },
+          "agency": {
+            "industry": "Ama-ejensi",
+            "headline": "Ithuluzi le-white-label elilinganiselwayo le-ejensi yedijithali",
+            "description": "Ama-bot angu-18 kumakhasimende kufakwe uphawu, imibiko kanye nezinkokhelo ezihlanganisiwe phakathi namasonto ayisithupha.",
+            "metrics": [
+              "Amahora angama-72 wesikhathi sokusungula esimaphakathi",
+              "Ukukhuphuka ngo-35% ekubuyiselweni kwemali ngenxa ye-SLA ezenzakalelayo"
+            ],
+            "result": "Ukuphathwa kwamakhasimende amaningi, ukwesekwa kanye nokuhlaziywa kwenzeka kusuka ku-dashboard eyodwa."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Amakhasimende akhuluma",
+        "subtitle": "AmaQembu e-CX, e-commerce ne-SaaS kuwo wonke amazwe e-EU",
+        "points": {
+          "speed": "Ukumiliswa kwemishini phakathi kwezinsuku ezimbalwa esikhundleni sezinyanga zokuthuthukisa",
+          "compliance": "Uhlu lokuhlola lwe-GDPR, i-DPA namadokhumenti e-TOM atholakala",
+          "support": "Umphathi wenkokhelo ohloniphekile kusukela ohlelweni lwe-Professional"
+        },
+        "items": {
+          "agency": {
+            "quote": "Sikhiphe i-bot yekhasimende yokuqala ezinsukwini eziyi-11. Manje sithola amaphrojekthi amasha masonto onke ngaphandle kokwandisa ithimba.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "+23% wamathiphu afanelekile enyangeni yokuqala"
+          },
+          "retail": {
+            "quote": "I-bot iphethe ukweluleka komkhiqizo, izibuyekezo zokuthumela kanye nezinkokhelo. Ithimba lethu lokweseka selinikeza isikhathi sezinto ezikhiqiza imali.",
+            "name": "Leonard Fischer",
+            "role": "E-Commerce Lead, UrbanFit",
+            "metric": "Amahora angu-18 omsebenzi wesandla agcinwe ngeviki"
+          },
+          "saas": {
+            "quote": "Sihlela izindlela zokungenisa amakhasimende emikhiqizweni emithathu ngesikhathi esisodwa. Inhlanganisela ye-n8n, Supabase ne-Apple Pay yenza sishintshe masinyane.",
+            "name": "Mira Albrecht",
+            "role": "Customer Success Director, Finovate SaaS",
+            "metric": "99.2% yokwaneliseka kwamakhasimende ngemuva kokwethulwa"
+          }
+        }
+      },
+      "security": {
+        "title": "Ukuphepha nokuhambisana kusukela ekuqaleni",
+        "subtitle": "Ingqalasizinda egcinwe e-EU, ukuhlolwa okuzimele kanye nemibiko ecacile",
+        "features": [
+          "Ukucubungula izinkokhelo ze-PCI DSS Level 1 nge-Stripe ne-PayPal",
+          "Ukubethela kwe-TLS kusukela ekuqaleni kuya ekugcineni kanye nesitoreji esihlukile uma kudingeka",
+          "Amarekhodi okuhlola angaguquki, izimvume ezisuselwa ezindimeni kanye nokuqapha umsebenzi"
+        ],
+        "assuranceTitle": "Izinto ongazethembayo",
+        "assurance": [
+          "Ukusingathwa e-Frankfurt (eu-central-1) okunokugcinwa kwedatha nsuku zonke",
+          "Isivumelwano sokucubungula idatha namadokhumenti e-TOM alungele ukusayina",
+          "Izivivinyo zokuphepha zekota ngayinye kanye nokuhlolwa okuqhubekayo okuzenzakalelayo"
+        ],
+        "ctaPrimary": "Cela amadokhumenti wobuchwepheshe",
+        "ctaSecondary": "Buka uhlu lokuphepha"
+      },
+      "pricingPage": {
+        "header": {
+          "title": "Amanani acacile",
+          "subtitle": "Khetha uhlelo olulingana neqembu lakho. Wonke amazinga ahambisana ne-GDPR futhi agcinwa e-EU.",
+          "billing": {
+            "monthly": "Ngenyanga",
+            "yearly": "Ngonyaka",
+            "yearlyTag": "Londoloza u-17%"
+          }
+        },
+        "onboarding": {
+          "title": "Qalisa ngezinyathelo ezintathu",
+          "subtitle": "Umeluleki uzokuholela kusukela ekubhaliseni kuze kufike ebhotini lokuqala elibukhoma.",
+          "steps": {
+            "account": {
+              "title": "1. Dala i-akhawunti futhi umeme iqembu",
+              "description": "Bhalisa, engeza imininingwane yenkampani futhi wabele amalungelo."
+            },
+            "connect": {
+              "title": "2. Xhuma i-WhatsApp",
+              "description": "Khetha i-Meta Business Account, uqinisekise i-webhook bese uvula izindlela zokukhokha."
+            },
+            "launch": {
+              "title": "3. Shicilela ibhothi lokuqala",
+              "description": "Khetha itemplate, lungisa okuqukethwe bese ulithumela."
+            }
+          },
+          "ctaPrimary": "Qalisa i-onboarding mahhala",
+          "ctaSecondary": "Bheka umhlahlandlela wesinyathelo ngesinyathelo",
+          "footnote": "Ayikho ikhadi lesikweletu elidingekayo. Zama zonke izici izinsuku ezingu-14."
+        },
+        "roi": {
+          "title": "Linganisela inzuzo yakho",
+          "subtitle": "Bheka umthelela wokuzisebenzisela bese ukhetha izinga elifanele ngokwemibiko yakho.",
+          "disclaimerTagline": "Izilinganiso zisekelwe ekuhloleni kwamakhasimende",
+          "fields": {
+            "industry": "Imboni",
+            "leadsPerMonth": "Ama-lead angenayo ngenyanga",
+            "closeRate": "Izinga lokuvala",
+            "averageDeal": "Inani elijwayelekile lesivumelwano (EUR)",
+            "supportTickets": "Amathikithi okusekela ngenyanga",
+            "supportCost": "Izindleko ngethikithi",
+            "supportCostUnit": "/ithikithi"
+          },
+          "industries": {
+            "agency": "Ama-ejensi kanye nezinkampani zokubonisana",
+            "ecommerce": "I-e-commerce kanye nokudayisa",
+            "service": "Izinkampani zesevisi"
+          },
+          "help": {
+            "leads": "Faka wonke ama-lead e-WhatsApp, ingxoxo noma amafomu owasemukela namuhla.",
+            "supportTickets": "Isilinganiso samathikithi okusekela eqembu lakho alulungisa mathupha njalo ngenyanga."
+          },
+          "results": {
+            "monthlyBenefitLabel": "Inzuzo elinganisiwe yanyanga zonke",
+            "additionalRevenue": "Imali engenayo eyengeziwe",
+            "supportSavings": "Ukwonga ekusekelweni",
+            "disclaimer": "Lawa amanani awuqondiso — uwahlele ngokuya ngebhizinisi lakho.",
+            "recommendedPlanLabel": "Uhlelo olunconyiwe",
+            "recommendedPlanDescription": "Ngemilayezo engaba ngu-{messages} ngenyanga lesi sigaba sihamba kahle kakhulu.",
+            "planPricing": "Izindleko zanyanga zonke: {price}",
+            "planCustom": "Intengo ekhethekile iyatholakala ngokuthintana neqembu lethu.",
+            "yearlyBenefit": "Umthelela wonyaka: {value}",
+            "roiMultiple": "≈ {multiple}x ROI uma usebenzisa uhlelo olunconyiwe",
+            "coveredBySavings": "Ukwonga ekusekelweni sekuvimbele izindleko zohlelo.",
+            "ctaStart": "Qhubeka ekukhokheni",
+            "ctaEnterprise": "Hlela ingxoxo yesu"
+          }
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "Imithombo Yolwazi",
+    "addUrl": "Engeza i-URL",
+    "uploadPdf": "Layisha i-PDF",
+    "noSources": "Awekho imithombo eyengeziwe",
+    "processing": "Iyacubungula...",
+    "ready": "Ilungele",
+    "error": "Iphutha",
+    "sourcesReady": "{count} umthombo(mi) ulungele",
+    "chatTitle": "Xoxa ne-AI",
+    "chatDescription": "I-AI iphendula kuphela ngokusekelwe emithonjeni yolwazi eyengeziwe.",
+    "placeholder": "Umbuzo wakho...",
+    "send": "Thumela",
+    "emptyChat": "Buza umbuzo ngokusekelwe emithonjeni yakho yolwazi.",
+    "emptyChatHint": "I-AI ingasebenzisa kuphela imininingwane evela emithonjeni eyengeziwe.",
+    "sources": "Imithombo"
+  },
+  "auth": {
+    "login": "Ngena",
+    "signup": "Bhalisa",
+    "logout": "Phuma",
+    "email": "I-imeyili",
+    "password": "Iphasiwedi",
+    "forgotPassword": "Ukhohlwe iphasiwedi?",
+    "rememberMe": "Ngikhumbule",
+    "noAccount": "Awunawo i-akhawunti?",
+    "hasAccount": "Usuvele unayo i-akhawunti?",
+    "welcomeBack": "Siyakwamukela futhi",
+    "loginDescription": "Ngena ukuze uqhubeke",
+    "emailPlaceholder": "imeyili@email.com",
+    "fillAllFields": "Sicela ugcwalise zonke izinkambu.",
+    "invalidEmail": "I-imeyili engavumelekile",
+    "invalidEmailMessage": "Sicela ufake ikheli le-imeyili elivumelekile.",
+    "loginFailed": "Ukungena kwehlulekile",
+    "checkCredentials": "Sicela uhlole amakhredenshali akho okungena.",
+    "loginSuccess": "Ungenile ngempumelelo",
+    "redirecting": "Iyaqondisa...",
+    "signupLink": "Bhalisa manje",
+    "emailVerificationFailed": {
+      "title": "Ukuqinisekiswa Kwe-imeyili Kwehlulekile",
+      "description": "Isixhumanisi sokuqinisekisa asisebenzi noma siphelelwe yisikhathi. Lokhu kungenzeka uma:",
+      "reason1": "Isixhumanisi sesivele sisetshenzisiwe kanye",
+      "reason2": "Isixhumanisi silinde isikhathi eside kakhulu (ngaphezu kwamahora angu-24)",
+      "reason3": "Isixhumanisi sikhomba esizindeni esingalungile",
+      "resendPrompt": "Ungathanda ukuthola i-imeyili entsha yokuqinisekisa ku-{email}?",
+      "enterEmail": "Faka ikheli lakho le-imeyili ukuthola i-imeyili entsha yokuqinisekisa:",
+      "resendButton": "Thumela Futhi I-imeyili Yokuqinisekisa",
+      "resending": "Iyathumela i-imeyili...",
+      "resendSuccess": "I-imeyili Ithunyelwe Futhi",
+      "resendSuccessMessage": "Sicela uhlole ibhokisi lakho lokungenayo ngesixhumanisi esisha sokuqinisekisa.",
+      "resendError": "I-imeyili ayikwazanga ukuthunyelwa futhi.",
+      "enterEmailError": "Sicela ufake ikheli lakho le-imeyili.",
+      "invalidEmailError": "I-imeyili engavumelekile",
+      "invalidEmailMessage": "Sicela ufake ikheli le-imeyili elivumelekile.",
+      "genericError": "Iphutha elingalindelekile lenzekile.",
+      "backToLogin": "Buyela Ekungeneni",
+      "newSignup": "Bhalisa Okusha",
+      "supabaseConfigWarning": "Kubalulekile: Ukulungiswa Kwe-Supabase",
+      "supabaseConfigMessage": "Uma isixhumanisi sikhomba ku-localhost:3000, i-URL yesayithi ku-Dashboard ye-Supabase kumele iguqulwe ibe https://whatsapp.owona.de."
+    }
+  },
+  "dashboard": {
+    "title": "Ideshibhodi",
+    "welcome": "Siyakwamukela futhi!",
+    "yourBots": "Ama-Bot Akho",
+    "createBot": "Dala i-Bot Entsha",
+    "noBots": "Awukakadali bot.",
+    "noFilteredBots": "Ayikho i-bot ehambisana nezihlungi zamanje.",
+    "resetFilters": "Setha kabusha izihlungi",
+    "botCount": "{count} i-bot(s)",
+    "searchPlaceholder": "Sesha ama-bot…",
+    "filters": {
+      "all": "Zonke izimo"
+    },
+    "quickActions": {
+      "title": "Izenzo ezisheshayo",
+      "items": {
+        "create": {
+          "title": "Dala i-bot",
+          "description": "Qala ngokugeleza okusha noma ukhethe ithempulethi."
+        },
+        "connect": {
+          "title": "Xhuma i-WhatsApp",
+          "description": "Xhumanisa i-akhawunti yakho ye-WhatsApp Business futhi uqinisekise i-webhook."
+        },
+        "templates": {
+          "title": "Umtapo wezitemplate",
+          "description": "Buka izitemplate zebhizinisi bese uzingenisa ngokushesha."
+        }
+      }
+    },
+    "recentActivity": {
+      "title": "Umsebenzi wakamuva",
+      "empty": "Akukho msebenzi okwamanje.",
+      "createdOn": "Kudaliwe ngo-{date}"
+    }
+  },
+  "bots": {
+    "create": "Dala i-Bot Entsha",
+    "edit": "Hlela i-Bot",
+    "delete": "Susa i-Bot",
+    "deleteConfirm": "Ingabe ufuna ngempela ukususa le bot? Lesi sinyathelo asikwazi ukubuyiswa emuva.",
+    "name": "Igama le-Bot",
+    "description": "Incazelo",
+    "status": {
+      "draft": "Okubhalwayo",
+      "active": "Iyasebenza",
+      "paused": "Imisiwe",
+      "archived": "Igcinwe"
+    },
+    "activate": "Qalisa",
+    "pause": "Misa",
+    "settings": "Izilungiselelo",
+    "stats": {
+      "conversations": "Izingxoxo",
+      "messages": "Imilayezo",
+      "conversion": "Ukuguqulelwa"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "Faka igama le-bot...",
+    "nodeCount": "{nodes} Ama-Node, {edges} ukuxhumana",
+    "create": "Dala",
+    "save": "Gcina",
+    "nodePalette": "I-Palette ye-Node",
+    "dragDropHint": "Hudula ama-node ku-canvas noma chofoza ukuze wengeze",
+    "tips": {
+      "title": "Amathiphu:",
+      "tip1": "• Yonke ukugeleza kudinga isici",
+      "tip2": "• Xhuma ama-node ngokuhudula nokulahla",
+      "tip3": "• Chofoza ama-node ukuze uyilungise"
+    }
+  },
+  "errors": {
+    "generic": "Kukhona okuhambile. Sicela uzame futhi.",
+    "notFound": "Ikhasi alitholakalanga",
+    "unauthorized": "Awunamvume",
+    "forbidden": "Ukufinyelela kuyenqatshwe"
+  },
+  "navigation": {
+    "dashboard": "Ideshibhodi",
+    "bots": "AmaBhothi",
+    "templates": "Izifanekiso",
+    "resources": "Izinsiza",
+    "support": "Ukusekela",
+    "monitoring": "Ukuqapha",
+    "settings": "Izilungiselelo",
+    "logout": "Phuma",
+    "menu": "Imenyu",
+    "openMenu": "Vula imenju",
+    "closeMenu": "Vala imenju",
+    "language": "Ulimi"
+  },
+  "support": {
+    "cta": "Bika inkinga",
+    "title": "Dala ithikithi lokwesekwa",
+    "subtitle": "Chaza inkinga kafushane, ithimba lethu lizokuthintana ngokushesha.",
+    "close": "Vala ipaneli",
+    "cancel": "Khansela",
+    "submit": "Thumela ithikithi",
+    "disclaimer": "Yonke imininingwane iphathwa ngokuya ngemithetho ye-GDPR.",
+    "statusOverview": {
+      "heading": "Izinyathelo ezilandelayo",
+      "personal": "Senza izimpendulo zibe zomuntu siqu futhi sihlobise nesimo samathikithi akho amaningi.",
+      "escalation": "Ngemva kwempendulo yakho yokuqala sithumela ithikithi ngokuzenzakalela ku-Tier 2.",
+      "updates": "Uzothola izibuyekezo zesimo ngokushesha uma kukhona okushintshayo."
+    },
+    "form": {
+      "category": "Isigaba",
+      "title": "Isihloko",
+      "titlePlaceholder": "Incazelo emfushane yenkinga",
+      "description": "Incazelo",
+      "descriptionPlaceholder": "Kwenzekeni? Sicela wengeze izinyathelo noma izixhumanisi ezisemqoka.",
+      "metadataNotice": "Imininingwane yezobuchwepheshe (isiphequluli, ikhasi, isikhathi) izothunyelwa ngokuzenzakalela ukuze kusheshiswe ukuhlola."
+    },
+    "categories": {
+      "bug": "Iphutha",
+      "billing": "Ukukhokha",
+      "integration": "Ukuhlanganisa",
+      "ux": "UX / Isikhombimsebenzisi",
+      "other": "Okunye"
+    },
+    "success": {
+      "title": "Ithikithi lithunyelwe",
+      "message": "Siyabonga! Ithimba lethu lizobuyela kuwe ngokushesha okukhulu.",
+      "nextSteps": "Uzothola isiqinisekiso maduze, bese sithumela izibuyekezo njengoba ithimba le-Tier 2 liqala ukusebenza ethiketini lakho."
+    },
+    "errors": {
+      "requiredTitle": "Isihloko kanye nencazelo kuyadingeka",
+      "requiredMessage": "Sicela ugcwalise zonke izinkambu ezidingekayo ngaphambi kokuthumela ithikithi.",
+      "submitTitle": "Ithikithi alithunyelwanga",
+      "submitMessage": "Sicela uphinde uzame noma usithinte nge-imeyili."
+    },
+    "inbox": {
+      "title": "Ibhokisi lokusekela",
+      "subtitle": "Landela amathikithi akho avulekile futhi uxhumane nethimba lethu ngokushesha.",
+      "emptyTitle": "Asikho ithikithi okwamanje",
+      "emptyDescription": "Kuhle lokho! Uma kukhona okuphazamisayo, chofoza \"Bika inkinga\" ngezansi sizolungisa.",
+      "openTicket": "Dala ithikithi elisha",
+      "refresh": "Buyekeza",
+      "lastUpdated": "Kubuyekezwe okokugcina",
+      "replyLabel": "Umlayezo wakho",
+      "replyPlaceholder": "Bhala isibuyekezo sethimba lethu lokusekela…",
+      "replySubmit": "Thumela impendulo",
+      "customerReply": "Wena",
+      "supportReply": "Ukusekela",
+      "systemMessage": "Uhlelo",
+      "silentCheck": {
+         "running": "Ngibheka lokhu ngawe…",
+         "paymentStatusOk": "Izinkokhelo zibukeka kahle. Akukho iphutha le-webhook elitholakele.",
+         "deploymentHealthy": "Ukumiswa kanye nezinsiza kuhamba kahle.",
+         "uiTraceCaptured": "Sithathe i-UI trace. Ithimba lethu lizobuka imininingwane.",
+         "completed": "Ukuhlola sekuqediwe.",
+         "error": "Ukuhlola kwehlulekile. Sicela uzame futhi kamuva."
+       },
+      "autoEscalated": "Impendulo igciniwe – ithikithi lithunyelwe ngokuzenzakalela ku-Tier 2.",
+      "status": {
+        "new": "Okusha",
+        "investigating": "Kuphenywa",
+        "waiting_customer": "Kulindelwe wena",
+        "resolved": "Kulungisiwe",
+        "closed": "Kuvaliwe"
+      },
+      "priority": {
+        "low": "Okuphansi",
+        "normal": "Okuvamile",
+        "high": "Okuphezulu",
+        "urgent": "Okuphuthumayo"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "Dala ama-WhatsApp Business Bots afanele DSGVO anqhuba yi-AI ngaphandle kwekhodi. Izixazululo ze-chatbot ezingcweli zezinhlelo zakho.",
+      "copyright": "WhatsApp Bot Builder. Wonke amalungelo agodliwe."
+    },
+    "customer": {
+      "title": "Ukusekela & Ukuqapha",
+      "supportInbox": "Imilayezo yokusekela",
+      "reportIssue": "Bika inkinga",
+      "monitoring": "Ukuqapha",
+      "support": "Ukusekela"
+    },
+    "legal": {
+      "title": "Ngokomthetho",
+      "privacy": "Inqubomgomo Yobumfihlo",
+      "terms": "Imigomo Nendlela",
+      "imprint": "Ukuphrinta",
+      "cookies": "Inqubomgomo Yama-Cookies",
+      "dataProcessing": "Isivumelwano Sokucubungula Idatha"
+    },
+    "contact": {
+      "title": "Xhumana Nesekelo",
+      "email": "info@owona.de",
+      "support": "Ukweseka"
+    },
+    "disclaimer": "Lolu hlelo lusetshenziselwa ukudala ama-WhatsApp Business chatbots. Sebenzisa ngengozi yakho.",
+    "rights": "Wonke amalungelo agodliwe."
+  },
+  "payments": {
+    "supportedMethodsLabel": "Khoka ngokuphepha nge",
+    "additionalMethodsLabel": "Ezinye izinketho nge-Stripe",
+    "badges": {
+      "comingSoon": "Iza maduze"
+    },
+    "trust": {
+      "heading": "Ukukhokha okuphephile",
+      "subheading": "Zonke izinkokhelo zivikelwe nge-Stripe no-PayPal nge-TLS engu-256-bit",
+      "items": [
+        "Ukuhambisana ne-PCI DSS Level 1 kanye ne-3D Secure 2",
+        "Apple Pay, Google Pay kanye nobufakazi be-biometrics",
+        "Amarisidi nedatha yamakhasimende agcinwa e-EU ngokuhambisana ne-GDPR"
+      ],
+      "footerNote": "Iyaphathwa yi-Stripe & PayPal – ukuvikeleka kwe-256-bit TLS"
+    },
+    "links": {
+      "pricingLabel": "Amanani",
+      "templatesLabel": "Izifanekiso",
+      "docsLabel": "Imibhalo",
+      "resourcesLabel": "Izinsiza"
+    }
+  }
+}
+

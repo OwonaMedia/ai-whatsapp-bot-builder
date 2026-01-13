@@ -1,0 +1,29 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "pm2 env 5\r"
+expect "# "
+
+send "curl -X POST http://localhost:3000/api/support/chat -H 'Content-Type: application/json' -d '{\"message\": \"Ich habe ein Problem mit dem RAG\", \"locale\": \"de\"}' > /tmp/curl_response.json 2>&1\r"
+expect "# "
+
+send "cat /tmp/curl_response.json\r"
+expect "# "
+
+send "exit\r"
+expect eof

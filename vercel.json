@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/.next",
+  "installCommand": "cd frontend && npm ci --legacy-peer-deps --no-audit --no-fund",
+  "framework": "nextjs"
+}

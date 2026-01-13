@@ -1,0 +1,29 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "grep \"pdf-parse\" /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/package.json\r"
+expect "# "
+
+send "ls -F /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/node_modules/pdf-parse\r"
+expect "# "
+
+send "cat /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/node_modules/pdf-parse/package.json\r"
+expect "# "
+
+send "exit\r"
+expect eof

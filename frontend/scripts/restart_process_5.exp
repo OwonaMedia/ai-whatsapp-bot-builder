@@ -1,0 +1,36 @@
+#!/usr/bin/expect -f
+
+set timeout 30
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Check status detail for process 5
+send "echo '--- PM2 STATUS FOR ID 5 ---'\r"
+send "pm2 describe 5\r"
+expect "# "
+
+# Restart the process
+send "echo '--- RESTARTING PROCESS 5 ---'\r"
+send "pm2 restart 5\r"
+expect "# "
+
+# Wait a bit and check logs to see if it starts up
+send "sleep 5\r"
+send "echo '--- NEW LOGS ---'\r"
+send "pm2 logs 5 --lines 20 --nostream\r"
+expect "# "
+
+send "exit\r"
+expect eof

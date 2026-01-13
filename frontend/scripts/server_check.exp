@@ -1,0 +1,38 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+        # Logged in successfully
+    }
+    timeout {
+        puts "Connection timed out"
+        exit 1
+    }
+}
+
+# Run diagnostics
+send "echo '--- PM2 STATUS ---'\r"
+send "pm2 list\r"
+send "echo '--- LAST LOGS ---'\r"
+send "pm2 logs --lines 20 --nostream\r"
+send "echo '--- DOCKER STATUS ---'\r"
+send "docker ps\r"
+send "echo '--- DISK USAGE ---'\r"
+send "df -h\r"
+
+# Wait for output
+expect "# "
+
+send "exit\r"
+expect eof

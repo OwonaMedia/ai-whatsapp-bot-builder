@@ -1,0 +1,1182 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "close": "Schließen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "actions": "Aktionen",
+    "open": "Öffnen"
+  },
+  "pricing": {
+    "title": "",
+    "subtitle": "Keine versteckten Kosten. Kündigen Sie jederzeit.",
+    "cta": "Starten Sie Ihre 14-tägige Testversion"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Social Proof",
+      "title": "Erfolgsnachweise und Ressourcen für Ihren WhatsApp-Launch",
+      "subtitle": "Sehen Sie, wie regulierte Teams mit dem WhatsApp Bot Builder live gehen – und laden Sie die Playbooks herunter, die wir in Projekten einsetzen.",
+      "ctaPrimary": "Strategiegespräch buchen",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Vorlagenbibliothek ansehen",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        {
+          "label": "Kundenzufriedenheit nach Go-Live",
+          "value": "99,2 %"
+        },
+        {
+          "label": "Ø Zeit bis zum ersten produktiven Bot",
+          "value": "14 Tage"
+        },
+        {
+          "label": "Lead-Steigerung über alle Projekte",
+          "value": "+23 %"
+        }
+      ]
+    },
+    "partners": {
+      "title": "Vertrauen von",
+      "subtitle": "Teams aus Gesundheitswesen, Handel und SaaS in der EU",
+      "description": "Fachbereiche aus Compliance, Customer Experience und Growth bauen ihre Automatisierung mit dem WhatsApp Bot Builder auf.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Impact Stories",
+      "title": "Wie Unternehmen messbare Ergebnisse liefern",
+      "subtitle": "Jede Fallstudie verbindet datenschutzkonforme Kommunikation mit zuverlässigen Zahlungen, Analytics und klaren KPIs.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Gesundheitswesen",
+          "title": "Automatisierte Triage in 7 Klinikstandorten",
+          "description": "Patientenanliegen werden vorqualifiziert, an die richtigen Fachbereiche weitergeleitet und revisionssicher dokumentiert – ohne Copy & Paste.",
+          "metrics": [
+            "38 % schnellere Hotline-Reaktionszeit",
+            "1.200 Termin­anfragen pro Monat automatisch verarbeitet"
+          ],
+          "result": "DPA, Rollenrechte und Übergaben an medizinisches Personal in unter zwei Wochen produktiv gesetzt.",
+          "ctaLabel": "Clinic-Playbook anfordern",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "E-Commerce",
+          "title": "Conversational Checkout für eine Fashion Brand",
+          "description": "Produktberatung, Zahlarten und Versandstatus laufen in WhatsApp, während Stripe und PayPal jede Transaktion nachvollziehen.",
+          "metrics": [
+            "+23 % zurückgewonnene Warenkörbe",
+            "8.400 € zusätzlicher Monatsumsatz"
+          ],
+          "result": "Playbooks bündeln Produktdaten-Sync, mehrsprachige Copy und Marketing-Dashboards.",
+          "ctaLabel": "Retail-Toolkit herunterladen",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Agenturen & Beratung",
+          "title": "White-Label-Angebot auf Knopfdruck",
+          "description": "Eine Digitalagentur rollt 18 Kunden-Bots in sechs Wochen aus – inklusive Branding, Faktura und Success-Dashboards.",
+          "metrics": [
+            "72 Stunden durchschnittliche Implementierungszeit",
+            "35 % höherer Retainer durch Automatisierungs-SLAs"
+          ],
+          "result": "Wiederverwendbare n8n-Flows, Supabase-Schemata und Payment-Handover ermöglichen skalierbare Auslieferung.",
+          "ctaLabel": "Agentur-Blueprint ansehen",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Ressourcenbibliothek",
+      "title": "Download-Materialien für schnellere Ergebnisse",
+      "subtitle": "Alle Unterlagen werden quartalsweise mit neuen Templates, Checklisten und Automatisierungstipps aus Kundenprojekten aktualisiert.",
+      "categories": [
+        "Playbooks",
+        "Checklisten",
+        "Automatisierung"
+      ],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "Enterprise Rollout Playbook",
+          "description": "Leitfaden für Legal, Produkt und Operations, um WhatsApp in regulierten Umgebungen live zu bringen.",
+          "highlights": [
+            "Governance-Checkliste für die WhatsApp Business API",
+            "Kommunikationsvorlagen für Stakeholder",
+            "Rollback- und Incident-Response-Playcards"
+          ],
+          "ctaLabel": "Playbook anfordern",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Compliance",
+          "title": "GDPR & Zahlungs-Compliance-Kit",
+          "description": "Paket aus TOM-Dokumentation, AV-Verträgen und Rechnungsbeispielen nach EU-Standards.",
+          "highlights": [
+            "Vorbefüllte TOM- und AV-Vorlagen",
+            "Rechnungslayout inkl. Kleinunternehmerregelung",
+            "Antworten auf gängige Security-Fragebögen"
+          ],
+          "ctaLabel": "Compliance-Kit sichern",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automatisierung",
+          "title": "Automation Recipes für n8n & Supabase",
+          "description": "Kuratiertes Set wiederverwendbarer Flows für Lead-Routing, Abo-Aktivierung und Payment-Retries.",
+          "highlights": [
+            "6 sofort importierbare n8n-Workflows",
+            "Supabase-SQL-Snippets für Kontingent-Tracking",
+            "Test-Checkliste für Zahlungs-Fallbacks"
+          ],
+          "ctaLabel": "Automation Recipes erhalten",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Messaging",
+          "title": "Mehrsprachige Messaging-Bibliothek",
+          "description": "Freigegebene Templates für Onboarding, Support und Zahlung in Deutsch, Englisch und Französisch.",
+          "highlights": [
+            "8 Onboarding-Sequenzen",
+            "12 Payment-Recovery-Nudges",
+            "Tone-of-Voice-Checkliste"
+          ],
+          "ctaLabel": "Messaging-Pack herunterladen",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Operative Sicherheit",
+      "assuranceHeadline": "Alle Ressourcen sind in echten Deployments erprobt",
+      "assuranceSubtitle": "Wir teilen Audit-Trails, KPIs und Lessons Learned, damit WhatsApp-Automatisierung skalierbar funktioniert.",
+      "assurance": [
+        "Quartalsweise Updates basierend auf Kunden-Retros",
+        "Prüfung durch Legal, Compliance und Success-Team",
+        "Benchmarks über Healthcare-, Retail- und SaaS-Cases"
+      ],
+      "assuranceCtaLabel": "Mit Solution Expert sprechen",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Stimmen aus der Praxis",
+      "title": "Warum Teams beim WhatsApp Bot Builder bleiben",
+      "subtitle": "Führungskräfte aus CX, Operations und Compliance berichten über ihren ROI.",
+      "items": [
+        {
+          "quote": "Die detaillierten Playbooks haben uns Wochen an interner Abstimmung gespart. Jede Rolle wusste sofort, was zu tun ist.",
+          "name": "Leonie Hartmann",
+          "role": "Leitung Patient Services, Klinikverbund Nord",
+          "metric": "36 % weniger manuelle Eskalationen"
+        },
+        {
+          "quote": "Wir haben die Automation Recipes übernommen und internationale Zahlungsflüsse ohne zusätzliche Glue-Code umgesetzt.",
+          "name": "André Becker",
+          "role": "Automation Lead, UrbanFit Retail",
+          "metric": "4 neue Märkte in 90 Tagen live"
+        },
+        {
+          "quote": "Unsere Kunden unterschreiben schneller, weil wir Compliance-Dokumente, GDPR-Texte und Rechnungsbeispiele direkt mitschicken.",
+          "name": "Noemi Alvarez",
+          "role": "Geschäftsführerin, Converso Digital",
+          "metric": "60 % kürzere Sales-Cycles"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit für nachweisbare Ergebnisse?",
+      "subtitle": "Buchen Sie eine Guided Session oder starten Sie mit dem Ressourcenpaket, um Ihr WhatsApp-Projekt schneller umzusetzen.",
+      "primary": "Live-Demo buchen",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Alle Vorlagen entdecken",
+      "secondaryHref": "templates"
+    }
+  },
+  "monitoring": {
+    "title": "Automation & Monitoring",
+    "subtitle": "Zeitraum der letzten {days} Tage · {from} – {to}",
+    "actions": {
+      "refresh": "Daten aktualisieren",
+      "refreshing": "Aktualisiere..."
+    },
+    "errors": {
+      "loadFailed": "Monitoring-Snapshot konnte nicht geladen werden"
+    },
+    "stats": {
+      "totalRevenue": "Netto-Umsatz",
+      "successRate": "Erfolgsquote",
+      "failedPayments": "Fehlgeschlagene Zahlungen",
+      "webhookFailures": "Webhook-Fehler"
+    },
+    "payments": {
+      "title": "Zahlungsereignisse",
+      "subtitle": "Audit-Trail für Stripe- und PayPal-Transaktionen",
+      "total": "{count} Einträge",
+      "headers": {
+        "date": "Datum",
+        "status": "Status",
+        "amount": "Betrag",
+        "provider": "Anbieter",
+        "subscription": "Subscription",
+        "details": "Details"
+      },
+      "empty": "Im gewählten Zeitraum wurden keine Zahlungen protokolliert."
+    },
+    "webhooks": {
+      "title": "Webhook-Verarbeitung",
+      "subtitle": "Aktivität der Stripe- & PayPal-Webhooks",
+      "total": "{count} Ereignisse",
+      "headers": {
+        "date": "Datum",
+        "provider": "Anbieter",
+        "event": "Event",
+        "status": "Status",
+        "details": "Details"
+      },
+      "empty": "Im gewählten Zeitraum wurden keine Webhook-Ereignisse aufgezeichnet."
+    },
+    "status": {
+      "succeeded": "Erfolgreich",
+      "failed": "Fehlgeschlagen",
+      "pending": "Ausstehend",
+      "refunded": "Erstattet",
+      "canceled": "Storniert",
+      "processed": "Verarbeitet",
+      "received": "Empfangen"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "Erstelle DSGVO-konforme, AI-gestützte WhatsApp Business Bots ohne Code",
+    "valueProposition": "Automatisieren Sie Kundenservice, Lead-Generierung und Bestellungen mit intelligenten WhatsApp Bots – in weniger als 5 Minuten",
+    "startNow": "Jetzt kostenlos starten",
+    "dashboard": "Dashboard",
+    "seeDemo": "Demo ansehen",
+    "hero": {
+      "headline": "Der einfachste Weg zu professionellen WhatsApp Business Bots",
+      "subheadline": "Kein Code. Keine Komplexität. Nur Ergebnisse. Erstellen Sie in Minuten intelligente WhatsApp Bots, die 24/7 Ihre Kunden betreuen.",
+      "ctaPrimary": "Kostenlos starten",
+      "ctaSecondary": "Live-Demo ansehen",
+      "trustBadges": [
+        "DSGVO-konform",
+        "EU-Datenhaltung",
+        "99% Uptime"
+      ]
+    },
+    "ragDemo": {
+      "title": "Interaktives Beispiel: RAG Chat",
+      "description": "Fügen Sie eine Wissensquelle (PDF oder URL) hinzu und chatten Sie mit der KI, die nur auf dieser Quelle basiert",
+      "subtitle": "Erleben Sie die Kraft von AI-gestütztem Wissensmanagement"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "100% DSGVO-konform",
+        "description": "EU-Proxy-Server, automatische PII-Filterung und 30-Tage Datenretention. Vollständig rechtskonform für den deutschen Markt.",
+        "benefits": [
+          "EU-Datenhaltung garantiert",
+          "Automatische Compliance-Prüfung",
+          "DSFA & AVV-Templates inklusive"
+        ]
+      },
+      "ai": {
+        "title": "KI-gestützt & intelligent",
+        "description": "GROQ AI für blitzschnelle Antworten. RAG-System für präzise Wissensquellen-Integration. Multi-Language Support für internationale Kunden.",
+        "benefits": [
+          "Blitzschnelle Antworten (<5s)",
+          "RAG für präzise Quellen",
+          "25+ Sprachen unterstützt"
+        ]
+      },
+      "nocode": {
+        "title": "Drag & Drop Bot-Builder",
+        "description": "Visueller Flow-Editor ohne Code. Erstellen Sie komplexe Bots mit wenigen Klicks. Live-Vorschau & Template-Library inklusive.",
+        "benefits": [
+          "Kein Code erforderlich",
+          "Live-Vorschau",
+          "50+ Templates verfügbar"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & Insights",
+        "description": "Detaillierte Statistiken, Conversion-Tracking und Performance-Metriken. Export-Funktionen für Reporting.",
+        "benefits": [
+          "Real-time Analytics",
+          "Conversion-Tracking",
+          "Export-Funktionen"
+        ]
+      },
+      "templates": {
+        "title": "Vorlagen-Bibliothek",
+        "description": "Starten Sie mit 7+ fertigen Industrie-Templates.",
+        "benefits": [
+          "Multi-Tier Support Template",
+          "E-Commerce & Buchung",
+          "Marketing & FAQ"
+        ]
+      },
+      "integrations": {
+        "title": "Powerful Integrationen",
+        "description": "CRM, E-Commerce, APIs. Verbinden Sie Ihren Bot mit Ihren bestehenden Tools für maximale Effizienz.",
+        "benefits": [
+          "CRM-Integrationen",
+          "E-Commerce-Shops",
+          "REST API & Webhooks"
+        ]
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Messbare Ergebnisse aus Kundenprojekten",
+        "subtitle": "So setzen Unternehmen aus regulierten Branchen den WhatsApp Bot Builder produktiv ein",
+        "items": {
+          "healthcare": {
+            "industry": "Gesundheitswesen",
+            "headline": "Automatisierte Patienten-Triage für ein Kliniknetzwerk",
+            "description": "Der Bot beantwortet Standardanfragen, priorisiert Patientenanliegen und entlastet das Callcenter signifikant.",
+            "metrics": [
+              "38% kürzere Wartezeit in der Hotline",
+              "1.200 Termine pro Monat automatisch vorqualifiziert"
+            ],
+            "result": "Go-Live in 14 Tagen – inkl. AV-Vertrag, Rollenrechten und revisionssicheren Audit Logs."
+          },
+          "retail": {
+            "industry": "E-Commerce",
+            "headline": "Conversational Checkout für eine D2C Fashion Brand",
+            "description": "Der WhatsApp Bot begleitet Kundinnen durch Beratung, Zahlungswahl und Lieferstatus – rund um die Uhr.",
+            "metrics": [
+              "23% höhere Conversion bei abgebrochenen Warenkörben",
+              "8.400 € zusätzlicher Monatsumsatz durch Upsell-Flows"
+            ],
+            "result": "Stripe, PayPal, Apple Pay und Klarna werden automatisch übergeben und getrackt."
+          },
+          "agency": {
+            "industry": "Agenturen & Beratungen",
+            "headline": "Skalierbares White-Label-Angebot für eine Digitalagentur",
+            "description": "Die Agentur liefert vorgefertigte Bots an 18 Kund:innen in sechs Wochen – inklusive Branding und Reporting.",
+            "metrics": [
+              "72 Stunden durchschnittliche Implementierungszeit",
+              "35% höherer Retainer durch Automatisierungs-SLAs"
+            ],
+            "result": "Mehrmandanten-Setup inkl. Mandanten-Abrechnung und Support-Workflows im Dashboard."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Erfolgsgeschichten unserer Kund:innen",
+        "subtitle": "Von der Automatisierung im Mittelstand bis zu internationalen SaaS-Teams",
+        "points": {
+          "speed": "Launch in wenigen Tagen statt monatelanger Individualentwicklung",
+          "compliance": "DSGVO-Checklisten, AV-Vertrag und technische TOMs inklusive",
+          "support": "Persönlicher Success Manager ab dem Professional-Plan"
+        },
+        "items": {
+          "agency": {
+            "quote": "Wir haben unseren ersten Kunden-Bot in nur elf Tagen live gebracht. Heute generieren wir jede Woche neue Anfragen – ohne zusätzliches Team.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "23% mehr qualifizierte Leads im ersten Monat"
+          },
+          "retail": {
+            "quote": "Der WhatsApp Bot übernimmt Produktberatung, Lieferstatus und Zahlungen. Unser Support-Team hat endlich wieder Zeit für Beratung und Upselling.",
+            "name": "Leonard Fischer",
+            "role": "E-Commerce Lead, UrbanFit",
+            "metric": "18 Stunden weniger Supportaufwand pro Woche"
+          },
+          "saas": {
+            "quote": "Wir orchestrieren Onboarding-Flows in drei Märkten parallel. Die Kombination aus n8n, Supabase und Apple Pay hat uns überzeugt.",
+            "name": "Mira Albrecht",
+            "role": "Customer Success Director, Finovate SaaS",
+            "metric": "99,2% Kundenzufriedenheit nach dem Rollout"
+          }
+        }
+      },
+      "security": {
+        "title": "Vertrauen durch zertifizierte Infrastruktur",
+        "subtitle": "Alle Datenströme laufen in EU-Rechenzentren und werden von unabhängigen Partnern geprüft.",
+        "features": [
+          "PCI DSS Level 1 Zahlungsverarbeitung über Stripe und PayPal",
+          "Ende-zu-Ende TLS-Verschlüsselung sowie optional getrennte Ruhe-Daten-Buckets",
+          "Revisionssichere Audit Logs, rollenbasierte Freigaben und Aktivitätsüberwachung"
+        ],
+        "assuranceTitle": "Sicherheitsgarantien",
+        "assurance": [
+          "Hosting in Frankfurt (eu-central-1) mit täglicher Georedundanz",
+          "Auftragsverarbeitungsvertrag und technische/organisatorische Maßnahmen abrufbar",
+          "Vierteljährliche Penetrationstests und kontinuierliche Security-Scans"
+        ],
+        "ctaPrimary": "Technische Unterlagen anfordern",
+        "ctaSecondary": "Sicherheitsübersicht ansehen"
+      }
+    },
+    "pricing": {
+      "title": "",
+      "subtitle": "Keine versteckten Kosten. Kündigen Sie jederzeit.",
+      "cta": "Starten Sie Ihre 14-tägige Testversion"
+    },
+    "pricingPage": {
+      "header": {
+        "title": "Transparente Preise",
+        "subtitle": "Wählen Sie den Plan, der zu Ihrem Unternehmen passt. Alle Pläne sind DSGVO-konform und speichern Daten in der EU.",
+        "billing": {
+          "monthly": "Monatlich",
+          "yearly": "Jährlich",
+          "yearlyTag": "-17% sparen"
+        }
+      },
+      "onboarding": {
+        "title": "So schnell sind Sie live",
+        "subtitle": "Unser geführter Assistent begleitet Sie vom Account bis zum live geschalteten Bot.",
+        "steps": {
+          "account": {
+            "title": "1. Account & Team einladen",
+            "description": "Registrieren, Firmendaten hinterlegen und Teammitglieder mit Zugriffsrechten einladen."
+          },
+          "connect": {
+            "title": "2. WhatsApp verbinden",
+            "description": "Meta Business Account auswählen, Webhook prüfen und Zahlungsarten aktivieren."
+          },
+          "launch": {
+            "title": "3. Erster Bot live",
+            "description": "Template wählen, Inhalte anpassen und mit einem Klick veröffentlichen."
+          }
+        },
+        "ctaPrimary": "Kostenlosen Onboarding-Flow starten",
+        "ctaSecondary": "Schritt-für-Schritt-Anleitung ansehen",
+        "footnote": "Keine Kreditkarte erforderlich. Alle Funktionen 14 Tage testen."
+      },
+      "roi": {
+        "title": "Ihr ROI in wenigen Klicks",
+        "subtitle": "Schätzen Sie Automatisierungs-Potenziale und wählen Sie den passenden Plan auf Basis Ihrer Zahlen.",
+        "disclaimerTagline": "Berechnungen basieren auf konservativen Benchmarks",
+        "fields": {
+          "industry": "Branche",
+          "leadsPerMonth": "Eingehende Leads pro Monat",
+          "closeRate": "Abschlussquote",
+          "averageDeal": "Durchschnittlicher Auftragswert (EUR)",
+          "supportTickets": "Support-Anfragen pro Monat",
+          "supportCost": "Ökonomische Kosten pro Ticket",
+          "supportCostUnit": "/Ticket"
+        },
+        "industries": {
+          "agency": "Agentur & Beratung",
+          "ecommerce": "E-Commerce & Retail",
+          "service": "Dienstleistungsbetriebe"
+        },
+        "help": {
+          "leads": "Inklusive aller eingehenden Chat-, Formular- oder WhatsApp-Leads.",
+          "supportTickets": "Anzahl typischer Supportfälle, die Ihr Team aktuell manuell beantwortet."
+        },
+        "results": {
+          "monthlyBenefitLabel": "Geschätzter Mehrwert pro Monat",
+          "additionalRevenue": "Zusätzlicher Umsatz",
+          "supportSavings": "Eingesparte Supportkosten",
+          "disclaimer": "Prognosen dienen als Richtwert und ersetzen keine individuelle Beratung.",
+          "recommendedPlanLabel": "Passender Plan",
+          "recommendedPlanDescription": "Bei etwa {messages} Nachrichten pro Monat empfiehlt sich dieser Plan.",
+          "planPricing": "Monatliche Investition: {price}",
+          "planCustom": "Individuelle Konditionen – unser Team berät Sie gerne.",
+          "yearlyBenefit": "Potenzial pro Jahr: {value}",
+          "roiMultiple": "≈ {multiple}x ROI bei Nutzung des empfohlenen Plans",
+          "coveredBySavings": "Support-Einsparungen decken den Plan bereits ab.",
+          "ctaStart": "Weiter zum Checkout",
+          "ctaEnterprise": "Strategiegespräch vereinbaren"
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "Wissensquellen",
+    "addUrl": "URL hinzufügen",
+    "uploadPdf": "PDF hochladen",
+    "noSources": "Keine Quellen hinzugefügt",
+    "processing": "Verarbeitung...",
+    "ready": "Fertig",
+    "error": "Fehler",
+    "sourcesReady": "{count} Quelle(n) bereit",
+    "chatTitle": "Chat mit KI",
+    "chatDescription": "Die KI antwortet nur basierend auf den hinzugefügten Wissensquellen.",
+    "placeholder": "Ihre Frage...",
+    "send": "Senden",
+    "emptyChat": "Stellen Sie eine Frage basierend auf Ihren Wissensquellen.",
+    "emptyChatHint": "Die KI kann nur Informationen aus den hinzugefügten Quellen nutzen.",
+    "sources": "Quellen"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "rememberMe": "Angemeldet bleiben",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "welcomeBack": "Willkommen zurück",
+    "loginDescription": "Melden Sie sich an, um fortzufahren",
+    "emailPlaceholder": "ihre@email.de",
+    "fillAllFields": "Bitte füllen Sie alle Felder aus.",
+    "invalidEmail": "Ungültige E-Mail",
+    "invalidEmailMessage": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "loginFailed": "Anmeldung fehlgeschlagen",
+    "checkCredentials": "Bitte überprüfen Sie Ihre Zugangsdaten.",
+    "loginSuccess": "Erfolgreich angemeldet",
+    "redirecting": "Sie werden weitergeleitet...",
+    "signupLink": "Jetzt registrieren",
+    "emailVerificationFailed": {
+      "title": "E-Mail-Bestätigung fehlgeschlagen",
+      "description": "Der Bestätigungslink ist ungültig oder abgelaufen. Dies kann passieren, wenn:",
+      "reason1": "Der Link bereits einmal verwendet wurde",
+      "reason2": "Der Link zu lange gewartet wurde (mehr als 24 Stunden)",
+      "reason3": "Der Link auf eine falsche Domain zeigt",
+      "resendPrompt": "Möchten Sie eine neue Bestätigungs-E-Mail an {email} erhalten?",
+      "enterEmail": "Geben Sie Ihre E-Mail-Adresse ein, um eine neue Bestätigungs-E-Mail zu erhalten:",
+      "resendButton": "Bestätigungs-E-Mail erneut senden",
+      "resending": "E-Mail wird gesendet...",
+      "resendSuccess": "E-Mail erneut gesendet",
+      "resendSuccessMessage": "Bitte überprüfen Sie Ihr Postfach für den neuen Bestätigungslink.",
+      "resendError": "Die E-Mail konnte nicht erneut gesendet werden.",
+      "enterEmailError": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
+      "invalidEmailError": "Ungültige E-Mail",
+      "invalidEmailMessage": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "genericError": "Ein unerwarteter Fehler ist aufgetreten.",
+      "backToLogin": "Zur Anmeldung",
+      "newSignup": "Neu registrieren",
+      "supabaseConfigWarning": "Wichtig: Supabase-Konfiguration",
+      "supabaseConfigMessage": "Falls der Link auf localhost:3000 zeigt, muss im Supabase Dashboard die Site URL auf https://whatsapp.owona.de geändert werden."
+    },
+    "verifyOtp": "OTP verifizieren",
+    "verifyOtpDescription": "Geben Sie den OTP-Code aus Ihrer E-Mail ein.",
+    "otpCode": "OTP-Code",
+    "otpPlaceholder": "123456",
+    "otpHint": "Geben Sie den 6-stelligen Code aus Ihrer E-Mail ein.",
+    "verify": "Verifizieren",
+    "otpVerified": "OTP verifiziert",
+    "redirectingToReset": "Sie werden weitergeleitet...",
+    "otpInvalid": "Ungültiger OTP-Code",
+    "otpExpired": "Der OTP-Code ist abgelaufen. Bitte fordern Sie einen neuen an.",
+    "verificationFailed": "Verifizierung fehlgeschlagen",
+    "resendOtp": "OTP erneut senden",
+    "resendCountdown": "Erneut senden ({seconds}s)",
+    "otpResent": "OTP erneut gesendet",
+    "checkEmailForOtp": "Bitte prüfen Sie Ihr E-Mail-Postfach.",
+    "resendFailed": "Erneutes Senden fehlgeschlagen",
+    "resendFailedMessage": "Bitte versuchen Sie es später erneut.",
+    "autoVerifying": "Automatische Verifizierung...",
+    "changeEmail": "E-Mail ändern",
+    "enterEmailManual": "E-Mail manuell eingeben",
+    "resetPassword": "Passwort zurücksetzen",
+    "resetPasswordDescription": "Geben Sie Ihr neues Passwort ein.",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "passwordPlaceholder": "••••••••",
+    "updatePassword": "Passwort aktualisieren",
+    "passwordUpdated": "Passwort aktualisiert",
+    "passwordUpdatedMessage": "Ihr Passwort wurde erfolgreich aktualisiert. Sie werden zur Anmeldung weitergeleitet.",
+    "passwordUpdateFailed": "Passwort-Update fehlgeschlagen",
+    "passwordSameAsOld": "Das neue Passwort muss sich vom alten unterscheiden.",
+    "passwordWeak": "Passwort zu schwach",
+    "passwordWeakMessage": "Das Passwort erfüllt nicht die Sicherheitsanforderungen.",
+    "passwordValid": "Passwort erfüllt alle Anforderungen",
+    "passwordsMatch": "Passwörter stimmen überein",
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+    "passwordsDoNotMatchMessage": "Die eingegebenen Passwörter stimmen nicht überein.",
+    "passwordRequirements": "Passwort-Anforderungen:",
+    "passwordMinLength": "Mindestens 8 Zeichen",
+    "passwordLowercase": "Mindestens ein Kleinbuchstabe",
+    "passwordUppercase": "Mindestens ein Großbuchstabe",
+    "passwordDigit": "Mindestens eine Zahl",
+    "passwordSpecial": "Mindestens ein Sonderzeichen",
+    "sessionExpired": "Session abgelaufen",
+    "sessionExpiredMessage": "Ihre Session ist abgelaufen. Bitte starten Sie den Passwort-Reset-Prozess erneut.",
+    "sessionError": "Fehler beim Überprüfen der Session.",
+    "checkingSession": "Session wird überprüft...",
+    "resetPasswordError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "startPasswordReset": "Passwort-Reset erneut starten",
+    "redirectingToLogin": "Sie werden zur Anmeldung weitergeleitet...",
+    "backToLogin": "Zurück zur Anmeldung"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück!",
+    "yourBots": "Ihre Bots",
+    "createBot": "Neuen Bot erstellen",
+    "noBots": "Sie haben noch keine Bots erstellt.",
+    "noBotsDescription": "Erstellen Sie Ihren ersten WhatsApp Bot mit unserem intuitiven Drag-and-Drop Builder.",
+    "noFilteredBots": "Keine Bots entsprechen den aktuellen Filtern.",
+    "resetFilters": "Filter zurücksetzen",
+    "botCount": "{count} Bot(s)",
+    "searchPlaceholder": "Bots durchsuchen...",
+    "filters": {
+      "all": "Alle Status"
+    },
+    "quickActions": {
+      "title": "Schnellaktionen",
+      "items": {
+        "create": {
+          "title": "Bot erstellen",
+          "description": "Starten Sie mit einem leeren Flow oder wählen Sie eine Vorlage."
+        },
+        "connect": {
+          "title": "WhatsApp verbinden",
+          "description": "Verbinden Sie Ihr WhatsApp Business Konto und richten Sie den Webhook ein."
+        },
+        "templates": {
+          "title": "Vorlagenbibliothek",
+          "description": "Durchsuchen Sie Branchen-Templates und importieren Sie sie mit einem Klick."
+        }
+      },
+      "connectModal": {
+        "title": "WhatsApp verbinden",
+        "description": "Wählen Sie den Bot, den Sie mit WhatsApp verbinden möchten.",
+        "helper": "Sie können später weitere Bots verbinden.",
+        "connect": "Verbinden",
+        "cancel": "Abbrechen",
+        "noBots": "Erstellen Sie zuerst einen Bot, um WhatsApp zu verbinden."
+      }
+    },
+    "recentActivity": {
+      "title": "Letzte Aktivitäten",
+      "empty": "Noch keine Aktivitäten vorhanden.",
+      "createdOn": "Erstellt am {date}"
+    }
+  },
+  "test": {
+    "title": "Test Center",
+    "description": "Teste alle Features des WhatsApp Bot Builders",
+    "backToDashboard": "Zurück zum Dashboard",
+    "runAllTests": "Alle Tests ausführen",
+    "ragDemo": {
+      "title": "RAG Chat Demo",
+      "description": "Teste das RAG-System mit PDF-Upload, URL-Integration und Text-Input"
+    },
+    "botBuilder": {
+      "title": "Bot Builder",
+      "description": "Teste den visuellen Flow-Builder für Bot-Erstellung"
+    },
+    "apiEndpoints": {
+      "title": "API Endpoints",
+      "description": "Teste alle API-Endpoints und deren Funktionalität"
+    },
+    "whatsappIntegration": {
+      "title": "WhatsApp Integration",
+      "description": "Teste die WhatsApp Business API Integration"
+    }
+  },
+  "bots": {
+    "create": {
+      "title": "Neuen Bot erstellen",
+      "description": "Erstellen Sie Ihren WhatsApp Bot mit dem visuellen Flow-Builder"
+    },
+    "edit": "Bot bearbeiten",
+    "delete": "Bot löschen",
+    "deleteConfirm": "Möchten Sie diesen Bot wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "name": "Bot-Name",
+    "description": "Beschreibung",
+    "status": {
+      "draft": "Entwurf",
+      "active": "Aktiv",
+      "paused": "Pausiert",
+      "archived": "Archiviert"
+    },
+    "activate": "Aktivieren",
+    "pause": "Pausieren",
+    "settings": "Einstellungen",
+    "stats": {
+      "conversations": "Gespräche",
+      "messages": "Nachrichten",
+      "conversion": "Conversion"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "Bot-Name eingeben...",
+    "nodeCount": "{nodes} Nodes, {edges} Verbindungen",
+    "create": "Erstellen",
+    "save": "Speichern",
+    "nodePalette": "Node-Palette",
+    "dragDropHint": "Ziehen Sie Nodes auf den Canvas oder klicken Sie zum Hinzufügen",
+    "tips": {
+      "title": "Tipps:",
+      "tip1": "• Jeder Flow braucht einen Trigger",
+      "tip2": "• Verbinden Sie Nodes per Drag & Drop",
+      "tip3": "• Klicken Sie auf Nodes zum Konfigurieren"
+    }
+  },
+  "errors": {
+    "generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+    "notFound": "Seite nicht gefunden",
+    "unauthorized": "Nicht autorisiert",
+    "forbidden": "Zugriff verweigert"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "bots": "Bots",
+    "templates": "Vorlagen",
+    "resources": "Ressourcen",
+    "support": "Support",
+    "monitoring": "Monitoring",
+    "settings": "Einstellungen",
+    "logout": "Abmelden",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache"
+  },
+  "support": {
+    "cta": "Problem melden",
+    "title": "Support-Ticket erstellen",
+    "subtitle": "Beschreibe kurz dein Problem – unser Team meldet sich schnellstmöglich zurück.",
+    "close": "Fenster schließen",
+    "cancel": "Abbrechen",
+    "submit": "Ticket absenden",
+    "disclaimer": "Alle Daten werden DSGVO-konform verarbeitet.",
+    "statusOverview": {
+      "heading": "So geht es jetzt weiter",
+      "personal": "Wir personalisieren Antworten und verknüpfen sie mit dem aktuellen Ticketstatus.",
+      "escalation": "Nach deiner ersten Rückmeldung eskalieren wir automatisch an Tier 2.",
+      "updates": "Du erhältst proaktiv Statusmeldungen, sobald sich etwas ändert."
+    },
+    "form": {
+      "category": "Kategorie",
+      "title": "Titel",
+      "titlePlaceholder": "Kurzer Titel für dein Anliegen",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Was funktioniert nicht wie erwartet? Bitte erwähne wichtige Schritte oder Links.",
+      "metadataNotice": "Technische Details (Browser, Seite, Zeit) werden automatisch mitgesendet, um die Analyse zu beschleunigen."
+    },
+    "categories": {
+      "bug": "Fehler",
+      "billing": "Abrechnung",
+      "integration": "Integration",
+      "ux": "UX / Interface",
+      "other": "Sonstiges"
+    },
+    "success": {
+      "title": "Ticket übermittelt",
+      "message": "Vielen Dank! Unser Support meldet sich, sobald es Neuigkeiten gibt.",
+      "nextSteps": "Du erhältst gleich eine Bestätigung und wir melden uns mit Fortschrittsupdates, sobald Tier 2 aktiv wird."
+    },
+    "errors": {
+      "requiredTitle": "Titel & Beschreibung nötig",
+      "requiredMessage": "Bitte fülle alle Pflichtfelder aus, bevor du das Ticket absendest.",
+      "submitTitle": "Ticket konnte nicht gesendet werden",
+      "submitMessage": "Bitte versuche es erneut oder kontaktiere uns per E-Mail."
+    },
+    "inbox": {
+      "title": "Support-Nachrichten",
+      "subtitle": "Behalte deine offenen Tickets im Blick und antworte direkt auf Rückfragen unseres Teams.",
+      "emptyTitle": "Noch keine Tickets",
+      "emptyDescription": "Perfekt! Wenn doch einmal etwas hakt, klicke unten auf \"Problem melden\" und wir kümmern uns darum.",
+      "openTicket": "Neues Ticket erstellen",
+      "refresh": "Aktualisieren",
+      "lastUpdated": "Zuletzt aktualisiert",
+      "replyLabel": "Deine Nachricht",
+      "replyPlaceholder": "Schreibe ein Update für unser Support-Team…",
+      "replySubmit": "Antwort senden",
+      "customerReply": "Du",
+      "supportReply": "Support",
+      "systemMessage": "System",
+      "internalOnly": "Nur intern",
+      "actions": {
+        "checkPayment": "Auszahlung prüfen",
+        "checkDeployment": "Deployment prüfen",
+        "traceUi": "UI-Diagnose starten"
+      },
+      "silentCheck": {
+        "running": "Ich prüfe das gerade…",
+        "paymentStatusOk": "Zahlungsstatus sieht gut aus. Keine offenen Webhook-Fehler gefunden.",
+        "deploymentHealthy": "Deployment & Services laufen stabil.",
+        "uiTraceCaptured": "UI-Trace wurde gesichert. Unser Team analysiert die Details.",
+        "completed": "Prüfung abgeschlossen.",
+        "error": "Prüfung fehlgeschlagen. Bitte später erneut versuchen."
+      },
+      "autoEscalated": "Antwort gespeichert – Ticket wurde automatisch an Tier 2 eskaliert.",
+      "status": {
+        "new": "Neu",
+        "investigating": "In Analyse",
+        "waiting_customer": "Wartet auf dich",
+        "resolved": "Gelöst",
+        "closed": "Geschlossen"
+      },
+      "priority": {
+        "low": "Niedrig",
+        "normal": "Normal",
+        "high": "Hoch",
+        "urgent": "Dringend"
+      }
+    }
+  },
+  "internalPortal": {
+    "login": {
+      "pill": "Internal Access",
+      "title": "Support-Leitstand",
+      "subtitle": "Zugriff nur für autorisierte Team-Mitglieder. Anmeldung wird vollständig protokolliert.",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "sm@owona.de",
+      "passwordLabel": "Passwort",
+      "passwordPlaceholder": "Passwort eingeben",
+      "submit": "Intern anmelden"
+    },
+    "hero": {
+      "pill": "Internal Support Control",
+      "title": "Kundensupport Leitstand",
+      "subtitle": "Eingeloggt als <strong>{email}</strong>. Alle Aktionen werden protokolliert."
+    },
+    "systemStatus": {
+      "heading": "Systemstatus",
+      "subtitle": "Live-Status von MCP-Server und Ticket-Monitor",
+      "lastHeartbeat": "Letzter Heartbeat: {timestamp}",
+      "status": {
+        "up": "Online",
+        "degraded": "Verzögert",
+        "down": "Offline"
+      },
+      "services": {
+        "support-mcp": "MCP Kernserver",
+        "support-ticket-monitor": "Ticket-Monitor"
+      },
+      "metaLabels": {
+        "processedTickets": "Verarbeitete Tickets (gesamt)",
+        "processingTickets": "Aktive Eskalationen",
+        "lastDispatchAt": "Letzte Ticketaktion",
+        "lastTier2RunAt": "Letzte Tier-2-Aktion",
+        "lastCustomerReplyAt": "Letzte Kundenantwort",
+        "lastPollingAt": "Letzter Scan",
+        "lastCycleAt": "Letzter Monitor-Zyklus",
+        "lastRealtimeAt": "Letztes Realtime-Signal",
+        "monitorIntervalMs": "Prüfintervall (ms)"
+      }
+    },
+    "actions": {
+      "logout": "Abmelden"
+    },
+    "metrics": {
+      "total": "Tickets gesamt",
+      "active": "Aktiv in Arbeit",
+      "activeDetails": "Analyse: {investigating} · Wartend: {waiting}",
+      "escalated": "Eskalationen",
+      "escalatedDescription": "Tickets mit Tier‑2 Beteiligung",
+      "resolved": "Gelöst",
+      "resolutionAvg": "Ø Bearbeitungszeit {hours}h",
+      "resolutionMissing": "Noch keine Daten für Ø Bearbeitungszeit",
+      "knowledge": "Wissensmodule aktiv",
+      "knowledgeDescription": "Basierend auf MCP Knowledge Base",
+      "gaps": "Knowledge-Gaps erkannt",
+      "gapsDescription": "Vorgeschlagene Expertensessions",
+      "slaBreaches": "SLA-Risiko",
+      "slaBreachesDescription": "Offene Tickets älter als 36 Stunden",
+      "firstResponse": "Median First Response",
+      "firstResponseDescription": "Zeit bis zur ersten Antwort (Tier‑1)",
+      "firstResponseMissing": "Noch keine Antwortdaten vorhanden"
+    },
+    "insights": {
+      "title": "Realtime Insights",
+      "subtitle": "Backlog-Trends, Prioritäten-Risiken und Agentenauslastung in Echtzeit",
+      "empty": "Keine Daten für diesen Zeitraum",
+      "backlog": {
+        "title": "Backlog & Durchsatz",
+        "subtitle": "Vergleich der letzten 14 Tage",
+        "series": {
+          "open": "Offen",
+          "new": "Neu erstellt",
+          "resolved": "Gelöst",
+          "sla": "SLA-Risiko"
+        }
+      },
+      "priority": {
+        "title": "Risiko nach Priorität",
+        "subtitle": "Offene Tickets und über 36h laufende Fälle",
+        "series": {
+          "open": "Offen",
+          "aged": "Überfällig >36h"
+        },
+        "labels": {
+          "low": "Niedrig",
+          "normal": "Normal",
+          "high": "Hoch",
+          "urgent": "Dringend"
+        }
+      },
+      "agentLoad": {
+        "title": "Agenten-Workload",
+        "subtitle": "Aktive Tickets nach Zuordnung",
+        "series": {
+          "active": "Aktiv",
+          "waiting": "Wartet auf Kunde"
+        },
+        "unassigned": "Unzugeordnet"
+      }
+    },
+    "filters": {
+      "label": "Filter",
+      "searchPlaceholder": "Suche nach Titel, Kunde oder Beschreibung…",
+      "all": "Alle",
+      "active": "Aktiv",
+      "waiting": "Wartend",
+      "resolved": "Gelöst",
+      "escalated": "Eskalationen",
+      "empty": "Keine Tickets für diese Kombination gefunden."
+    },
+    "tickets": {
+      "heading": "Kunden-Tickets",
+      "customerLabel": "Kunde:",
+      "unknownCustomer": "Unbekannter Kunde",
+      "assigned": "Zuständig: {agent}",
+      "planUnknown": "Kein Plan",
+      "statusUnknown": "Status unbekannt",
+      "planInfo": "Plan: {plan} ({status})",
+      "createdAt": "Erstellt: {timestamp}",
+      "updatedAt": "Aktualisiert: {timestamp}",
+      "lastEscalation": "Letzte Eskalation: {timestamp}",
+      "noneSelected": "Kein Ticket ausgewählt."
+    },
+    "knowledgeInventory": {
+      "heading": "Wissensinventar",
+      "empty": "Noch keine MCP-Einträge ausgewertet."
+    },
+    "suggestions": {
+      "heading": "Wissens-Vorschläge",
+      "empty": "Keine offenen Empfehlungen. MCP-Agenten sind auf Stand.",
+      "title": "Wissen ergänzen für „{ticket}”",
+      "tags": {
+        "supabase": "Supabase Auth/RLS Leitfaden überprüfen oder erweitern",
+        "hetzner": "Serverbetrieb & Deployment-Runbooks im MCP abgleichen",
+        "frontend": "UI-Diagnosen & Ergebnisse aus Frontend-Checks dokumentieren",
+        "generic": "Zusätzliche Experteneinschätzung anfordern"
+      },
+      "recommended": {
+        "supabase-analyst-agent": "Supabase-Analyst einschalten und Ergebnisse als Wissensmodul festhalten.",
+        "hetzner-ops-agent": "Hetzner Ops Agent für Infrastruktur-Review aktivieren und Dokumentation ergänzen.",
+        "frontend-diagnostics-agent": "Frontend-Diagnostics Agent mit UI-Check betrauen und Lerneffekte sichern.",
+        "default": "Expertensession im MCP starten und Ergebnis als neues Wissensmodul speichern."
+      },
+      "cta": "Expertensession anstoßen"
+    },
+    "plan": {
+      "nextSteps": "Nächste Schritte (Agent: {agent})",
+      "tier1": "Tier‑1"
+    },
+    "timeline": {
+      "heading": "Verlauf Tier 1 & Tier 2",
+      "tier2": "Tier 2",
+      "tier1": "Tier 1",
+      "system": "System",
+      "internalOnly": "Intern"
+    },
+    "reply": {
+      "publicHeading": "Antwort an Kunde (Tier 1)",
+      "waitingCustomer": "Status: Warten auf Kunde",
+      "sendPublic": "Antwort senden",
+      "internalHeading": "Interne Notiz / Tier 2",
+      "investigating": "Analyse fortsetzen",
+      "resolve": "Als gelöst markieren",
+      "saveInternal": "Interne Notiz speichern"
+    },
+    "automation": {
+      "heading": "Automatisierungs-Events"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "tickets": "Tickets",
+      "external-changes": "Externe Änderungen"
+    },
+    "externalChanges": {
+      "title": "Externe Änderungen",
+      "providerStatus": "Provider Status",
+      "changes": "Änderungen",
+      "lastChange": "Letzte Änderung",
+      "lastChecked": "Zuletzt geprüft",
+      "provider": "Provider",
+      "status": "Status",
+      "impact": "Auswirkung",
+      "allProviders": "Alle Provider",
+      "allStatus": "Alle Status",
+      "allImpacts": "Alle Auswirkungen",
+      "statusDetected": "Erkannt",
+      "statusInProgress": "In Bearbeitung",
+      "statusUpdated": "Aktualisiert",
+      "statusFailed": "Fehlgeschlagen",
+      "impactLow": "Niedrig",
+      "impactMedium": "Mittel",
+      "impactHigh": "Hoch",
+      "impactCritical": "Kritisch",
+      "changeLog": "Change Log",
+      "exportCsv": "Export CSV",
+      "loading": "Lade Änderungen...",
+      "noChanges": "Keine Änderungen gefunden",
+      "error": "Fehler",
+      "errorLoading": "Externe Änderungen konnten nicht geladen werden",
+      "type": "Typ",
+      "detected": "Erkannt",
+      "updated": "Aktualisiert",
+      "autoUpdated": "Auto-Update",
+      "affectedServices": "Betroffene Services",
+      "changeTypes": {
+        "api_update": "API Update",
+        "breaking_change": "Breaking Change",
+        "deprecation": "Deprecation",
+        "version_update": "Version Update",
+        "webhook_change": "Webhook Change"
+      },
+      "statusLabels": {
+        "ok": "OK",
+        "warning": "WARNUNG",
+        "error": "FEHLER"
+      }
+    }
+  },
+  "analytics": {
+    "overview": "Übersicht der Bot-Performance",
+    "dailyStats": "Aktivität der letzten 7 Tage",
+    "messageTypes": "Nachrichtentypen",
+    "conversationStatus": "Gesprächsstatus"
+  },
+  "knowledge": {
+    "title": "Wissensquellen",
+    "description": "Fügen Sie Wissensquellen hinzu, die Ihr Bot nutzen kann",
+    "sources": "Wissensquellen",
+    "integrations": "Integrationen",
+    "totalSources": "Gesamt",
+    "ready": "Bereit",
+    "processing": "In Verarbeitung",
+    "addSource": "Wissensquelle hinzufügen",
+    "yourSources": "Ihre Wissensquellen",
+    "noSources": "Noch keine Quellen hinzugefügt",
+    "integrationTitle": "Bot-Integrationen",
+    "integrationDescription": "Integrieren Sie Ihren Bot auf verschiedenen Plattformen"
+  },
+  "embed": {
+    "title": "Bot einbinden",
+    "description": "Integrieren Sie Ihren Bot in Ihre Website oder Anwendung mit einem einfachen Code-Snippet.",
+    "selectLanguage": "Code-Sprache / Plattform auswählen",
+    "codeLabel": "Code",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "copySuccess": "Kopiert!",
+    "copyMessage": "Code wurde in die Zwischenablage kopiert.",
+    "copyError": "Code konnte nicht kopiert werden.",
+    "installationTitle": "Installation",
+    "step1": "Kopiere den Code oben",
+    "step2": "Füge ihn in deine Website/Anwendung ein",
+    "step3": "Das Widget erscheint automatisch auf deiner Seite",
+    "noteTitle": "Wichtige Hinweise",
+    "note1": "Stelle sicher, dass dein Bot aktiv ist",
+    "note2": "Der Bot muss mindestens einen aktiven Flow haben",
+    "note3": "Für Production: Ersetze die URL mit deiner eigenen Domain",
+    "testTitle": "Test",
+    "testDescription": "Teste das Widget auf einer Test-Seite:",
+    "openTestPage": "Test-Seite öffnen"
+  },
+  "compliance": {
+    "title": "Meta WhatsApp Compliance",
+    "useCase": "Use-Case",
+    "useCaseRequired": "Use-Case (erforderlich für Meta Compliance)",
+    "customerService": "Kundenservice / Support",
+    "booking": "Buchungen / Reservierungen",
+    "ecommerce": "E-Commerce / Shop",
+    "information": "Informationen / News",
+    "saveUseCase": "Use-Case speichern",
+    "warnings": "Warnungen",
+    "suggestions": "Vorschläge",
+    "metaGuidelines": "Meta WhatsApp Richtlinien (ab 15. Jan 2026)",
+    "metaGuidelinesDescription": "Allgemeine Konversations-Chatbots sind nicht mehr erlaubt. Bots müssen einen spezifischen Business-Use-Case haben (z.B. Kundenservice, Buchungen, E-Commerce).",
+    "compliant": "Compliant",
+    "needsImprovement": "Verbesserung nötig",
+    "notCompliant": "Nicht Compliant"
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "Erstelle DSGVO-konforme, AI-gestützte WhatsApp Business Bots ohne Code. Professionelle Chatbot-Lösungen für Ihr Unternehmen.",
+      "copyright": "WhatsApp Bot Builder. Alle Rechte vorbehalten."
+    },
+    "customer": {
+      "title": "Support & Monitoring",
+      "supportInbox": "Support-Nachrichten",
+      "reportIssue": "Problem melden",
+      "monitoring": "Monitoring",
+      "support": "Support"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "imprint": "Impressum",
+      "cookies": "Cookie-Richtlinie",
+      "dataProcessing": "Datenverarbeitungsvertrag"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "info@owona.de"
+    },
+    "disclaimer": "Diese Anwendung dient zur Erstellung von WhatsApp Business Chatbots. Die Nutzung erfolgt auf eigene Verantwortung.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "payments": {
+    "supportedMethodsLabel": "Sichere Zahlung mit",
+    "additionalMethodsLabel": "Weitere Optionen über Stripe",
+    "badges": {
+      "comingSoon": "Demnächst verfügbar"
+    },
+    "trust": {
+      "heading": "Sichere Zahlung",
+      "subheading": "Alle Transaktionen werden verschlüsselt über Stripe & PayPal verarbeitet",
+      "items": [
+        "PCI DSS Level 1 + 3D Secure 2 Schutz",
+        "Visa- und Mastercard-Zahlungen sicher über Stripe abgewickelt",
+        "Rechnungen & Kundendaten DSGVO-konform in der EU gespeichert"
+      ],
+      "footerNote": "Abwicklung über Stripe & PayPal – 256-bit TLS Verschlüsselung"
+    },
+    "links": {
+      "pricingLabel": "Preise",
+      "templatesLabel": "Vorlagen",
+      "docsLabel": "Dokumentation",
+      "resourcesLabel": "Ressourcen"
+    }
+  },
+  "geoViewer": {
+    "badge": "Geo-Vorschau",
+    "title": "Webseiten aus einem Land deiner Wahl anzeigen",
+    "description": "Gib eine URL ein und rendere sie über einen länderspezifischen Proxy, um Lokalisierung, Banner und Compliance zu überprüfen.",
+    "urlLabel": "Ziel-URL",
+    "urlPlaceholder": "https://beispiel.de",
+    "urlHelp": "Die Adresse muss mit http:// oder https:// beginnen.",
+    "countryLabel": "Land",
+    "countryHelp": "Wir laden die Seite über einen Proxy im ausgewählten Land.",
+    "submit": "Vorschau laden",
+    "loading": "Lade Vorschau…",
+    "loadingPreview": "Proxy wird kontaktiert und Seite gerendert…",
+    "previewTitle": "Proxy-Vorschau",
+    "previewSubtitle": "Rendering über den Geo-Proxy von ScrapingBee.",
+    "badgeCountry": "Gerendert aus {country}",
+    "emptyState": "URL und Land wählen, um die Vorschau zu starten.",
+    "errors": {
+      "urlMissing": "Bitte gib zuerst eine gültige URL ein.",
+      "generic": "Die Seite konnte nicht geladen werden. Bitte versuche es erneut."
+    },
+    "errorPreview": "Die Vorschau konnte nicht erstellt werden. Passe die URL an oder wähle ein anderes Land.",
+    "iframeTitle": "Geo-Vorschau für {url}"
+  }
+}

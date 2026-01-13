@@ -1,0 +1,102 @@
+#!/usr/bin/expect -f
+
+set timeout 40
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Define JS content in a brace-quoted string to prevent Tcl substitution
+set js_content {
+const TEST_URL = 'http://localhost:3000';
+const sessionId = 'test_' + Date.now();
+
+async function runTest() {
+  console.log('Starting Test with Session:', sessionId);
+
+  // 1. Check Env
+  console.log('OpenAI Key:', process.env.OPENAI_API_KEY ? 'YES (Masked)' : 'NO');
+
+  // 2. Add Source
+  console.log('Adding Text Source...');
+  const addRes = await fetch(`${TEST_URL}/api/knowledge/text`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ 
+      title: 'Test Doc', 
+      content: 'The answer to the ultimate question of life, the universe, and everything is 42.', 
+      sessionId 
+    })
+  });
+  
+  if (!addRes.ok) throw new Error(`Add failed: ${addRes.status} ${await addRes.text()}`);
+  const source = await addRes.json();
+  console.log('Source Added:', source.id, source.status);
+
+  // 3. Poll for Readiness
+  let attempts = 0;
+  while (attempts < 20) {
+    attempts++;
+    console.log(`Polling attempt ${attempts}...`);
+    const pollRes = await fetch(`${TEST_URL}/api/knowledge/sources?sessionId=${sessionId}`);
+    const sources = await pollRes.json();
+    const mySource = sources.find(s => s.id === source.id);
+    
+    console.log('Source Status:', mySource?.status);
+    if (mySource?.status === 'ready') break;
+    if (mySource?.status === 'error') throw new Error(`Source processing failed: ${JSON.stringify(mySource.metadata)}`);
+    
+    await new Promise(r => setTimeout(r, 2000));
+  }
+
+  // 4. Test Chat
+  console.log('Testing Chat...');
+  const chatRes = await fetch(`${TEST_URL}/api/knowledge/chat`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ 
+      message: 'What is the answer to the ultimate question?', 
+      sessionId, 
+      sourceIds: [source.id]
+    })
+  });
+
+  if (!chatRes.ok) throw new Error(`Chat failed: ${chatRes.status} ${await chatRes.text()}`);
+  const chatData = await chatRes.json();
+  console.log('Chat Response:', chatData.response);
+  
+  if (chatData.response.includes('42')) console.log('✅ TEST PASSED');
+  else console.log('❌ TEST FAILED: Response did not contain expected answer');
+}
+
+runTest().catch(e => console.error('Test Failed:', e));
+}
+
+# Send the content safely
+send "cat > /tmp/test_rag_demo_v4.js << 'EOF'\n"
+send -- "$js_content"
+send "\nEOF\n"
+expect "# "
+
+send "chmod +x /tmp/test_rag_demo_v4.js\r"
+expect "# "
+
+# Ensure we have envs
+send "set -a; source /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/.env.local; set +a\r"
+expect "# "
+
+send "node /tmp/test_rag_demo_v4.js\r"
+expect "# "
+
+send "exit\r"
+expect eof

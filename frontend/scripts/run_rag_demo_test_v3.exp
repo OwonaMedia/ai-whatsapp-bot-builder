@@ -1,0 +1,91 @@
+#!/usr/bin/expect -f
+
+set timeout 40
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Create a Node.js test script with proper escaping
+send "cat > /tmp/test_rag_demo_v3.js << 'EOF'\n"
+send "const TEST_URL = 'http://localhost:3000';\n"
+send "const sessionId = 'test_' + Date.now();\n\n"
+send "async function runTest() {\n"
+send "  console.log('Starting Test with Session:', sessionId);\n\n"
+send "  // 1. Check Env\n"
+send "  console.log('OpenAI Key:', process.env.OPENAI_API_KEY ? 'YES (Masked)' : 'NO');\n\n"
+send "  // 2. Add Source\n"
+send "  console.log('Adding Text Source...');\n"
+send "  const addRes = await fetch(`\${TEST_URL}/api/knowledge/text`, {\n"
+send "    method: 'POST',\n"
+send "    headers: { 'Content-Type': 'application/json' },\n"
+send "    body: JSON.stringify({ \n"
+send "      title: 'Test Doc', \n"
+send "      content: 'The answer to the ultimate question of life, the universe, and everything is 42.', \n"
+send "      sessionId \n"
+send "    })\n"
+send "  });\n"
+send "  \n"
+send "  if (!addRes.ok) throw new Error(`Add failed: \${addRes.status} \${await addRes.text()}`);\n"
+send "  const source = await addRes.json();\n"
+send "  console.log('Source Added:', source.id, source.status);\n\n"
+send "  // 3. Poll for Readiness\n"
+send "  let attempts = 0;\n"
+send "  while (attempts < 20) {\n"
+send "    attempts++;\n"
+send "    console.log(`Polling attempt \${attempts}...`);\n"
+send "    const pollRes = await fetch(`\${TEST_URL}/api/knowledge/sources?sessionId=\${sessionId}`);\n"
+send "    const sources = await pollRes.json();\n"
+send "    const mySource = sources.find(s => s.id === source.id);\n"
+send "    \n"
+send "    console.log('Source Status:', mySource?.status);\n"
+send "    if (mySource?.status === 'ready') break;\n"
+send "    if (mySource?.status === 'error') throw new Error(`Source processing failed: \${JSON.stringify(mySource.metadata)}`);\n"
+send "    \n"
+send "    await new Promise(r => setTimeout(r, 2000));\n"
+send "  }\n\n"
+send "  // 4. Test Chat\n"
+send "  console.log('Testing Chat...');\n"
+send "  // Escape square brackets for Tcl -> [source.id]\n"
+send "  const chatRes = await fetch(`\${TEST_URL}/api/knowledge/chat`, {\n"
+send "    method: 'POST',\n"
+send "    headers: { 'Content-Type': 'application/json' },\n"
+send "    body: JSON.stringify({ \n"
+send "      message: 'What is the answer to the ultimate question?', \n"
+send "      sessionId, \n"
+send "      sourceIds: \\\[source.id\\\]\n"
+send "    })\n"
+send "  });\n\n"
+send "  if (!chatRes.ok) throw new Error(`Chat failed: \${chatRes.status} \${await chatRes.text()}`);\n"
+send "  const chatData = await chatRes.json();\n"
+send "  console.log('Chat Response:', chatData.response);\n"
+send "  \n"
+send "  if (chatData.response.includes('42')) console.log('✅ TEST PASSED');\n"
+send "  else console.log('❌ TEST FAILED: Response did not contain expected answer');\n"
+send "}\n\n"
+send "runTest().catch(e => console.error('Test Failed:', e));\n"
+send "EOF\n"
+expect "# "
+
+send "chmod +x /tmp/test_rag_demo_v3.js\r"
+expect "# "
+
+# Ensure we have envs
+send "set -a; source /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/.env.local; set +a\r"
+expect "# "
+
+send "node /tmp/test_rag_demo_v3.js\r"
+expect "# "
+
+send "exit\r"
+expect eof

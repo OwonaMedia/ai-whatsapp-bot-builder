@@ -1,0 +1,48 @@
+// PM2 Config - muss CommonJS sein (auch wenn Projekt ES Module ist)
+module.exports = {
+  apps: [
+    {
+      name: 'support-mcp-server',
+      script: 'dist/index.js',
+      cwd: '/var/www/whatsapp-bot-builder/support-mcp-server',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '512M',
+      error_file: '/var/log/pm2/support-mcp-server-error.log',
+      out_file: '/var/log/pm2/support-mcp-server-out.log',
+      log_file: '/var/log/pm2/support-mcp-server.log',
+      merge_logs: true,
+      time: true,
+      env: {
+        NODE_ENV: 'production',
+        LOG_LEVEL: 'info',
+        SUPABASE_REALTIME_DEBUG: 'true',
+        FRONTEND_ROOT: '/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend',
+        SUPABASE_SERVICE_URL: 'https://ugsezgnkyhcmsdpohuwf.supabase.co',
+        SUPABASE_SERVICE_ROLE_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVnc2V6Z25reWhjbXNkcG9odXdmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzEwMjY0MCwiZXhwIjoyMDcyNjc4NjQwfQ.PEG6Z3WVpfHgxZIpuLL4aSenbWVVTmYypCvO8knahPM',
+      },
+    },
+    {
+      name: 'file-writer-worker',
+      script: 'dist/workers/fileWriterWorker.js',
+      cwd: '/var/www/whatsapp-bot-builder/support-mcp-server',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '256M',
+      error_file: '/var/log/pm2/file-writer-worker-error.log',
+      out_file: '/var/log/pm2/file-writer-worker-out.log',
+      log_file: '/var/log/pm2/file-writer-worker.log',
+      merge_logs: true,
+      time: true,
+      env: {
+        NODE_ENV: 'production',
+        LOG_LEVEL: 'info',
+        FILE_WRITER_PORT: '3003',
+      },
+    },
+  ],
+};

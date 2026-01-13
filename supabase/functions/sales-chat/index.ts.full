@@ -1,0 +1,431 @@
+import "jsr:@supabase/functions-js/edge-runtime.d.ts";
+import { createClient } from "jsr:@supabase/supabase-js@2";
+import { OpenAI } from "npm:openai@^4.55.0";
+
+/**
+ * Sales MCP Server - Supabase Edge Function
+ * 
+ * Spezialisiert auf Verkauf, Vertrieb und Marketing
+ * Kennt alle Produkte, Preise und Features
+ */
+
+interface SalesAgentProfile {
+  id: 'sales-agent' | 'marketing-agent' | 'product-expert';
+  label: string;
+  description: string;
+  goals: string[];
+  allowedActions: string[];
+}
+
+const SALES_AGENT_PROFILES: Record<string, SalesAgentProfile> = {
+  'sales-agent': {
+    id: 'sales-agent',
+    label: 'Sales Agent',
+    description: 'Spezialisiert auf Verkauf, Lead-Qualifizierung, Angebotserstellung und Abschlüsse.',
+    goals: [
+      'Kundenbedürfnisse verstehen und passende Produkte empfehlen',
+      'Preise transparent kommunizieren',
+      'Testversionen anbieten und zum Kauf motivieren',
+      'Einwände professionell behandeln',
+    ],
+    allowedActions: [
+      'product_recommendation',
+      'pricing_info',
+      'trial_offer',
+      'create_lead',
+      'schedule_demo',
+    ],
+  },
+  'marketing-agent': {
+    id: 'marketing-agent',
+    label: 'Marketing Agent',
+    description: 'Spezialisiert auf Marketing, Content, Kampagnen und Lead-Generierung.',
+    goals: [
+      'Marketing-Strategien erklären',
+      'Content und Ressourcen empfehlen',
+      'Kampagnen-Erfolge kommunizieren',
+      'Lead-Magneten anbieten',
+    ],
+    allowedActions: [
+      'content_recommendation',
+      'campaign_info',
+      'resource_offer',
+      'newsletter_signup',
+    ],
+  },
+  'product-expert': {
+    id: 'product-expert',
+    label: 'Product Expert',
+    description: 'Kennt alle Produkte, Features, Preise und Use Cases im Detail.',
+    goals: [
+      'Detaillierte Produktinformationen bereitstellen',
+      'Feature-Vergleiche durchführen',
+      'Use Cases und Best Practices erklären',
+      'Technische Details verständlich kommunizieren',
+    ],
+    allowedActions: [
+      'product_details',
+      'feature_comparison',
+      'use_case_explanation',
+      'technical_info',
+    ],
+  },
+};
+
+interface Product {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  currency: string;
+  features: string[];
+  useCases: string[];
+  targetAudience: string[];
+}
+
+const PRODUCTS: Product[] = [
+  {
+    id: 'whatsapp-bot-builder',
+    name: 'WhatsApp Bot Builder',
+    description: 'DSGVO-konformer WhatsApp Business Bot Builder - Erstelle AI-gestützte WhatsApp Bots ohne Code',
+    price: 29,
+    currency: 'EUR',
+    features: [
+      'Visueller Bot-Builder (Drag & Drop)',
+      'AI-gestützte Konversationen',
+      'Multi-Channel Support',
+      'DSGVO-konform (EU-Datenhaltung)',
+      '14-tägige Testversion',
+      'Keine versteckten Kosten',
+    ],
+    useCases: [
+      'Kundenservice-Automatisierung',
+      'Lead-Qualifizierung',
+      'Terminbuchung',
+      'FAQ-Automatisierung',
+      'Onboarding-Flows',
+    ],
+    targetAudience: [
+      'SMBs (Small & Medium Businesses)',
+      'Healthcare',
+      'Retail',
+      'SaaS-Unternehmen',
+      'Agenturen',
+    ],
+  },
+];
+
+interface ChatRequest {
+  message: string;
+  userId?: string;
+  locale?: string;
+  conversationHistory?: Array<{ role: 'user' | 'assistant'; content: string }>;
+}
+
+interface ChatResponse {
+  response: string;
+  agent?: string;
+  productRecommendations?: Product[];
+  actions?: Array<{ type: string; description: string }>;
+}
+
+Deno.serve(async (req: Request) => {
+  try {
+    // CORS Headers
+    if (req.method === 'OPTIONS') {
+      return new Response(null, {
+        status: 204,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'POST, OPTIONS',
+          'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+        },
+      });
+    }
+
+    const supabaseUrl = Deno.env.get('SUPABASE_URL')!;
+    const supabaseKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
+    const ollamaUrl = Deno.env.get('OLLAMA_URL') || 'http://91.99.232.126:11434/v1';
+
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Parse request
+    const body: ChatRequest = await req.json();
+    const { message, userId, locale = 'de', conversationHistory = [] } = body;
+
+    // Debug: Log die erhaltene Historie
+    console.log('[Sales Chat Edge Function] Received:', {
+      message,
+      conversationHistoryLength: conversationHistory?.length || 0,
+      conversationHistory: conversationHistory,
+    });
+
+    if (!message || typeof message !== 'string') {
+      return new Response(
+        JSON.stringify({ error: 'Nachricht ist erforderlich' }),
+        { status: 400, headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' } }
+      );
+    }
+
+    // Bestimme passenden Agent basierend auf Nachricht
+    const messageLower = message.toLowerCase();
+    let selectedAgent: SalesAgentProfile;
+
+    if (
+      messageLower.includes('preis') ||
+      messageLower.includes('kosten') ||
+      messageLower.includes('kaufen') ||
+      messageLower.includes('abo') ||
+      messageLower.includes('subscription')
+    ) {
+      selectedAgent = SALES_AGENT_PROFILES['sales-agent'];
+    } else if (
+      messageLower.includes('marketing') ||
+      messageLower.includes('kampagne') ||
+      messageLower.includes('content') ||
+      messageLower.includes('lead')
+    ) {
+      selectedAgent = SALES_AGENT_PROFILES['marketing-agent'];
+    } else if (
+      messageLower.includes('feature') ||
+      messageLower.includes('funktion') ||
+      messageLower.includes('wie funktioniert') ||
+      messageLower.includes('was kann')
+    ) {
+      selectedAgent = SALES_AGENT_PROFILES['product-expert'];
+    } else {
+      // Default: Sales Agent
+      selectedAgent = SALES_AGENT_PROFILES['sales-agent'];
+    }
+
+    // Erstelle Produkt-Kontext
+    const productContext = PRODUCTS.map((p) => `
+**${p.name}**
+- Preis: ${p.price} ${p.currency}/Monat
+- Beschreibung: ${p.description}
+- Features: ${p.features.join(', ')}
+- Use Cases: ${p.useCases.join(', ')}
+- Zielgruppe: ${p.targetAudience.join(', ')}
+`).join('\n');
+
+    let response: ChatResponse;
+
+    if (ollamaUrl) {
+      // Nutze Ollama für intelligente Antworten
+      const openai = new OpenAI({
+        apiKey: 'ollama', // Dummy key, ignored by Ollama
+        baseURL: ollamaUrl,
+      });
+
+      try {
+        // Erstelle Prompt mit Konversationshistorie (wie im Support MCP Server)
+        const conversationContext = Array.isArray(conversationHistory) && conversationHistory.length > 0
+          ? `\n\n**Konversations-Verlauf:**\n${conversationHistory.slice(-10).map((m) => `${m.role === 'user' ? 'Kunde' : 'Assistent'}: ${m.content}`).join('\n')}\n`
+          : '';
+
+        const prompt = `Du bist ein professioneller Sales/Marketing-Assistent für whatsapp.owona.de. Antworte immer auf Deutsch, freundlich und verkaufsorientiert.
+
+**Deine Rolle:** ${selectedAgent.label}
+${selectedAgent.description}
+
+**Deine Ziele:**
+${selectedAgent.goals.map((g, i) => `${i + 1}. ${g}`).join('\n')}
+
+**Verfügbare Produkte:**
+${productContext}
+
+**Wichtige Regeln:**
+- Antworte immer auf Deutsch (außer Kunde spricht Englisch)
+- Sei freundlich, professionell und verkaufsorientiert
+- Empfehle passende Produkte basierend auf Kundenbedürfnissen
+- Kommuniziere Preise transparent
+- Biete Testversionen an (14 Tage kostenlos)
+- Beantworte Fragen zu Features und Use Cases
+- Erstelle Leads wenn Kunde Interesse zeigt
+- **WICHTIG:** Nutze die Konversationshistorie um Kontext zu verstehen und passend zu antworten
+- Wenn der Kunde "ja" sagt, beziehe dich IMMER auf die vorherige Frage/Aussage des Assistenten
+- Wenn der Assistent fragt "Möchtest du mehr Details zu einem bestimmten Feature?" und der Kunde "ja" sagt, dann frage nach welchem Feature
+- Wenn der Assistent fragt "Soll ich dir den Link zur Registrierung schicken?" und der Kunde "ja" sagt, dann sende den Link
+${conversationContext}**Aktuelle Kunden-Nachricht:**
+${message}
+
+Antworte als ${selectedAgent.label} und helfe dem Kunden weiter. Antworte NUR mit der Antwort, keine zusätzlichen Erklärungen.`;
+
+        console.log('[Sales Chat Edge Function] Sending to Ollama:', {
+          promptLength: prompt.length,
+          conversationHistoryLength: conversationHistory?.length || 0,
+          ollamaUrl,
+        });
+
+        // Build messages array for chat completion
+        const messages = [
+          { role: 'system' as const, content: prompt.split('**Aktuelle Kunden-Nachricht:**')[0] },
+          ...conversationHistory.slice(-10).map((m) => ({
+            role: m.role === 'user' ? 'user' as const : 'assistant' as const,
+            content: m.content,
+          })),
+          { role: 'user' as const, content: prompt.split('**Aktuelle Kunden-Nachricht:**')[1] || prompt },
+        ];
+
+        // Use OpenAI-compatible chat completions API
+        const ollamaResponse = await openai.chat.completions.create({
+          model: 'llama3.1:8b',
+          messages,
+          temperature: 0.7,
+          max_tokens: 500,
+        });
+
+        // Extract response
+        let aiResponse: string;
+        if (ollamaResponse.choices && ollamaResponse.choices.length > 0 && ollamaResponse.choices[0].message?.content) {
+          aiResponse = ollamaResponse.choices[0].message.content.trim();
+        } else {
+          aiResponse = 'Entschuldigung, ich konnte deine Anfrage nicht verarbeiten.';
+        }
+
+        console.log('[Sales Chat Edge Function] Received response:', {
+          responseLength: aiResponse.length,
+          responsePreview: aiResponse.substring(0, 100),
+        });
+
+        // Finde passende Produkt-Empfehlungen
+        const productRecommendations = PRODUCTS.filter((p) => {
+          const msg = messageLower;
+          return (
+            msg.includes('whatsapp') ||
+            msg.includes('bot') ||
+            msg.includes('chatbot') ||
+            msg.includes('automation')
+          );
+        });
+
+        response = {
+          response: aiResponse,
+          agent: selectedAgent.id,
+          productRecommendations: productRecommendations.length > 0 ? productRecommendations : undefined,
+        };
+      } catch (error) {
+        console.error('[Sales Chat Edge Function] Ollama API Error:', {
+          error: error instanceof Error ? error.message : String(error),
+          ollamaUrl,
+        });
+        response = {
+          response: generateFallbackResponse(message, selectedAgent, conversationHistory),
+          agent: selectedAgent.id,
+        };
+      }
+    } else {
+      // Fallback ohne LLM
+      console.warn('[Sales Chat Edge Function] OLLAMA_URL nicht gesetzt - verwende Fallback-Antworten');
+      response = {
+        response: generateFallbackResponse(message, selectedAgent, conversationHistory),
+        agent: selectedAgent.id,
+      };
+    }
+
+    // Erstelle Lead wenn Interesse vorhanden
+    if (userId && (messageLower.includes('interesse') || messageLower.includes('demo') || messageLower.includes('test'))) {
+      try {
+        await supabase.from('leads').insert({
+          user_id: userId,
+          source: 'sales-chatbot',
+          message: message,
+          status: 'new',
+          metadata: {
+            agent: selectedAgent.id,
+            locale,
+          },
+        });
+      } catch (error) {
+        console.error('Lead creation error:', error);
+      }
+    }
+
+    return new Response(
+      JSON.stringify(response),
+      {
+        status: 200,
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
+      }
+    );
+  } catch (error) {
+    console.error('Sales Chat Error:', error);
+    return new Response(
+      JSON.stringify({
+        error: 'Chat-Anfrage konnte nicht verarbeitet werden',
+        details: error instanceof Error ? error.message : 'Unbekannter Fehler',
+      }),
+      {
+        status: 500,
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
+      }
+    );
+  }
+});
+
+function generateFallbackResponse(message: string, agent: SalesAgentProfile, conversationHistory: Array<{ role: 'user' | 'assistant'; content: string }> = []): string {
+  const messageLower = message.toLowerCase().trim();
+  
+  // Prüfe Konversationshistorie für Kontext
+  const lastAssistantMessage = conversationHistory.filter(m => m.role === 'assistant').slice(-1)[0]?.content || '';
+  const lastUserMessage = conversationHistory.filter(m => m.role === 'user').slice(-1)[0]?.content || '';
+
+  console.log('[Fallback] Checking context:', {
+    messageLower,
+    lastAssistantMessage: lastAssistantMessage.substring(0, 100),
+    lastUserMessage: lastUserMessage.substring(0, 100),
+  });
+
+  // Wenn User "ja" sagt, beziehe dich auf die letzte Frage
+  if ((messageLower === 'ja' || messageLower === 'yes' || messageLower === 'ok' || messageLower === 'gerne' || messageLower === 'klar') && lastAssistantMessage) {
+    if (lastAssistantMessage.includes('Link zur Registrierung') || lastAssistantMessage.includes('Registrierung schicken') || lastAssistantMessage.includes('Link schicken')) {
+      return `Perfekt! 🎉 Hier ist der Link zur Registrierung:\n\n👉 https://whatsapp.owona.de/de/auth/signup\n\nNach der Registrierung kannst du sofort mit der 14-tägigen kostenlosen Testversion starten!`;
+    }
+    if (lastAssistantMessage.includes('Testversion starten') || lastAssistantMessage.includes('Testversion')) {
+      return `Super! 🚀 Du kannst dich hier registrieren:\n\n👉 https://whatsapp.owona.de/de/auth/signup\n\nNach der Registrierung startet automatisch deine 14-tägige kostenlose Testversion!`;
+    }
+    if (lastAssistantMessage.includes('mehr Details') || lastAssistantMessage.includes('Feature') || lastAssistantMessage.includes('Details zu einem bestimmten Feature')) {
+      return `Gerne! Welches Feature interessiert dich besonders?\n\n💡 Verfügbare Features:\n- Visueller Bot-Builder (Drag & Drop)\n- AI-gestützte Konversationen\n- Multi-Channel Support\n- DSGVO-konform (EU-Datenhaltung)\n- 14-tägige Testversion\n\nOder möchtest du direkt mit der Testversion starten?`;
+    }
+    // Generische "ja" Antwort wenn keine spezifische Frage erkannt wird
+    if (lastAssistantMessage.length > 0) {
+      return `Super! 🎉 Wie möchtest du fortfahren?\n\n💡 Optionen:\n- Testversion starten\n- Mehr über Features erfahren\n- Preise sehen\n\nWas interessiert dich am meisten?`;
+    }
+  }
+
+  if (messageLower.includes('preis') || messageLower.includes('kosten')) {
+    return `Unser WhatsApp Bot Builder kostet **29 EUR/Monat** mit einer **14-tägigen kostenlosen Testversion**. Keine versteckten Kosten, kündbar jederzeit.\n\nMöchtest du die Testversion starten? 🚀`;
+  }
+
+  if (messageLower.includes('was kann') || messageLower.includes('features')) {
+    return `Unser WhatsApp Bot Builder bietet:\n\n✅ Visueller Bot-Builder (Drag & Drop)\n✅ AI-gestützte Konversationen\n✅ Multi-Channel Support\n✅ DSGVO-konform (EU-Datenhaltung)\n✅ 14-tägige Testversion\n\nMöchtest du mehr Details zu einem bestimmten Feature?`;
+  }
+
+  if (messageLower.includes('kaufen') || messageLower.includes('abo')) {
+    return `Super! 🎉 Du kannst jetzt die **14-tägige kostenlose Testversion** starten. Nach der Testphase kostet es 29 EUR/Monat.\n\nSoll ich dir den Link zur Registrierung schicken?`;
+  }
+
+  return `Hallo! 👋 Ich bin dein ${agent.label} für whatsapp.owona.de.\n\nWie kann ich dir helfen?\n\n💡 Möchtest du:\n- Mehr über unsere Produkte erfahren?\n- Preise und Features sehen?\n- Eine Testversion starten?`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

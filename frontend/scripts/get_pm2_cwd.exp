@@ -1,0 +1,27 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "pm2 describe 5 | grep 'exec cwd'\r"
+expect "# "
+
+# Also grep logs specifically for Errors, ignoring warnings
+send "pm2 logs 5 --lines 200 --nostream | grep -i 'Error'\r"
+expect "# "
+
+send "exit\r"
+expect eof

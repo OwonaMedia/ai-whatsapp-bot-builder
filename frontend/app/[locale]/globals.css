@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-green: #25d366;
+  --brand-dark: #1da851;
+  --brand-light: #dcf8c6;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-brand-green text-white rounded-lg font-semibold hover:bg-brand-dark transition-colors;
+  }
+
+  .btn-outline {
+    @apply px-4 py-2 bg-white text-brand-green border-2 border-brand-green rounded-lg font-semibold hover:bg-brand-light/20 transition-colors;
+  }
+}

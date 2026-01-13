@@ -1,0 +1,719 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "Nlo...",
+    "error": "Aṣiṣe",
+    "success": "Aṣeyọri",
+    "save": "Fi pamọ",
+    "cancel": "Fagilee",
+    "delete": "Paarẹ",
+    "edit": "Ṣatunkọ",
+    "create": "Ṣẹda",
+    "back": "Padà",
+    "next": "Tókàn",
+    "previous": "Tẹ́lẹ̀",
+    "close": "Pamọ",
+    "search": "Wa",
+    "filter": "Ṣe àmúlò",
+    "actions": "Igbasilẹ",
+    "open": "Ṣii"
+  },
+  "pricing": {
+    "title": "Ìye owó rọrùn tí ó ṣánṣán",
+    "subtitle": "Ko sí owó ìpamọ́. O lè fagilé nígbàkúgbà.",
+    "cta": "Bẹrẹ ìdánwò ọfẹ ọjọ́ 14 rẹ"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Ẹrí oníbàárà",
+      "title": "Abajade gidi ati orísun lati yara mu ìmúlò WhatsApp",
+      "subtitle": "Wo bí ẹgbẹ́ tó wà ní abojuto ofin ṣe n ṣafihan WhatsApp Bot Builder ki o sì gba playbook tí a lo ní agbègbè gidi.",
+      "ctaPrimary": "Ṣeto ìpàdé ìmòye",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Ṣàbẹwò sí makitaba awoṣe",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        { "label": "Ìtẹ́lọ́run lẹ́yìn ìtẹ̀wọ́gbà", "value": "99.2%" },
+        { "label": "Akoko àárín dé bot iṣẹ́ àkọ́kọ́", "value": "Ọjọ́ 14" },
+        { "label": "Ìmúlò lead ní gbogbo iṣẹ́", "value": "+23%" }
+      ]
+    },
+    "partners": {
+      "title": "A ti fọwọ́sowọpọ̀ pẹ̀lú",
+      "subtitle": "Ẹgbẹ́ ilera, tita ati SaaS ní EU",
+      "description": "Awọn onímọ̀ ní Compliance, CX ati Growth ń lo WhatsApp Bot Builder gẹ́gẹ́ bí àtẹ̀jáde ìmúlò àkànṣe wọn.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Ìtàn àṣeyọrí",
+      "title": "Bá a ṣe n fi abajade hàn",
+      "subtitle": "Gbogbo iṣẹ́ amúlétutù darapọ mọ́ ìbánisọ̀rọ̀ tí ó bófin mu, sísanwo to dájú àti àtúnyẹ̀wò KPI.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Ìlera",
+          "title": "Ìtọ́kasí aláìsàn laifọwọyi ní ilé ìwòsàn 7",
+          "description": "A kọ́kọ́ ṣàtúnjúwe ìbéèrè, a sì ranṣẹ́ sí ẹgbẹ́ tó yẹ, gbogbo rẹ̀ sì ń kọ sínú EMR láì sí iṣẹ́ ọwọ́.",
+          "metrics": [
+            "Akoko idahun hotline dín kù ní 38%",
+            "Ìbéèrè 1,200 fun ìpinnu àkókò ni oṣooṣu"
+          ],
+          "result": "DPA, ìmúlò ipa ati ìtẹ̀síwọ́pọ̀ pẹ̀lú ọ̀gá ilera parí ní ọ̀sẹ̀ méjì.",
+          "ctaLabel": "Béèrè Playbook ilé ìwòsàn",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "Tita lórí Ayelujara",
+          "title": "Checkout ibanisọ̀rọ̀ fùn àmì aṣọ",
+          "description": "Ìmọ̀ran ọja, sísanwo àti àkíyèsí fífi kọjá nínú WhatsApp ni gbogbo ìgbà, pẹ̀lú Stripe ati PayPal tó ń tọ́pa gbogbo ìgbésẹ̀.",
+          "metrics": [
+            "+23% àwọn àjà tí a rí padà",
+            "€8.4k owó oṣooṣù àfikún"
+          ],
+          "result": "Playbook ṣàkóso ìṣọ̀kan data ọja, àwọn àkóónú ọ̀rọ̀ oríṣìíríṣìí àti dashboard tita.",
+          "ctaLabel": "Gba toolkit onítaja",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Ilé iṣẹ́ ìmọ̀ràn",
+          "title": "Ìpèsè white-label tí ó lè gòkè",
+          "description": "Ilé iṣẹ́ onímọ̀ ẹrọ fi bot 18 ránṣẹ́ sí oníbàárà ní ọ̀sẹ̀ mẹ́fà, pẹ̀lú branding, invoicing àti dashboard aṣeyọrí.",
+          "metrics": [
+            "Wákàtí 72 fún ìmúlò àárín",
+            "35% ìmúlò retainer ju ṣáájú lọ"
+          ],
+          "result": "Workflows n8n tí a lè túnlo, àwọn schema Supabase àti ọna sísanwo ṣe é fọkàn tán fún iṣẹ́ oníbàárà lọpọlọpọ.",
+          "ctaLabel": "Wo blueprint ilé iṣẹ́",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Ile-ikawe orísun",
+      "title": "Awọn ohun elo ti o le gba lati ayelujara lati yara mu iṣẹ́",
+      "subtitle": "A ṣe imudojuiwọn gbogbo orísun ní gbogbo mẹ́rin oṣù pẹlu awọn template tuntun, atokọ ayẹwo ati ọgbọ́n automation.",
+      "categories": ["Playbooks", "Checklists", "Automation"],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "Playbook ìmúlò fún Enterprise",
+          "description": "Ìtọ́sọ́nà igbesẹ-nipasẹ-igbesẹ fún ẹgbẹ́ ofin, ọja ati iṣẹ́ ṣiṣe.",
+          "highlights": [
+            "Checklist iṣakoso fun WhatsApp Business API",
+            "Àpẹẹrẹ ibaraẹnisọrọ fún gbogbo olùkópa",
+            "Ìlànà rollback àti ìdáhùn pajawiri"
+          ],
+          "ctaLabel": "Béèrè playbook",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Imúlò",
+          "title": "GDPR ati sísanwo compliance kit",
+          "description": "Akopọ TOM docs, àpẹẹrẹ DPA ati invoice ti a ti ṣetan.",
+          "highlights": [
+            "Àwòrán TOM ati AV tí a ti kun",
+            "Àpẹẹrẹ invoisi pẹlu òfin kékeré",
+            "Ìdáhùn sí ìbéèrè ìmúlò ààbò"
+          ],
+          "ctaLabel": "Gba compliance kit",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automation",
+          "title": "Automation recipes fún n8n & Supabase",
+          "description": "Akojọ flọ́ tí a lè túnlo fun pinpin lead, ṣiṣi ìforúkọsílẹ̀ ati ìtúpalẹ̀ sísanwo.",
+          "highlights": [
+            "Workflows n8n mẹ́fà tí a lè wọlé taara",
+            "Gbolohun SQL Supabase fun ìtọ́pa kwóòtà",
+            "Checklist àyẹ̀wò fallback sísanwo"
+          ],
+          "ctaLabel": "Ṣíi awọn recipes",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Ifiranṣẹ",
+          "title": "Ile-ikawe ifiranṣẹ ọpọlọpọ-èdè",
+          "description": "Awọn template ti a fọwọsi fun onboarding, atilẹyin ati ìsanwó ní Gẹ̀ẹ́sì, Jámánì ati Faranse.",
+          "highlights": [
+            "Àtẹ̀jáde onboarding mẹjọ",
+            "Ìrántí ìsanwó mejila",
+            "Atokọ ayẹwo ohùn àmì"
+          ],
+          "ctaLabel": "Ṣe igbasilẹ messaging pack",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Ìdánilójú ìṣe",
+      "assuranceHeadline": "Gbogbo orísun ni a ṣayẹwo nílẹ̀ iṣẹ́",
+      "assuranceSubtitle": "A pín audit trail, KPI ati ìtàn ìmúlò tí ó jẹ́ kí WhatsApp ṣíṣe ní iwọn.",
+      "assurance": [
+        "Ìmúdójúìwọ̀n mẹ́rin oṣù gẹ́gẹ́ bí ìyípadà oníbàárà",
+        "Àyẹ̀wò láti ọdọ ẹgbẹ́ ofin, compliance ati success",
+        "Àwọn benchmark kọjá ilera, tita ati SaaS"
+      ],
+      "assuranceCtaLabel": "Bá onímọ̀ ọ̀nà sọ̀rọ̀",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Ohùn àwọn oníbàárà",
+      "title": "Kí ló dé tí ẹgbẹ́ fi ń duro pẹ̀lú wa",
+      "subtitle": "Àwọn olórí CX, iṣẹ́ àti compliance ń pín ROI tí wọ́n ń ṣàkíyèsí.",
+      "items": [
+        {
+          "quote": "Playbook wa fipamọ́ ọ̀pọ̀ ọ̀sẹ̀ ìmúlò. Gbogbo ẹni tí ó kópa mọ ohun tí wọ́n fẹ́ ṣe lẹ́sẹ̀kẹsẹ̀.",
+          "name": "Leonie Hartmann",
+          "role": "Ori Ẹgbẹ́ Iṣẹ́ Aláìsàn, Klinikverbund Nord",
+          "metric": "Ìdinku 36% ní ìbànújẹ́ tí a ń gbe sókè"
+        },
+        {
+          "quote": "A tún lo automation recipes, a sì ṣí sísanwo àgbáyé láì kọ kóòdù míì.",
+          "name": "André Becker",
+          "role": "Olùdarí Automation, UrbanFit Retail",
+          "metric": "Àwọn ọjà mẹ́rin tuntun ní ọjọ́ 90"
+        },
+        {
+          "quote": "Oníbàárà ń fọwọ́ sí i yarayara nítorí pé a ń fi iwe compliance, ọrọ̀ GDPR ati àpẹẹrẹ invoisi hàn ní kutukutu.",
+          "name": "Noemi Alvarez",
+          "role": "Olùdarí Àgbà, Converso Digital",
+          "metric": "Ìkúrò ní àkókò tita 60%"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ṣe o ti ṣetan fún abajade bẹẹ?",
+      "subtitle": "Ṣeto ìpàdé onítọsọna tàbí bẹ̀rẹ̀ pẹ̀lú àkójọpọ̀ orísun láti yara mu iṣẹ́ WhatsApp rẹ.",
+      "primary": "Béèrè demo laaye",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Ṣàwárí gbogbo awoṣe",
+      "secondaryHref": "templates"
+    }
+  },
+  "monitoring": {
+    "title": "Automation & Monitoring",
+    "subtitle": "Ọjọ́ {days} sẹ́yìn · {from} – {to}",
+    "actions": {
+      "refresh": "Tún data ṣe",
+      "refreshing": "Ìmúdójúìwọ̀n..."
+    },
+    "errors": {
+      "loadFailed": "A kọ́ láti gba snapshot tuntun"
+    },
+    "stats": {
+      "totalRevenue": "Owó-wiwọlé gidi",
+      "successRate": "Oṣuwọn aṣeyọri",
+      "failedPayments": "Ìsanwó tí kò ṣaṣeyọri",
+      "webhookFailures": "Àsìṣe webhook"
+    },
+    "payments": {
+      "title": "Àwọn iṣẹlẹ̀ ìsanwó",
+      "subtitle": "Àkọsílẹ̀ ìfọwọ́sí fún stripe àti PayPal",
+      "total": "Ìforúkọ {count}",
+      "headers": {
+        "date": "Ọjọ́",
+        "status": "Ipo",
+        "amount": "Owo",
+        "provider": "Olùpèsè",
+        "subscription": "Ìforúkọsílẹ̀",
+        "details": "Alaye"
+      },
+      "empty": "Ko sí ìsanwó tí a gbasilẹ ní àkókò yìí."
+    },
+    "webhooks": {
+      "title": "Àwọn iṣẹlẹ̀ webhook",
+      "subtitle": "Ìgbésẹ̀ Stripe & PayPal",
+      "total": "Ìṣẹ̀lẹ̀ {count}",
+      "headers": {
+        "date": "Ọjọ́",
+        "provider": "Olùpèsè",
+        "event": "Ìṣẹ̀lẹ̀",
+        "status": "Ipo",
+        "details": "Alaye"
+      },
+      "empty": "Ko sí ìṣẹ̀lẹ̀ webhook tí a gbasilẹ ní àkókò yìí."
+    },
+    "status": {
+      "succeeded": "Ṣeéṣe",
+      "failed": "Kùnà",
+      "pending": "Nduro",
+      "refunded": "A san padà",
+      "canceled": "Fagilé",
+      "processed": "Ti ṣiṣẹ́",
+      "received": "Ti gba"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "Ṣẹda WhatsApp Business Bots pẹlú AI ti o ni ibamu pẹlú DSGVO laisi koodu",
+    "startNow": "Bẹrẹ ni bayi",
+    "dashboard": "Dashboard",
+    "ragDemo": {
+      "title": "Apeere Interaktifu: RAG Chat",
+      "description": "Fi orisun imọ (PDF tabi URL) sii ki o sọrọ pẹlú AI ti o da lori orisun yẹn nikan"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "Ni ibamu pẹlú DSGVO",
+        "description": "Ifipamọ data EU, isakoso igbanilaaye ati ibamu pipe"
+      },
+      "ai": {
+        "title": "AI ti n ṣe atilẹyin",
+        "description": "Ọrọ olóye pẹlú ifasopọ GROQ AI"
+      },
+      "nocode": {
+        "title": "Laisi Koodu",
+        "description": "Olùdá bot olóhùn pẹlú interface fa ati ju"
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Àbájáde gidi látọ̀dọ̀ àwọn oníbára",
+        "subtitle": "Ilé ìwòsàn, e-commerce àti àwọn ilé iṣẹ́ amáyédẹrùn n lo WhatsApp Bot Builder láìsí ìṣòro",
+        "items": {
+          "healthcare": {
+            "industry": "Ìlera",
+            "headline": "Ìtọ́kasí aláìsàn aládàáṣiṣẹ̀ fún ẹ̀ka ilé ìwòsàn",
+            "description": "Bot ń dahun ìbéèrè tí ó máa ń tún wáyé, ń ṣàtòjọ ìbéèrè ìpinnu àkókò àti ń dín ìṣé sílẹ̀ fún ẹgbẹ́ ìtọju.",
+            "metrics": [
+              "Akókò dídúró ní laini pépé dín kù ní 38%",
+              "Ìpinnu àkókò 1,200 laifọwọyi ní oṣù kọọkan"
+            ],
+            "result": "Àtẹ̀jáde ní ọjọ́ 14 pẹ̀lú iwe adehun sisẹ́ data, ìṣàkóso ipa àti àkọsílẹ̀ àyẹ̀wò."
+          },
+          "retail": {
+            "industry": "E-commerce",
+            "headline": "Ìrìnàjò oníbàárà pẹ̀lú ìbánisọ̀rọ̀ fún ami aṣọ D2C",
+            "description": "WhatsApp ń dari oníbàárà lọ láti ìmòran ọjà sí ìsanwó àti ìtọ́sọ́nà fífi ránṣẹ́ ni gbogbo wákàtí.",
+            "metrics": [
+              "Ìmúlò pọ̀ síi ní 23% fún àwọn àjà tí a fi sílẹ̀",
+              "€8.4k àfikún owó oṣooṣù láti inú upsell aládàáṣiṣẹ̀"
+            ],
+            "result": "Stripe, PayPal, Apple Pay àti Klarna ń ṣiṣẹ́ pọ̀ láìsí ìfarapa ọwọ́."
+          },
+          "agency": {
+            "industry": "Ilé iṣẹ́ àgbéjáde",
+            "headline": "Ìpèsè white-label tí ó le pọ̀ síi fún ilé iṣẹ́ onímọ̀ ẹrọ",
+            "description": "Bọ́ọ̀tì 18 fún oníbàárà ni a ṣe ní ọ̀sẹ̀ mẹ́fà pẹ̀lú àfihàn, ìròyìn àti ìsanwó tí a darapọ̀.",
+            "metrics": [
+              "Wákàtí 72 gẹ́gẹ́ bí àkókò ìmúlò",
+              "Ìmúpadàbọ̀ retainer pọ̀ síi ní 35% nípasẹ̀ SLA aládàáṣiṣẹ̀"
+            ],
+            "result": "Ìsanwó tenant púpọ̀, ìtìlẹ́yìn àti àyẹ̀wò wà nínú dashboard kan ṣoṣo."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Ohun tí àwọn oníbàárà wa sọ",
+        "subtitle": "Tẹ́ẹ̀mù CX, e-commerce àti SaaS kọjá Yúróòpù",
+        "points": {
+          "speed": "Ìbẹ̀rẹ̀ iṣẹ́ nínú ọ̀sẹ̀ díẹ̀ dípò oṣùọdún",
+          "compliance": "Àtòjọ ìbámu GDPR, DPA àti TOM wà ní ọwọ́",
+          "support": "Olùdarí aṣeyọrí alákóso látọ̀dọ̀ eto Professional"
+        },
+        "items": {
+          "agency": {
+            "quote": "A dá bot oníbàárà wa sílẹ̀ ní ọjọ́ mọ́kànlá. Ní báyìí a ń gba iṣẹ́ tuntun ni gbogbo ọ̀sẹ̀ láì fi ẹgbẹ́ kún.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "+23% àwọn lead tí ó yẹ nínú oṣù àkọ́kọ́"
+          },
+          "retail": {
+            "quote": "Bot ń bójú tó ìmòran ọjà, ìfarahàn fífi ránṣẹ́ àti ìsanwó. Ẹgbẹ́ wa ní àkókò fún ìjọba tita lẹ́ẹ̀kan síi.",
+            "name": "Leonard Fischer",
+            "role": "E-Commerce Lead, UrbanFit",
+            "metric": "Wákàtí 18 ti iṣẹ́ ọwọ́ ti a fipamọ̀ ní ọ̀sẹ̀ kan"
+          },
+          "saas": {
+            "quote": "A ń dari àwọn ìrìnàjò onboarding kọjá ọjà mẹ́ta ni ẹẹ̀kan. Ílànà n8n, Supabase àti Apple Pay ló jẹ́ kó rọrùn fún wa.",
+            "name": "Mira Albrecht",
+            "role": "Customer Success Director, Finovate SaaS",
+            "metric": "99.2% ìtẹ́lọ́run oníbàárà lẹ́yìn ìtẹ̀wọ́gbà"
+          }
+        }
+      },
+      "security": {
+        "title": "Aabo ati ibámu nípò àkọ́kọ́",
+        "subtitle": "Amáyédẹrùn EU pẹ̀lú àyẹ̀wò olómìnira àti ìtẹ̀jáde kíkankíkan",
+        "features": [
+          "Ìṣàkóso ìsanwó PCI DSS Level 1 nípasẹ̀ Stripe àti PayPal",
+          "Ìfipamọ TLS láti ìpìlẹ̀ dé òpin àti ipamọ́ àtọ̀ọ̀tọ̀ tí a bá fẹ́",
+          "Àkọọ́lẹ̀ àyẹ̀wò tí a kò lè yí padà, ìfọwọ́sí orí ipa àti ìmúlò ìṣe"
+        ],
+        "assuranceTitle": "Ohun tí o lè gbẹ́kẹ̀ lé",
+        "assurance": [
+          "Gbalejo ní Frankfurt (eu-central-1) pẹ̀lú afẹ́yinti ojoojúmọ́",
+          "Adehun sisẹ data àti ìwé TOM tó ṣetan",
+          "Ayẹwo ààbò lélọ́ọ̀rọ̀ kọọkan àti ayẹwo aládàáṣiṣẹ̀"
+        ],
+        "ctaPrimary": "Béèrè fún ìwé imọ̀-ọ̀nà",
+        "ctaSecondary": "Wo àkópọ̀ ààbò"
+      },
+      "pricingPage": {
+        "header": {
+          "title": "Ètò owó kedere",
+          "subtitle": "Yan ìpele tó bá ìpele iṣẹ́ rẹ mu. Gbogbo ìpele jẹ́ GDPR ati pe a n gbalejo rẹ ní EU.",
+          "billing": {
+            "monthly": "Oṣooṣu",
+            "yearly": "Odoodun",
+            "yearlyTag": "Fipamọ́ 17%"
+          }
+        },
+        "onboarding": {
+          "title": "Bẹrẹ nípẹ̀yà mẹ́ta",
+          "subtitle": "Olùrànlọ́wọ́ wa yóò dari ọ láti ìforúkọsílẹ̀ sí bot àkọ́kọ́ tí ó wà lórí laini.",
+          "steps": {
+            "account": {
+              "title": "1. Ṣẹ̀dá àkọọ́lẹ̀ kí o pe ẹgbẹ́",
+              "description": "Forúkọsílẹ̀, fi alaye ilé iṣẹ́ sílẹ̀ kí o sì yàn àṣẹ fún ọmọ ẹgbẹ́."
+            },
+            "connect": {
+              "title": "2. So WhatsApp pọ",
+              "description": "Yan Meta Business Account, jẹ́rìí webhook kí o sì mu ìsanwó ṣiṣẹ́."
+            },
+            "launch": {
+              "title": "3. Ṣe ìtẹ̀jáde bot àkọ́kọ́",
+              "description": "Yan àpẹẹrẹ, ṣàtúnṣe akoonu kí o sì fi sílẹ̀."
+            }
+          },
+          "ctaPrimary": "Bẹrẹ onboarding láì san owó",
+          "ctaSecondary": "Wo ìtọnisọna igbesẹ-nipasẹ-igbesẹ",
+          "footnote": "A ko beere fun kaadi kirẹditi. Gbiyanju gbogbo iṣẹ fun ọjọ́ 14."
+        },
+        "roi": {
+          "title": "Ṣírò ROI rẹ",
+          "subtitle": "Ṣayẹwo ipa aládàáṣiṣẹ̀ kí o sì yan ìpele tó yẹ gẹ́gẹ́ bí ìmúdájú rẹ.",
+          "disclaimerTagline": "Ìṣírò da lórí data oníbàárà gidi",
+          "fields": {
+            "industry": "Ọjà",
+            "leadsPerMonth": "Olùdíje tuntun fún oṣù",
+            "closeRate": "Oṣuwọn ìtipade",
+            "averageDeal": "Ìye apapọ (EUR)",
+            "supportTickets": "Ìbéèrè ìtọ́nisọ́nà fún oṣù",
+            "supportCost": "Ìnáwọ̀ fún ìbéèrè kan",
+            "supportCostUnit": "/ìbéèrè"
+          },
+          "industries": {
+            "agency": "Ilé iṣẹ́ aṣenilẹ́kọ̀ọ́ àti ìmọ̀ràn",
+            "ecommerce": "E-commerce àti onítaja",
+            "service": "Ilé iṣẹ́ ìránlọ́wọ́"
+          },
+          "help": {
+            "leads": "Ṣàkóso gbogbo olùdíje WhatsApp, ìfọ̀rọ̀wérọ̀ tàbí fọ́ọ̀mù tí o ń gba.",
+            "supportTickets": "Ìye àárín gbùngbùn ìbéèrè tí ẹgbẹ́ rẹ ń dahùn lọ́wọ́lọ́wọ́ ní gbogbo oṣù."
+          },
+          "results": {
+            "monthlyBenefitLabel": "Ànfààní oṣooṣu tí a fojú inú hàn",
+            "additionalRevenue": "Owó oṣuwọn míì",
+            "supportSavings": "Ìdákẹ́jọ owó ìtọ́nisọ́nà",
+            "disclaimer": "Lo àwọn ìṣírò wọ̀nyí gẹ́gẹ́ bí ìtọnisọna kí o sì fi mọ́ ọ̀rọ̀ rẹ.",
+            "recommendedPlanLabel": "Ìpele tí a ṣàbẹ̀wò",
+            "recommendedPlanDescription": "Pẹ̀lú {messages} ìfiranṣẹ́ lọ́ṣooṣu, ìpele yìí ló dáa jù.",
+            "planPricing": "Ìnáwọ̀ oṣooṣu: {price}",
+            "planCustom": "Ìdúnàdúrà àtọwọ́dá wà nípasẹ̀ ẹgbẹ́ wa.",
+            "yearlyBenefit": "Ànfààní lododun: {value}",
+            "roiMultiple": "≈ {multiple}x ROI nígbà tí o bá lo ìpele tí a ṣàbẹ̀wò",
+            "coveredBySavings": "Ìdákẹ́jọ ìtọ́nisọ́nà ti san owó ìpele yìí.",
+            "ctaStart": "Tẹ̀síwájú sí sísanwo",
+            "ctaEnterprise": "Sètò ìpàdé ọgbọ́n"
+          }
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "Orisun Imọ",
+    "addUrl": "Fi URL sii",
+    "uploadPdf": "Gbejade PDF",
+    "noSources": "Ko si orisun ti a fi kun",
+    "processing": "Nṣiṣẹ...",
+    "ready": "Setan",
+    "error": "Aṣiṣe",
+    "sourcesReady": "{count} orisun(na) setan",
+    "chatTitle": "Sọrọ pẹlú AI",
+    "chatDescription": "AI n dahun nikan da lori orisun imọ ti a fi kun.",
+    "placeholder": "Ìbéèrè rẹ...",
+    "send": "Firanṣẹ",
+    "emptyChat": "Béèrè ìbéèrè da lori orisun imọ rẹ.",
+    "emptyChatHint": "AI le lo alaye lati orisun ti a fi kun nikan.",
+    "sources": "Orisun"
+  },
+  "auth": {
+    "login": "Wọle",
+    "signup": "Forukọsilẹ",
+    "logout": "Jade",
+    "email": "Imeeli",
+    "password": "Ọrọ aṣina",
+    "forgotPassword": "Gbẹ ọrọ aṣina rẹ?",
+    "rememberMe": "Rántí mi",
+    "noAccount": "Ko ni akojọ?",
+    "hasAccount": "Titi tẹlẹ ni o ni akojọ?",
+    "welcomeBack": "Kaabọ pada",
+    "loginDescription": "Wọle lati tẹsiwaju",
+    "emailPlaceholder": "imeeli@email.com",
+    "fillAllFields": "Jọwọ kún gbogbo awọn aaye.",
+    "invalidEmail": "Imeeli ko tọ",
+    "invalidEmailMessage": "Jọwọ tẹ adirẹsi imeeli tọ.",
+    "loginFailed": "Wiwọle kuna",
+    "checkCredentials": "Jọwọ ṣayẹwo awọn ẹri rẹ.",
+    "loginSuccess": "A wọle ni aṣeyọri",
+    "redirecting": "N yipada...",
+    "signupLink": "Forukọsilẹ ni bayi",
+    "emailVerificationFailed": {
+      "title": "Ìjẹrìí Ìmèèlì Kò Ṣe",
+      "description": "Ọna asopọ ìjẹrìí kò ṣe tabi o ti pẹ. Eyi le ṣẹlẹ ti:",
+      "reason1": "A ti lo ọna asopọ lẹẹkan kan",
+      "reason2": "A ti duro fun ọna asopọ jù (ju awọn wakati 24 lọ)",
+      "reason3": "Ọna asopọ n fi itọsọna si agbegbe tẹlẹtẹlẹ",
+      "resendPrompt": "Ṣe o fẹ gba ìmèèlì ìjẹrìí tuntun ni {email}?",
+      "enterEmail": "Tẹ adirẹsi ìmèèlì rẹ lati gba ìmèèlì ìjẹrìí tuntun:",
+      "resendButton": "Tun ranṣẹ Ìmèèlì Ìjẹrìí",
+      "resending": "O n ranṣẹ ìmèèlì...",
+      "resendSuccess": "A Tun Ranṣẹ Ìmèèlì",
+      "resendSuccessMessage": "Jọwọ ṣayẹwo apoti rẹ fun ọna asopọ ìjẹrìí tuntun.",
+      "resendError": "A kò le tun ranṣẹ ìmèèlì.",
+      "enterEmailError": "Jọwọ tẹ adirẹsi ìmèèlì rẹ.",
+      "invalidEmailError": "Ìmèèlì kò tọ",
+      "invalidEmailMessage": "Jọwọ tẹ adirẹsi ìmèèlì tọ.",
+      "genericError": "Aṣiṣe ti ko ni ireti ṣẹlẹ.",
+      "backToLogin": "Pada Si Wiwọle",
+      "newSignup": "Forukọsilẹ Titun",
+      "supabaseConfigWarning": "Pataki: Eto Supabase",
+      "supabaseConfigMessage": "Ti ọna asopọ ba n fi itọsọna si localhost:3000, URL oju-iwe ni Dashboard Supabase a gbọdọ yi pada si https://whatsapp.owona.de."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Kaabọ pada!",
+    "yourBots": "Awọn Bot Rẹ",
+    "createBot": "Ṣẹda Bot Titun",
+    "noBots": "O ko ti ṣẹda bot kan sibẹsibẹ.",
+    "noFilteredBots": "Ko si bot to baamu awọn ìfọkànsìn lọwọlọwọ.",
+    "resetFilters": "Tun awọn ìfọkànsìn ṣe",
+    "botCount": "{count} bot(na)",
+    "searchPlaceholder": "Ṣàwárí awọn bot…",
+    "filters": {
+      "all": "Gbogbo ipo"
+    },
+    "quickActions": {
+      "title": "Ìṣe kíákíá",
+      "items": {
+        "create": {
+          "title": "Ṣẹda bot",
+          "description": "Bẹrẹ pẹlu ṣiṣàn tuntun tàbí yan àdánwò."
+        },
+        "connect": {
+          "title": "Sòpò mọ́ WhatsApp",
+          "description": "Ṣopọ̀ àkọọlẹ WhatsApp Business rẹ̀ kí o sì fidi webhook mulẹ."
+        },
+        "templates": {
+          "title": "Ile-ìkàwé àdánwò",
+          "description": "Ṣàwárí àdánwò ilé-iṣẹ́ kí o kó wọlé lẹ́sẹ̀kẹsẹ."
+        }
+      }
+    },
+    "recentActivity": {
+      "title": "Ìṣe tuntun",
+      "empty": "Ko sí ìṣe tuntun sibẹ̀.",
+      "createdOn": "Ṣẹda ní {date}"
+    }
+  },
+  "bots": {
+    "create": "Ṣẹda Bot Titun",
+    "edit": "Ṣatunkọ Bot",
+    "delete": "Paarẹ Bot",
+    "deleteConfirm": "Ṣe o da ọ loju lati paarẹ bot yii? A kii le mu iṣẹ yii pada.",
+    "name": "Orukọ Bot",
+    "description": "Apejuwe",
+    "status": {
+      "draft": "Awọn akọsilẹ",
+      "active": "Ti nṣiṣẹ",
+      "paused": "Ti duro",
+      "archived": "Ti pamọ"
+    },
+    "activate": "Mu ṣiṣẹ",
+    "pause": "Duro",
+    "settings": "Eto",
+    "stats": {
+      "conversations": "Ọrọ",
+      "messages": "Ifiranṣẹ",
+      "conversion": "Ayipada"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "Tẹ orukọ bot...",
+    "nodeCount": "{nodes} Nodes, {edges} asopọ",
+    "create": "Ṣẹda",
+    "save": "Fi pamọ",
+    "nodePalette": "Palette Node",
+    "dragDropHint": "Fa awọn nodes si canvas tabi tẹ lati fi kun",
+    "tips": {
+      "title": "Awọn Amọran:",
+      "tip1": "• Gbogbo sisan nilo atilẹyin",
+      "tip2": "• Sopọ awọn nodes nipasẹ fa ati ju",
+      "tip3": "• Tẹ awọn nodes lati ṣeto"
+    }
+  },
+  "errors": {
+    "generic": "Nkan kan ṣẹlẹ. Jọwọ gbiyanju lẹẹkan sii.",
+    "notFound": "Oju-iwe ko ri",
+    "unauthorized": "Ko ni aṣẹ",
+    "forbidden": "A kọ ẹnu"
+  },
+  "navigation": {
+    "dashboard": "Dasiboodu",
+    "bots": "Bọ́ọ̀tì",
+    "templates": "Àwòránṣàfilọlẹ",
+    "resources": "Ọ̀rọ̀ ìrànlọ́wọ́",
+    "support": "Atilẹ́yìn",
+    "monitoring": "Ìtẹ̀lé",
+    "settings": "Ètò",
+    "logout": "Jáde",
+    "menu": "Àtòjọ",
+    "openMenu": "Ṣí àtòjọ",
+    "closeMenu": "Pa àtòjọ",
+    "language": "Èdè"
+  },
+  "support": {
+    "cta": "Ṣàtẹ̀jáde ìṣòro",
+    "title": "Ṣẹda tíkẹ́ẹ̀tì àtìlẹ́yìn",
+    "subtitle": "Ṣàlàyé ohun tí kò lọ́ọ̀rẹ́ẹ̀rẹ́, a ó bá ọ pada lọ́wọ́lọ́wọ́.",
+    "close": "Pa àṣàlẹ̀",
+    "cancel": "Fagilé",
+    "submit": "Firanṣẹ tikẹti",
+    "disclaimer": "Gbogbo alaye ni a nṣe ilana rẹ gẹgẹ bi GDPR.",
+    "statusOverview": {
+      "heading": "Awọn igbesẹ tó tẹ̀síwájú",
+      "personal": "A ń ṣe amúlùmálùmọ̀ fún gbogbo ìdáhùn, a sì ń ba a mu pẹ̀lú ipo tikẹ́ẹ̀tì rẹ.",
+      "escalation": "Lẹ́yìn ìdáhùn àkọ́kọ́ rẹ a máa gbe e lọ sí Tier 2 laifọwọ́yi.",
+      "updates": "Ìmúdójúìlọ́pọ̀ yóò dé lẹ́sẹ̀kẹsẹ̀ bí ìyípadà bá ṣẹlẹ̀."
+    },
+    "form": {
+      "category": "Ẹ̀ka",
+      "title": "Àkọlé",
+      "titlePlaceholder": "Akopọ kukuru fun ìbéèrè rẹ",
+      "description": "Àpejuwe",
+      "descriptionPlaceholder": "Kí ló ṣẹlẹ̀? Jọ̀wọ́ fi àwọn ìgbésẹ̀ tàbí àwọn lóríńka sílẹ̀.",
+      "metadataNotice": "Alaye pọ́n (ṣàfihàn, ojú-iwe, àsìkò) yóò darapọ̀ laifọwọyi láti ràn wá lọ́wọ́ láti yanjú iṣoro naa ni kiakia."
+    },
+    "categories": {
+      "bug": "Aṣiṣe",
+      "billing": "Owó ìsanwó",
+      "integration": "Ìṣepọ",
+      "ux": "UX / Ìrírí oníṣeré",
+      "other": "Míì"
+    },
+    "success": {
+      "title": "A ti fi tikẹti ranṣẹ",
+      "message": "O ṣeun! Ẹgbẹ́ ìtìlẹ́yìn wa yóò padà sí ọ laipẹ́.",
+      "nextSteps": "Ìjẹrisi yóò dé lọ́jọ́ pẹ̀lú; a ó sì rán ọ létí bí ẹgbẹ́ Tier 2 ṣe bẹ̀rẹ̀ sí í ṣiṣẹ́ lórí tikẹ́ẹ̀tì rẹ."
+    },
+    "errors": {
+      "requiredTitle": "Àkọlé àti àpejuwe ni a fẹ",
+      "requiredMessage": "Jọ̀wọ́ kún gbogbo àwọn ààyè pàtàkì kí o tó fi tíkẹ́ẹ̀tì ranṣẹ́.",
+      "submitTitle": "Aṣiṣe ninu fífi tíkẹ́ẹ̀tì ranṣẹ́",
+      "submitMessage": "Jọ̀wọ́ tún gbìyànjú tàbí kan sí wa lẹ́rọ̀ ìmeèlì."
+    },
+    "inbox": {
+      "title": "Apoti leta atilẹyin",
+      "subtitle": "Tọ́pa àwọn tíkẹ́ẹ̀tì rẹ àti bá ẹgbẹ́ atilẹyin wa sọrọ ní kíákíá.",
+      "emptyTitle": "Ko sí tikẹ́ẹ̀tì sibẹ̀",
+      "emptyDescription": "O tayọ! Bí nnkan bá dà rú, kan tẹ \"Ṣàtẹ̀jáde ìṣòro\" kí a lè gbe ìgbésẹ̀.",
+      "openTicket": "Ṣẹda tikẹ́ẹ̀tì tuntun",
+      "refresh": "Tún ṣe àfihàn",
+      "lastUpdated": "Ìmúdójúìwọ̀ tuntun",
+      "replyLabel": "Ìfiranṣẹ́ rẹ",
+      "replyPlaceholder": "Kọ ìmúlò tuntun fún ẹgbẹ́ atilẹyin wa…",
+      "replySubmit": "Firanṣẹ́ ìdáhùn",
+      "customerReply": "Ìwọ",
+      "supportReply": "Atilẹ́yìn",
+      "systemMessage": "Ètò",
+      "silentCheck": {
+         "running": "Jẹ́ kí n ṣàyẹ̀wò fún ọ…",
+         "paymentStatusOk": "Gbigba owo lọ́nà ìfọwọyi wà nípò tó dáa. Kò sí àṣìṣe webhook.",
+         "deploymentHealthy": "Ìtẹ̀jáde àti iṣẹ́ n lọ bó ṣe yẹ.",
+         "uiTraceCaptured": "A ti gba àkọsílẹ̀ UI. Ẹgbẹ́ wa yóò wo ó.",
+         "completed": "Ayẹwo parí.",
+         "error": "Ayẹwo kò ṣaṣeyọri. Jọwọ tún gbìyànjú lẹ́yìnna."
+       },
+      "autoEscalated": "A tọju ìdáhùn – tikẹ́ẹ̀tì náà ti lọ sí Tier 2 laifọwọ́yi.",
+      "status": {
+        "new": "Tuntun",
+        "investigating": "Ṣíṣàyẹ̀wò",
+        "waiting_customer": "Nduro fún ọ",
+        "resolved": "Ti yanju",
+        "closed": "Ti pa"
+      },
+      "priority": {
+        "low": "Kéré",
+        "normal": "Ààrín",
+        "high": "Gíga",
+        "urgent": "Pajawiri"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "Ṣẹda WhatsApp Business Bots ti o ni ibamu pẹlu DSGVO ti AI mu laisi koodu. Awọn ọna ibaraẹnisọrọ chatbot oniṣẹ fun iṣowo rẹ.",
+      "copyright": "WhatsApp Bot Builder. Gbogbo awọn ẹtọ wa ni ipamọ."
+    },
+    "customer": {
+      "title": "Atilẹyin & Abẹwo",
+      "supportInbox": "Ifiranṣẹ atilẹyin",
+      "reportIssue": "Ṣalaye iṣoro",
+      "monitoring": "Abẹwo",
+      "support": "Atilẹyin"
+    },
+    "legal": {
+      "title": "Ofin",
+      "privacy": "Eto Iwa Ikọkọ",
+      "terms": "Awọn Itumọ ati Awọn ipo",
+      "imprint": "Tẹjade",
+      "cookies": "Eto Awọn Kuki",
+      "dataProcessing": "Adehun Iṣakoso Data"
+    },
+    "contact": {
+      "title": "Kan sii ati Atilẹyin",
+      "email": "info@owona.de",
+      "support": "Atilẹyin"
+    },
+    "disclaimer": "Ohun elo yii jẹ fun ṣiṣẹda WhatsApp Business chatbots. Lo ni ewu tirẹ.",
+    "rights": "Gbogbo awọn ẹtọ wa ni ipamọ."
+  },
+  "payments": {
+    "supportedMethodsLabel": "Sanwo lailewu pẹlu",
+    "additionalMethodsLabel": "Awọn aṣayan míì nipasẹ Stripe",
+    "badges": {
+      "comingSoon": "Nbọ laipẹ"
+    },
+    "trust": {
+      "heading": "Iṣowo rẹ lábẹ ààbò",
+      "subheading": "Gbogbo ìsanwó ni a n ṣe pẹ̀lú ìfipamọ̀ Stripe ati PayPal",
+      "items": [
+        "Ibámu PCI DSS ipele 1 ati 3D Secure 2",
+        "Apple Pay, Google Pay àti ìmúdájú biometriki",
+        "Àwọ̀n ìwé owó ati data oníbàárà wa ní EU pẹ̀lú ìbámu GDPR"
+      ],
+      "footerNote": "Ìsanwó ń lọ nípasẹ̀ Stripe ati PayPal – ìfipamọ̀ 256-bit TLS"
+    },
+    "links": {
+      "pricingLabel": "Ọya",
+      "templatesLabel": "Àwọpọ̀",
+      "docsLabel": "Ìwé ìtọnisọna",
+      "resourcesLabel": "Orísun"
+    }
+  }
+}
+

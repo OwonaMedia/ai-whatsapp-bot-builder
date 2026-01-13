@@ -1,0 +1,1739 @@
+{
+  "timestamp": "2025-11-27T07:08:31.053Z",
+  "pages": {
+    "total": 43,
+    "local": 43,
+    "server": 15,
+    "missing": [
+      {
+        "route": "/de/auth/auth-code-error",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/auth-code-error/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/auth/login",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/login/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/auth/signup",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/signup/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/bots/[id]/analytics",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/analytics/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]/analytics\""
+      },
+      {
+        "route": "/de/bots/[id]/knowledge",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/knowledge/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]/knowledge\""
+      },
+      {
+        "route": "/de/bots/[id]",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]\""
+      },
+      {
+        "route": "/de/bots/new",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/new/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/bots",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/cancel",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/cancel/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/paypal/success",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/paypal/success/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/success",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/success/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/dashboard/monitoring",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/monitoring/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/dashboard",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/intern",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/intern/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/cookies",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/cookies/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/data-processing",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/data-processing/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/privacy",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/privacy/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/terms",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/terms/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/pricing",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/pricing/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/resources",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/resources/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/screenshots",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/screenshots/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/settings",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/settings/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/support/messages",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/support/messages/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/templates",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/templates/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/test",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/test/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/tools/geoview",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/tools/geoview/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/widget/embed",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/widget/embed/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      }
+    ],
+    "broken": [],
+    "all": [
+      {
+        "route": "/de/auth/auth-code-error",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/auth-code-error/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/auth/forgot-password",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/forgot-password/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/auth/login",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/login/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/auth/reset-password",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/reset-password/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/auth/signup",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/signup/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/auth/verify-otp",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/verify-otp/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/bots/[id]/analytics",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/analytics/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]/analytics\""
+      },
+      {
+        "route": "/de/bots/[id]/knowledge",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/knowledge/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]/knowledge\""
+      },
+      {
+        "route": "/de/bots/[id]",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "error": "Command failed: ssh root@whatsapp.owona.de \"curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/de/bots/[id]\""
+      },
+      {
+        "route": "/de/bots/new",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/new/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/bots",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/cancel",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/cancel/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/paypal/success",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/paypal/success/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/checkout/success",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/success/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/contact",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/contact/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/dashboard/monitoring",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/monitoring/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/dashboard",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/demo/analytics",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/analytics/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/bot-builder",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/bot-builder/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/dashboard",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/dashboard/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/designs/datawave",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/designs/datawave/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/designs/minimal",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/designs/minimal/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/designs/night",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/designs/night/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/features",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/features/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/knowledge",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/knowledge/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/demo/settings",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/demo/settings/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/docs",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/docs/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/intern",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/intern/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/cookies",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/cookies/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/data-processing",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/data-processing/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/privacy",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/privacy/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/legal/terms",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/terms/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/page.tsx",
+        "existsLocal": true,
+        "existsServer": true,
+        "httpStatus": 200
+      },
+      {
+        "route": "/de/pricing",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/pricing/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/resources",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/resources/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/screenshots",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/screenshots/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/settings",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/settings/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/support/messages",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/support/messages/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/templates",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/templates/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/test",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/test/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/tools/geoview",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/tools/geoview/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      },
+      {
+        "route": "/de/widget/embed",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/widget/embed/page.tsx",
+        "existsLocal": true,
+        "existsServer": false,
+        "httpStatus": 404
+      }
+    ]
+  },
+  "images": {
+    "total": 11,
+    "local": 6,
+    "server": 6,
+    "missing": [
+      {
+        "src": "/screenshot.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshot.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ]
+      },
+      {
+        "src": "/logo.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/payments/CheckoutForm.tsx"
+        ]
+      },
+      {
+        "src": "/logo",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/payments/PaymentMethodCard.tsx"
+        ]
+      },
+      {
+        "src": "/videoSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/videoSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      },
+      {
+        "src": "/imageSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/imageSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      }
+    ],
+    "broken": [
+      {
+        "src": "/screenshot.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshot.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ]
+      },
+      {
+        "src": "/logo.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/payments/CheckoutForm.tsx"
+        ]
+      },
+      {
+        "src": "/logo",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/payments/PaymentMethodCard.tsx"
+        ]
+      },
+      {
+        "src": "/videoSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/videoSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      },
+      {
+        "src": "/imageSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/imageSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      }
+    ],
+    "all": [
+      {
+        "src": "/screenshot.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshot.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ]
+      },
+      {
+        "src": "/screenshots/dashboard-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/dashboard-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 501828
+      },
+      {
+        "src": "/screenshots/bot-builder-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/bot-builder-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 265154
+      },
+      {
+        "src": "/screenshots/features-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/features-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 1178639
+      },
+      {
+        "src": "/screenshots/analytics-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/analytics-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 501828
+      },
+      {
+        "src": "/screenshots/knowledge-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/knowledge-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 501828
+      },
+      {
+        "src": "/screenshots/settings-demo.png",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshots/settings-demo.png",
+        "existsLocal": true,
+        "existsServer": true,
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "size": 501828
+      },
+      {
+        "src": "/logo.src",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo.src",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/payments/CheckoutForm.tsx"
+        ]
+      },
+      {
+        "src": "/logo",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/payments/PaymentMethodCard.tsx"
+        ]
+      },
+      {
+        "src": "/videoSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/videoSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      },
+      {
+        "src": "/imageSrc",
+        "filePath": "/Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/imageSrc",
+        "existsLocal": false,
+        "existsServer": false,
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ]
+      }
+    ]
+  },
+  "links": {
+    "total": 26,
+    "internal": 26,
+    "external": 0,
+    "broken": [
+      {
+        "href": "/de/${locale",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/HomePageClient.tsx",
+          "app/[locale]/auth/auth-code-error/page.tsx",
+          "app/[locale]/auth/forgot-password/page.tsx",
+          "app/[locale]/auth/reset-password/page.tsx",
+          "app/[locale]/auth/verify-otp/page.tsx",
+          "app/[locale]/bots/new/page.tsx",
+          "app/[locale]/checkout/cancel/page.tsx",
+          "app/[locale]/checkout/success/page.tsx",
+          "app/[locale]/demo/bot-builder/page.tsx",
+          "app/[locale]/demo/dashboard/page.tsx",
+          "app/[locale]/demo/designs/datawave/page.tsx",
+          "app/[locale]/demo/designs/minimal/page.tsx",
+          "app/[locale]/demo/designs/night/page.tsx",
+          "app/[locale]/page.tsx",
+          "app/[locale]/pricing/PricingClient.tsx",
+          "app/[locale]/screenshots/page.tsx",
+          "app/[locale]/support/messages/SupportMessagesClient.tsx",
+          "app/[locale]/templates/page.tsx",
+          "components/auth/LoginForm.tsx",
+          "components/auth/SignupForm.tsx",
+          "components/bots/BotDetail.tsx",
+          "components/dashboard/DashboardContent.tsx",
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx",
+          "components/layout/SupportIndicator.tsx"
+        ],
+        "targetRoute": "/de/${locale",
+        "exists": false
+      },
+      {
+        "href": "/de/screenshot.src",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ],
+        "targetRoute": "/de/screenshot.src",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/${basePath",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/legal/privacy/page.tsx",
+          "app/[locale]/legal/terms/page.tsx",
+          "components/legal/CookieBanner.tsx"
+        ],
+        "targetRoute": "/de/${basePath",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/dashboard",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/test/page.tsx"
+        ],
+        "targetRoute": "/de/dashboard",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/de",
+        "type": "internal",
+        "referencedIn": [
+          "app/error.tsx"
+        ],
+        "targetRoute": "/de/de",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/privacy",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/privacy",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/data-processing",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/data-processing",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/bsp.website",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/bsp.website",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/action.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/dashboard/DashboardContent.tsx"
+        ],
+        "targetRoute": "/de/action.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/link.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx"
+        ],
+        "targetRoute": "/de/link.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/linkHref",
+        "type": "internal",
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ],
+        "targetRoute": "/de/linkHref",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/docLink",
+        "type": "internal",
+        "referencedIn": [
+          "components/ui/HelpIcon.tsx"
+        ],
+        "targetRoute": "/de/docLink",
+        "exists": false,
+        "httpStatus": 404
+      }
+    ],
+    "missing": [
+      {
+        "href": "/de/${locale",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/HomePageClient.tsx",
+          "app/[locale]/auth/auth-code-error/page.tsx",
+          "app/[locale]/auth/forgot-password/page.tsx",
+          "app/[locale]/auth/reset-password/page.tsx",
+          "app/[locale]/auth/verify-otp/page.tsx",
+          "app/[locale]/bots/new/page.tsx",
+          "app/[locale]/checkout/cancel/page.tsx",
+          "app/[locale]/checkout/success/page.tsx",
+          "app/[locale]/demo/bot-builder/page.tsx",
+          "app/[locale]/demo/dashboard/page.tsx",
+          "app/[locale]/demo/designs/datawave/page.tsx",
+          "app/[locale]/demo/designs/minimal/page.tsx",
+          "app/[locale]/demo/designs/night/page.tsx",
+          "app/[locale]/page.tsx",
+          "app/[locale]/pricing/PricingClient.tsx",
+          "app/[locale]/screenshots/page.tsx",
+          "app/[locale]/support/messages/SupportMessagesClient.tsx",
+          "app/[locale]/templates/page.tsx",
+          "components/auth/LoginForm.tsx",
+          "components/auth/SignupForm.tsx",
+          "components/bots/BotDetail.tsx",
+          "components/dashboard/DashboardContent.tsx",
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx",
+          "components/layout/SupportIndicator.tsx"
+        ],
+        "targetRoute": "/de/${locale",
+        "exists": false
+      },
+      {
+        "href": "/de/screenshot.src",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ],
+        "targetRoute": "/de/screenshot.src",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/${basePath",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/legal/privacy/page.tsx",
+          "app/[locale]/legal/terms/page.tsx",
+          "components/legal/CookieBanner.tsx"
+        ],
+        "targetRoute": "/de/${basePath",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/dashboard",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/test/page.tsx"
+        ],
+        "targetRoute": "/de/dashboard",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/de",
+        "type": "internal",
+        "referencedIn": [
+          "app/error.tsx"
+        ],
+        "targetRoute": "/de/de",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/privacy",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/privacy",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/data-processing",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/data-processing",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/bsp.website",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/bsp.website",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/action.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/dashboard/DashboardContent.tsx"
+        ],
+        "targetRoute": "/de/action.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/link.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx"
+        ],
+        "targetRoute": "/de/link.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/linkHref",
+        "type": "internal",
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ],
+        "targetRoute": "/de/linkHref",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/docLink",
+        "type": "internal",
+        "referencedIn": [
+          "components/ui/HelpIcon.tsx"
+        ],
+        "targetRoute": "/de/docLink",
+        "exists": false,
+        "httpStatus": 404
+      }
+    ],
+    "all": [
+      {
+        "href": "/de/${locale",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/HomePageClient.tsx",
+          "app/[locale]/auth/auth-code-error/page.tsx",
+          "app/[locale]/auth/forgot-password/page.tsx",
+          "app/[locale]/auth/reset-password/page.tsx",
+          "app/[locale]/auth/verify-otp/page.tsx",
+          "app/[locale]/bots/new/page.tsx",
+          "app/[locale]/checkout/cancel/page.tsx",
+          "app/[locale]/checkout/success/page.tsx",
+          "app/[locale]/demo/bot-builder/page.tsx",
+          "app/[locale]/demo/dashboard/page.tsx",
+          "app/[locale]/demo/designs/datawave/page.tsx",
+          "app/[locale]/demo/designs/minimal/page.tsx",
+          "app/[locale]/demo/designs/night/page.tsx",
+          "app/[locale]/page.tsx",
+          "app/[locale]/pricing/PricingClient.tsx",
+          "app/[locale]/screenshots/page.tsx",
+          "app/[locale]/support/messages/SupportMessagesClient.tsx",
+          "app/[locale]/templates/page.tsx",
+          "components/auth/LoginForm.tsx",
+          "components/auth/SignupForm.tsx",
+          "components/bots/BotDetail.tsx",
+          "components/dashboard/DashboardContent.tsx",
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx",
+          "components/layout/SupportIndicator.tsx"
+        ],
+        "targetRoute": "/de/${locale",
+        "exists": false
+      },
+      {
+        "href": "/de/screenshot.src",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/docs/page.tsx"
+        ],
+        "targetRoute": "/de/screenshot.src",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/${basePath",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/legal/privacy/page.tsx",
+          "app/[locale]/legal/terms/page.tsx",
+          "components/legal/CookieBanner.tsx"
+        ],
+        "targetRoute": "/de/${basePath",
+        "exists": false
+      },
+      {
+        "href": "/de/demo/dashboard",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/dashboard",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/demo/bot-builder",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/bot-builder",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/demo/features",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/features",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/demo/analytics",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/analytics",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/demo/knowledge",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/knowledge",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/demo/settings",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/page.tsx"
+        ],
+        "targetRoute": "/de/demo/settings",
+        "exists": true,
+        "httpStatus": 200
+      },
+      {
+        "href": "/de/",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/pricing/PricingClient.tsx",
+          "components/widget/EmbedCodeGenerator.tsx"
+        ],
+        "targetRoute": "/de/",
+        "exists": true,
+        "httpStatus": 308
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, study.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, item.ctaHref)",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.primaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/resources/page.tsx"
+        ],
+        "targetRoute": "/de/resolveHref(normalizedLocale, t('cta.secondaryHref'))",
+        "exists": false
+      },
+      {
+        "href": "/de/dashboard",
+        "type": "internal",
+        "referencedIn": [
+          "app/[locale]/test/page.tsx"
+        ],
+        "targetRoute": "/de/dashboard",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/de",
+        "type": "internal",
+        "referencedIn": [
+          "app/error.tsx"
+        ],
+        "targetRoute": "/de/de",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/privacy",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/privacy",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/legal/data-processing",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/legal/data-processing",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/bsp.website",
+        "type": "internal",
+        "referencedIn": [
+          "components/bots/WhatsAppSetupWizard.tsx"
+        ],
+        "targetRoute": "/de/bsp.website",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/action.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/dashboard/DashboardContent.tsx"
+        ],
+        "targetRoute": "/de/action.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/link.href",
+        "type": "internal",
+        "referencedIn": [
+          "components/layout/Footer.tsx",
+          "components/layout/Header.tsx"
+        ],
+        "targetRoute": "/de/link.href",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/linkHref",
+        "type": "internal",
+        "referencedIn": [
+          "components/screenshots/ScreenshotCard.tsx"
+        ],
+        "targetRoute": "/de/linkHref",
+        "exists": false,
+        "httpStatus": 404
+      },
+      {
+        "href": "/de/docLink",
+        "type": "internal",
+        "referencedIn": [
+          "components/ui/HelpIcon.tsx"
+        ],
+        "targetRoute": "/de/docLink",
+        "exists": false,
+        "httpStatus": 404
+      }
+    ]
+  },
+  "fixes": [
+    {
+      "type": "page",
+      "issue": "Seite /de/auth/auth-code-error fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/auth-code-error/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/auth-code-error/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/auth/login fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/login/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/login/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/auth/signup fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/signup/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/auth/signup/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/bots/[id]/analytics fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/analytics/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/analytics/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/bots/[id]/knowledge fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/knowledge/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/knowledge/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/bots/[id] fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/[id]/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/bots/new fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/new/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/new/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/bots fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/bots/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/checkout/cancel fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/cancel/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/cancel/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/checkout fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/checkout/paypal/success fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/paypal/success/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/paypal/success/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/checkout/success fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/success/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/checkout/success/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/dashboard/monitoring fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/monitoring/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/monitoring/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/dashboard fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/dashboard/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/intern fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/intern/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/intern/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/legal/cookies fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/cookies/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/cookies/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/legal/data-processing fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/data-processing/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/data-processing/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/legal/privacy fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/privacy/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/privacy/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/legal/terms fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/terms/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/legal/terms/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/pricing fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/pricing/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/pricing/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/resources fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/resources/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/resources/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/screenshots fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/screenshots/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/screenshots/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/settings fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/settings/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/settings/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/support/messages fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/support/messages/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/support/messages/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/templates fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/templates/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/templates/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/test fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/test/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/test/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/tools/geoview fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/tools/geoview/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/tools/geoview/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "page",
+      "issue": "Seite /de/widget/embed fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/app/[locale]/widget/embed/page.tsx root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/app/[locale]/widget/embed/page.tsx",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "issue": "Bild /screenshot.src fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/screenshot.src root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/public/screenshot.src",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "issue": "Bild /logo.src fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo.src root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/public/logo.src",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "issue": "Bild /logo fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/logo root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/public/logo",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "issue": "Bild /videoSrc fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/videoSrc root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/public/videoSrc",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "issue": "Bild /imageSrc fehlt auf Server",
+      "fix": "rsync -avz /Users/salomon/Documents/products/ai-whatsapp-bot-builder/frontend/public/imageSrc root@whatsapp.owona.de:/var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend/public/imageSrc",
+      "priority": "medium"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/${locale führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/${locale - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/screenshot.src führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/screenshot.src - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/${basePath führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/${basePath - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref')) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, t('hero.ctaPrimaryHref')) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref')) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, t('hero.ctaSecondaryHref')) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, study.ctaHref) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, study.ctaHref) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, item.ctaHref) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, item.ctaHref) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref')) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, t('resources.assuranceCtaHref')) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, t('cta.primaryHref')) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, t('cta.primaryHref')) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/resolveHref(normalizedLocale, t('cta.secondaryHref')) führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/resolveHref(normalizedLocale, t('cta.secondaryHref')) - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/dashboard führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/dashboard - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/de führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/de - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/legal/privacy führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/legal/privacy - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/legal/data-processing führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/legal/data-processing - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/bsp.website führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/bsp.website - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/action.href führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/action.href - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/link.href führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/link.href - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/linkHref führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/linkHref - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    },
+    {
+      "type": "link",
+      "issue": "Link /de/docLink führt zu nicht-existierender Seite",
+      "fix": "Prüfe Route /de/docLink - Seite muss erstellt oder Link korrigiert werden",
+      "priority": "high"
+    }
+  ]
+}

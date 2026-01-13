@@ -1,0 +1,36 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "pm2 describe 5\r"
+expect "# "
+
+# Logs for this process specifically
+send "pm2 logs 5 --lines 50 --nostream\r"
+expect "# "
+
+# Check env file in the correct directory
+send "cd /var/www/whatsapp-bot-builder/frontend\r"
+expect "# "
+send "ls -la .env*\r"
+expect "# "
+
+# Check for BUCKET key here
+send "grep 'BUCKET' .env.local\r"
+
+send "exit\r"
+expect eof

@@ -1,0 +1,24 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Fetch the last 100 lines of logs for process 5 to capture recent activity/errors
+send "pm2 logs 5 --lines 100 --nostream\r"
+expect "# "
+
+send "exit\r"
+expect eof

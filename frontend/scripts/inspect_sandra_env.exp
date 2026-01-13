@@ -1,0 +1,33 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "cd /var/www/sandra\r"
+expect "# "
+
+# Check specific critical keys simply by grepping for them
+send "echo '--- CRITICAL KEYS CHECK ---'\r"
+send "grep 'NEXT_PUBLIC_SUPABASE_URL' .env.local && echo 'URL: FOUND' || echo 'URL: MISSING'\r"
+send "grep 'NEXT_PUBLIC_SUPABASE_ANON_KEY' .env.local && echo 'ANON: FOUND' || echo 'ANON: MISSING'\r"
+send "grep 'SUPABASE_SERVICE_ROLE_KEY' .env.local && echo 'SERVICE: FOUND' || echo 'SERVICE: MISSING'\r"
+send "grep 'BUCKET' .env.local\r"
+
+# Check if there is any other .env file
+send "ls -la .env*\r"
+
+send "exit\r"
+expect eof

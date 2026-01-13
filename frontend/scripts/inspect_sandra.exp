@@ -1,0 +1,30 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+# Analyze 'sandra' process
+send "pm2 describe sandra\r"
+expect "# "
+
+# Check environment variables for storage (filtering to avoid full secrets leak if possible, but describe output is verbose)
+# We look for the path first to check config files
+send "echo '--- PROCESS PATH ---'\r"
+send "pm2 describe sandra | grep 'script structure'\r"
+expect "# "
+
+send "exit\r"
+expect eof

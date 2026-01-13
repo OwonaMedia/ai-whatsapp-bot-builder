@@ -1,0 +1,47 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "cd /var/www/whatsapp-bot-builder/products/ai-whatsapp-bot-builder/frontend\r"
+expect "# "
+
+send "cat > scripts/test_pdfjs_import.js << 'EOF'\n"
+send "try {\n"
+send "  const pdfjs = require('pdfjs-dist/legacy/build/pdf.js');\n"
+send "  console.log('PDFJS Legacy Loaded');\n"
+send "  console.log('PDFJS Version:', pdfjs.version);\n"
+send "} catch (e) {\n"
+send "  console.error('Failed to load legacy build:', e.message);\n"
+send "  try {\n"
+send "    const pdfjs = require('pdfjs-dist');\n"
+send "    console.log('PDFJS Standard Loaded');\n"
+send "  } catch (e2) {\n"
+send "    console.error('Failed to load standard build:', e2.message);\n"
+send "  }\n"
+send "}\n"
+send "EOF\n"
+expect "# "
+
+send "node scripts/test_pdfjs_import.js\r"
+expect "# "
+
+# Cleanup
+send "rm scripts/test_pdfjs_import.js\r"
+expect "# "
+
+send "exit\r"
+expect eof

@@ -1,0 +1,27 @@
+#!/usr/bin/expect -f
+
+set timeout 20
+set ip "91.99.232.126"
+set user "root"
+set password "LpXqTEPurwUu"
+
+spawn ssh -o StrictHostKeyChecking=no $user@$ip
+
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "# " {
+    }
+}
+
+send "lsof -i :3000\r"
+expect "# "
+
+# Assuming PID is found, let's say it is PID_X. I will list all node processes to be sure.
+send "ps aux | grep node\r"
+expect "# "
+
+send "exit\r"
+expect eof

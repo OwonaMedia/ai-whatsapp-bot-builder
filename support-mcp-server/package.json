@@ -1,0 +1,38 @@
+{
+  "name": "@owona/support-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Autonomer Support-MCP-Server für das WhatsApp Bot Builder Projekt (Tickets, Diagnose, UX-Automation).",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "monitor": "node dist/automation/ticketMonitor.js",
+    "monitor:dev": "tsx src/automation/ticketMonitor.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.0",
+    "dotenv": "^16.4.5",
+    "fast-glob": "^3.3.2",
+    "openai": "^4.55.0",
+    "pino": "^9.2.0",
+    "ssh2": "^1.15.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/ssh2": "^1.15.5",
+    "@vitest/coverage-v8": "^4.0.14",
+    "@vitest/ui": "^4.0.14",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.15.7",
+    "typescript": "5.6.3",
+    "vitest": "^4.0.14"
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "common": {
+    "appName": "WhatsApp Bot Builder",
+    "domain": "whatsapp.owona.de",
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት",
+    "success": "አስፈላጊ",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "delete": "ሰርዝ",
+    "edit": "አርም",
+    "create": "ፍጠር",
+    "back": "ተመለስ",
+    "next": "ቀጣይ",
+    "previous": "ያለፈ",
+    "close": "ዝጋ",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "actions": "ድርጊቶች",
+    "open": "ክፈት"
+  },
+  "pricing": {
+    "title": "ቀላል እና ግልጽ ዋጋ",
+    "subtitle": "ምንም ተደባለቀ ክፍያ የለም። በማንኛውም ጊዜ መሰረዝ ይችላሉ።",
+    "cta": "የ14 ቀን ነፃ ሙከራዎን ይጀምሩ"
+  },
+  "resourcesPage": {
+    "hero": {
+      "pill": "Customer proof",
+      "title": "Proof of impact and resources to accelerate your rollout",
+      "subtitle": "See how regulated teams launch with WhatsApp Bot Builder and download the exact playbooks they rely on.",
+      "ctaPrimary": "Book strategy session",
+      "ctaPrimaryHref": "contact?topic=resources",
+      "ctaSecondary": "Browse template library",
+      "ctaSecondaryHref": "templates",
+      "stats": [
+        { "label": "Customer satisfaction after go-live", "value": "99.2%" },
+        { "label": "Average time to first production bot", "value": "14 days" },
+        { "label": "Lead uplift across automation projects", "value": "+23%" }
+      ]
+    },
+    "partners": {
+      "title": "Trusted by",
+      "subtitle": "Healthcare, retail and SaaS teams in the EU",
+      "description": "Cross-functional squads from compliance, CX and growth use WhatsApp Bot Builder as the foundation of their automation stack.",
+      "logos": [
+        "Klinikverbund Nord",
+        "UrbanFit Retail",
+        "Converso Digital",
+        "Finovate SaaS",
+        "Tech4Humanity"
+      ]
+    },
+    "caseStudies": {
+      "pill": "Impact stories",
+      "title": "How teams ship measurable results",
+      "subtitle": "Every project pairs a compliant WhatsApp experience with reliable payments, analytics and success measurement.",
+      "items": {
+        "healthcare": {
+          "id": "healthcare",
+          "industry": "Healthcare",
+          "title": "Automated triage across 7 clinics",
+          "description": "Patient requests are pre-qualified, routed to the right medical teams and documented in the EMR without manual copy & paste.",
+          "metrics": [
+            "38% faster hotline response time",
+            "1,200 appointment requests processed per month"
+          ],
+          "result": "Integration covers DPA-compliant storage, handover to staff and role-based approvals in under two weeks.",
+          "ctaLabel": "Request the clinic playbook",
+          "ctaHref": "contact?topic=case-study-healthcare"
+        },
+        "retail": {
+          "id": "retail",
+          "industry": "E-commerce",
+          "title": "Conversational checkout for a fashion brand",
+          "description": "Product advice, payments and shipping updates run inside WhatsApp, while Stripe and PayPal track every transaction.",
+          "metrics": [
+            "+23% recovered abandoned carts",
+            "€8.4k additional monthly revenue"
+          ],
+          "result": "Playbooks bundle product feed sync, multi-lingual copy and analytics dashboards for marketing teams.",
+          "ctaLabel": "Download the retail toolkit",
+          "ctaHref": "contact?topic=case-study-retail"
+        },
+        "agency": {
+          "id": "agency",
+          "industry": "Agency & consulting",
+          "title": "White-label automation offering",
+          "description": "A digital agency onboards 18 client bots in six weeks, including branding, invoicing and customer success dashboards.",
+          "metrics": [
+            "72 hours average implementation time",
+            "35% higher retainer through automation SLAs"
+          ],
+          "result": "Reusable n8n workflows, Supabase schemas and payment handoffs enable scalable delivery.",
+          "ctaLabel": "See the agency blueprint",
+          "ctaHref": "contact?topic=case-study-agency"
+        }
+      }
+    },
+    "resources": {
+      "pill": "Resource library",
+      "title": "Downloadable assets to fast-track delivery",
+      "subtitle": "Each artifact is updated quarterly with new templates, compliance checklists and automation tips from real projects.",
+      "categories": ["Playbooks", "Checklists", "Automation scripts"],
+      "items": [
+        {
+          "id": "enterprise-playbook",
+          "category": "Playbook",
+          "title": "Enterprise rollout playbook",
+          "description": "Step-by-step guide for legal, product and operations teams to launch in regulated environments.",
+          "highlights": [
+            "Governance checklist for WhatsApp Business API",
+            "Stakeholder communication templates",
+            "Rollback and incident response playcards"
+          ],
+          "ctaLabel": "Request playbook",
+          "ctaHref": "contact?topic=resource-enterprise-playbook"
+        },
+        {
+          "id": "compliance-kit",
+          "category": "Compliance",
+          "title": "GDPR & payment compliance kit",
+          "description": "Bundle of TOM documentation, DPA templates and invoice samples aligned with EU regulations.",
+          "highlights": [
+            "Pre-filled TOM & AV templates",
+            "Invoice layout with small-business regulation",
+            "Security questionnaire responses"
+          ],
+          "ctaLabel": "Get compliance kit",
+          "ctaHref": "contact?topic=resource-compliance-kit"
+        },
+        {
+          "id": "automation-recipes",
+          "category": "Automation",
+          "title": "Automation recipes for n8n & Supabase",
+          "description": "Curated library of reusable flows covering lead routing, subscription activation and payment retries.",
+          "highlights": [
+            "6 ready-to-import n8n workflows",
+            "Supabase SQL snippets for quota tracking",
+            "Testing checklist for payment fallbacks"
+          ],
+          "ctaLabel": "Access automation recipes",
+          "ctaHref": "contact?topic=resource-automation-recipes"
+        },
+        {
+          "id": "messaging-library",
+          "category": "Messaging",
+          "title": "Multilingual messaging library",
+          "description": "Approved templates for onboarding, support and payments in German, English and French.",
+          "highlights": [
+            "8 onboarding sequences",
+            "12 payment recovery nudges",
+            "Tone-of-voice checklist"
+          ],
+          "ctaLabel": "Download messaging pack",
+          "ctaHref": "contact?topic=resource-messaging-library"
+        }
+      ],
+      "assuranceTitle": "Operational assurance",
+      "assuranceHeadline": "Every resource is validated with real deployments",
+      "assuranceSubtitle": "We share the audit trail, KPIs and implementation lessons that make WhatsApp automation work at scale.",
+      "assurance": [
+        "Quarterly updates based on customer retrospectives",
+        "Templates reviewed by legal, compliance and success teams",
+        "Benchmarks across healthcare, retail and SaaS use cases"
+      ],
+      "assuranceCtaLabel": "Talk to a solution expert",
+      "assuranceCtaHref": "contact?topic=solution-review"
+    },
+    "testimonials": {
+      "pill": "Voices from the field",
+      "title": "Why teams stay with WhatsApp Bot Builder",
+      "subtitle": "Leaders across customer experience, operations and compliance share the ROI they monitor.",
+      "items": [
+        {
+          "quote": "The in-depth playbooks saved us weeks of internal alignment. Every stakeholder saw their responsibilities from day one.",
+          "name": "Leonie Hartmann",
+          "role": "Head of Patient Services, Klinikverbund Nord",
+          "metric": "36% fewer manual escalations"
+        },
+        {
+          "quote": "We reused the automation recipes and shipped international payment flows without writing custom glue code.",
+          "name": "André Becker",
+          "role": "Automation Lead, UrbanFit Retail",
+          "metric": "4 new markets launched in 90 days"
+        },
+        {
+          "quote": "Clients sign off faster because we can show compliance docs, GDPR wording and invoice formats upfront.",
+          "name": "Noemi Alvarez",
+          "role": "Managing Director, Converso Digital",
+          "metric": "60% shorter sales cycles"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to showcase results like these?",
+      "subtitle": "Schedule a guided session or start with the resource pack to launch your WhatsApp automation faster.",
+      "primary": "Book live demo",
+      "primaryHref": "contact?topic=demo",
+      "secondary": "Explore all templates",
+      "secondaryHref": "templates"
+    }
+  },
+  "monitoring": {
+    "title": "Automation & Monitoring",
+    "subtitle": "Last {days} days · {from} – {to}",
+    "actions": {
+      "refresh": "Refresh data",
+      "refreshing": "Refreshing..."
+    },
+    "errors": {
+      "loadFailed": "Could not load latest snapshot"
+    },
+    "stats": {
+      "totalRevenue": "Net revenue",
+      "successRate": "Success rate",
+      "failedPayments": "Failed payments",
+      "webhookFailures": "Webhook failures"
+    },
+    "payments": {
+      "title": "Payment events",
+      "subtitle": "Audit trail for Stripe & PayPal transactions",
+      "total": "{count} entries",
+      "headers": {
+        "date": "Date",
+        "status": "Status",
+        "amount": "Amount",
+        "provider": "Provider",
+        "subscription": "Subscription",
+        "details": "Details"
+      },
+      "empty": "No payment events recorded in the selected period."
+    },
+    "webhooks": {
+      "title": "Webhook processing",
+      "subtitle": "Stripe & PayPal webhook activity",
+      "total": "{count} events",
+      "headers": {
+        "date": "Date",
+        "provider": "Provider",
+        "event": "Event",
+        "status": "Status",
+        "details": "Details"
+      },
+      "empty": "No webhook activity recorded in the selected period."
+    },
+    "status": {
+      "succeeded": "Succeeded",
+      "failed": "Failed",
+      "pending": "Pending",
+      "refunded": "Refunded",
+      "canceled": "Canceled",
+      "processed": "Processed",
+      "received": "Received"
+    }
+  },
+  "home": {
+    "title": "WhatsApp Bot Builder",
+    "subtitle": "DSGVO ጋር የሚስማማ የ AI የሚመራ WhatsApp Business Bots ያግኙ ያለ ኮድ",
+    "startNow": "አሁን ይጀምሩ",
+    "dashboard": "ዳሽቦርድ",
+    "ragDemo": {
+      "title": "በቅጽበት ምሳሌ: RAG Chat",
+      "description": "የእውቀት ምንጭ (PDF ወይም URL) ያክሉ እና በዚያ ምንጭ ላይ ብቻ የተመሰረተ ወደ AI ይናገሩ"
+    },
+    "features": {
+      "dsgvo": {
+        "title": "ከ DSGVO ጋር ይስማማል",
+        "description": "የ EU ውሂብ አቀባበል፣ የመስማማት አስተዳደር እና ሙሉ ተገዢነት"
+      },
+      "ai": {
+        "title": "AI የሚደግፍ",
+        "description": "በ GROQ AI ውህደት የተጠናከረ ስልጠናዊ ውይይቶች"
+      },
+      "nocode": {
+        "title": "ያለ ኮድ",
+        "description": "በመጎተት እና በመጣል በይነገጽ የ bot ገንቢ"
+      }
+    },
+    "trust": {
+      "caseStudies": {
+        "title": "Customer results you can verify",
+        "subtitle": "Healthcare, e-commerce and agencies rely on our WhatsApp automation stack",
+        "items": {
+          "healthcare": {
+            "industry": "Healthcare",
+            "headline": "Automated patient triage for a hospital group",
+            "description": "The bot handles repetitive questions, pre-qualifies appointment requests and frees up hotline teams.",
+            "metrics": [
+              "38% shorter hotline waiting time",
+              "1,200 appointments routed automatically every month"
+            ],
+            "result": "Go-live in 14 days including DPA, role-based access control and audit logging."
+          },
+          "retail": {
+            "industry": "E-Commerce",
+            "headline": "Conversational checkout for a D2C fashion brand",
+            "description": "WhatsApp guides shoppers through product advice, payment selection and delivery status around the clock.",
+            "metrics": [
+              "23% higher recovery of abandoned carts",
+              "€8.4k additional monthly revenue via automated upsells"
+            ],
+            "result": "Stripe, PayPal, Apple Pay and Klarna are orchestrated end to end without manual handover."
+          },
+          "agency": {
+            "industry": "Agencies & Consulting",
+            "headline": "Scalable white-label offer for a digital agency",
+            "description": "18 client bots delivered in six weeks, complete with branding, reporting and billing.",
+            "metrics": [
+              "72 hours average implementation time",
+              "35% higher retainer through automation SLAs"
+            ],
+            "result": "Multi-tenant billing, support workflows and analytics organised inside the dashboard."
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Voices from our customers",
+        "subtitle": "From CX teams to SaaS onboarding squads",
+        "points": {
+          "speed": "Launch in days instead of custom projects that take months",
+          "compliance": "GDPR checklist, DPA and TOM documentation included",
+          "support": "Dedicated success manager starting with the Professional plan"
+        },
+        "items": {
+          "agency": {
+            "quote": "We delivered our first production bot in eleven days. Now we win new projects every week without increasing headcount.",
+            "name": "Julia Kramer",
+            "role": "Head of CX, Converso Digital",
+            "metric": "23% more qualified leads in the first month"
+          },
+          "retail": {
+            "quote": "The bot handles product advice, shipping updates and payments. Our support team can finally focus on revenue conversations again.",
+            "name": "Leonard Fischer",
+            "role": "E-Commerce Lead, UrbanFit",
+            "metric": "18 hours of manual work saved every week"
+          },
+          "saas": {
+            "quote": "We orchestrate onboarding flows across three markets in parallel. The n8n, Supabase and Apple Pay stack is the reason we switched.",
+            "name": "Mira Albrecht",
+            "role": "Customer Success Director, Finovate SaaS",
+            "metric": "99.2% customer satisfaction after rollout"
+          }
+        }
+      },
+      "security": {
+        "title": "Security and compliance by design",
+        "subtitle": "EU-hosted infrastructure with independent audits and transparent documentation.",
+        "features": [
+          "PCI DSS Level 1 payment processing through Stripe and PayPal",
+          "End-to-end TLS encryption plus optional isolated storage at rest",
+          "Tamper-proof audit logs, role approvals and activity monitoring"
+        ],
+        "assuranceTitle": "What you can rely on",
+        "assurance": [
+          "Hosting in Frankfurt (eu-central-1) with daily geo-redundant backups",
+          "Ready-to-sign Data Processing Agreement and TOM documentation",
+          "Quarterly penetration tests and continuous automated security scans"
+        ],
+        "ctaPrimary": "Request technical documentation",
+        "ctaSecondary": "View security overview"
+      },
+      "pricingPage": {
+        "header": {
+          "title": "Transparent pricing",
+          "subtitle": "Pick the plan that fits your team. Every tier stays GDPR compliant and EU hosted.",
+          "billing": {
+            "monthly": "Monthly",
+            "yearly": "Yearly",
+            "yearlyTag": "Save 17%"
+          }
+        },
+        "onboarding": {
+          "title": "Launch in three guided steps",
+          "subtitle": "Follow the assistant from account creation to your first live bot.",
+          "steps": {
+            "account": {
+              "title": "1. Create account & invite team",
+              "description": "Sign up, add company details and assign permissions."
+            },
+            "connect": {
+              "title": "2. Connect WhatsApp",
+              "description": "Select your Meta Business Account, verify the webhook and enable payments."
+            },
+            "launch": {
+              "title": "3. Publish your first bot",
+              "description": "Choose a template, customise content and go live."
+            }
+          },
+          "ctaPrimary": "Start onboarding for free",
+          "ctaSecondary": "View the step-by-step guide",
+          "footnote": "No credit card required. Test every feature for 14 days."
+        },
+        "roi": {
+          "title": "Estimate your ROI",
+          "subtitle": "Model automation impact and pick the right tier based on your numbers.",
+          "disclaimerTagline": "Benchmarks derived from real customer projects",
+          "fields": {
+            "industry": "Industry",
+            "leadsPerMonth": "Inbound leads per month",
+            "closeRate": "Close rate",
+            "averageDeal": "Average deal value (EUR)",
+            "supportTickets": "Support tickets per month",
+            "supportCost": "Operational cost per ticket",
+            "supportCostUnit": "/ticket"
+          },
+          "industries": {
+            "agency": "Agency & consulting",
+            "ecommerce": "E-commerce & retail",
+            "service": "Service businesses"
+          },
+          "help": {
+            "leads": "Include all WhatsApp, chat or form leads handled today.",
+            "supportTickets": "Average monthly tickets your team resolves manually."
+          },
+          "results": {
+            "monthlyBenefitLabel": "Estimated monthly benefit",
+            "additionalRevenue": "Additional revenue",
+            "supportSavings": "Support cost savings",
+            "disclaimer": "Use these numbers as guidance and adapt them to your case.",
+            "recommendedPlanLabel": "Suggested plan",
+            "recommendedPlanDescription": "With around {messages} messages per month this tier fits best.",
+            "planPricing": "Monthly investment: {price}",
+            "planCustom": "Custom pricing available via our team.",
+            "yearlyBenefit": "Projected annual impact: {value}",
+            "roiMultiple": "≈ {multiple}x ROI when you run the recommended plan",
+            "coveredBySavings": "Support savings already cover the plan cost.",
+            "ctaStart": "Continue to checkout",
+            "ctaEnterprise": "Book a strategy session"
+          }
+        }
+      }
+    }
+  },
+  "rag": {
+    "knowledgeSources": "የእውቀት ምንጮች",
+    "addUrl": "URL ያክሉ",
+    "uploadPdf": "PDF ይጭኑ",
+    "noSources": "ምንጭ አልተጨመረም",
+    "processing": "በማስኬድ ላይ...",
+    "ready": "ዝግጁ",
+    "error": "ስህተት",
+    "sourcesReady": "{count} ምንጭ(ዎች) ዝግጁ",
+    "chatTitle": "ከ AI ጋር ውይይት",
+    "chatDescription": "AI በተጨመሩት የእውቀት ምንጮች ላይ ብቻ ይመልሳል.",
+    "placeholder": "ጥያቄዎ...",
+    "send": "ላክ",
+    "emptyChat": "በየእውቀት ምንጮችዎ ላይ የተመሰረተ ጥያቄ ይጠይቁ.",
+    "emptyChatHint": "AI ከተጨመሩት ምንጮች እውነታዎችን ብቻ ሊያገለግል ይችላል.",
+    "sources": "ምንጮች"
+  },
+  "auth": {
+    "login": "ግባ",
+    "signup": "ተመዝግብ",
+    "logout": "ውጣ",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "forgotPassword": "የይለፍ ቃልዎን ረሱ?",
+    "rememberMe": "አስታውሰኝ",
+    "noAccount": "መለያ የሎትም?",
+    "hasAccount": "ድሮ መለያ አሎት?",
+    "welcomeBack": "እንኳን ደህና መጡ",
+    "loginDescription": "ለመቀጠል ይግቡ",
+    "emailPlaceholder": "email@email.com",
+    "fillAllFields": "እባክዎ ሁሉንም ሜዳዎች ይሙሉ.",
+    "invalidEmail": "ትክክል ያልሆነ ኢሜይል",
+    "invalidEmailMessage": "እባክዎ ትክክለኛውን የኢሜይል አድራሻ ያስገቡ.",
+    "loginFailed": "መግቢያ አልተሳካም",
+    "checkCredentials": "እባክዎ የመግቢያ ሰርተፍኬትዎን ያረጋግጡ.",
+    "loginSuccess": "በተሳካ ሁኔታ ገብተዋል",
+    "redirecting": "በማዞር ላይ...",
+    "signupLink": "አሁን ይመዝግቡ",
+    "emailVerificationFailed": {
+      "title": "የኢሜይል ማረጋገጫ አልተሳካም",
+      "description": "የማረጋገጫ አገናኝ ትክክል አይደለም ወይም ጊዜው አልፏል። ይህ የሚከሰተው:",
+      "reason1": "አገናኙ ቀድሞውኑ አንድ ጊዜ ጥቅም ላይ ውሏል",
+      "reason2": "አገናኙ ለብዙ ጊዜ ተጠብቋል (ከ24 ሰዓታት በላይ)",
+      "reason3": "አገናኙ ወደ ትክክለኛው ወይ ስፍራ አይመራም",
+      "resendPrompt": "አዲስ የማረጋገጫ ኢሜይል በ {email} ማግኘት ይፈልጋሉ?",
+      "enterEmail": "አዲስ የማረጋገጫ ኢሜይል ለመቀበል የኢሜይል አድራሻዎን ያስገቡ:",
+      "resendButton": "የማረጋገጫ ኢሜይል እንደገና ይላኩ",
+      "resending": "ኢሜይል በመላክ ላይ...",
+      "resendSuccess": "ኢሜይል እንደገና ተልኳል",
+      "resendSuccessMessage": "እባክዎ ለአዲሱ የማረጋገጫ አገናኝ ኢ-መለያዎን ይፈትሹ።",
+      "resendError": "ኢሜይል እንደገና ሊላክ አልቻለም።",
+      "enterEmailError": "እባክዎ የኢሜይል አድራሻዎን ያስገቡ።",
+      "invalidEmailError": "ትክክል ያልሆነ ኢሜይል",
+      "invalidEmailMessage": "እባክዎ ትክክለኛውን የኢሜይል አድራሻ ያስገቡ።",
+      "genericError": "ያልተጠበቀ ስህተት ተፈጥሯል።",
+      "backToLogin": "ወደ መግቢያ ይመለሱ",
+      "newSignup": "አዲስ ተመዝግብ",
+      "supabaseConfigWarning": "አስፈላጊ: የ Supabase ውቅር",
+      "supabaseConfigMessage": "አገናኙ ወደ localhost:3000 ከመራ በ Supabase Dashboard ላይ ያለው የጣቢያ URL ወደ https://whatsapp.owona.de መለወጥ አለበት።"
+    }
+  },
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "welcome": "እንኳን ደህና መጡ!",
+    "yourBots": "Bots ዎች",
+    "createBot": "አዲስ Bot ይፍጠሩ",
+    "noBots": "ገና bot አልፈጠሩም።",
+    "noFilteredBots": "ምንም bot ከአሁኑ ማጣሪያዎች ጋር አይዛመድም።",
+    "resetFilters": "ማጣሪያዎችን ዳግም አስጀምር",
+    "botCount": "{count} bot(s)",
+    "searchPlaceholder": "Bots ፈልግ…",
+    "filters": {
+      "all": "ሁሉም ሁኔታዎች"
+    },
+    "quickActions": {
+      "title": "ፈጣን እርምጃዎች",
+      "items": {
+        "create": {
+          "title": "Bot ፍጠር",
+          "description": "አዲስ ፍሰት ይጀምሩ ወይም አብነት ይምረጡ።"
+        },
+        "connect": {
+          "title": "WhatsApp አገናኝ",
+          "description": "የWhatsApp Business መለያዎን ያገናኙ እና webhook ያረጋግጡ።"
+        },
+        "templates": {
+          "title": "አብነት ማዕከል",
+          "description": "የኢንዱስትሪ አብነቶችን ይመልከቱ እና በፍጥነት ያስመጡ።"
+        }
+      }
+    },
+    "recentActivity": {
+      "title": "የቅርብ እንቅስቃሴ",
+      "empty": "እስካሁን ተግባር የለም።",
+      "createdOn": "ተፈጠረበት ቀን {date}"
+    }
+  },
+  "bots": {
+    "create": "አዲስ Bot ይፍጠሩ",
+    "edit": "Bot አርም",
+    "delete": "Bot ሰርዝ",
+    "deleteConfirm": "ይህን bot በእውነት መሰረዝ ይፈልጋሉ? ይህ ተግባር ሊመለስ አይችልም።",
+    "name": "የ Bot ስም",
+    "description": "መግለጫ",
+    "status": {
+      "draft": "ረቂቅ",
+      "active": "ንቁ",
+      "paused": "ተዘግቷል",
+      "archived": "ተመዝግቧል"
+    },
+    "activate": "አግብር",
+    "pause": "አቁም",
+    "settings": "ቅንብሮች",
+    "stats": {
+      "conversations": "ውይይቶች",
+      "messages": "መልዕክቶች",
+      "conversion": "መለወጥ"
+    }
+  },
+  "botBuilder": {
+    "namePlaceholder": "የ bot ስም ያስገቡ...",
+    "nodeCount": "{nodes} Nodes, {edges} ግንኙነቶች",
+    "create": "ፍጠር",
+    "save": "አስቀምጥ",
+    "nodePalette": "የ Node ፓሌት",
+    "dragDropHint": "nodes ወደ canvas ይጎትቱ ወይም ለመጨመር ይንኩ",
+    "tips": {
+      "title": "ፍንጭዎች:",
+      "tip1": "• እያንዳንዱ ፍሰት ቀስት ይፈልጋል",
+      "tip2": "• nodes በመጎተት እና በመጣል ያገናኙ",
+      "tip3": "• nodes ላይ ይንኩ ለማዋቀር"
+    }
+  },
+  "errors": {
+    "generic": "አንድ ነገር ተሳሳተ። እባክዎ እንደገና ይሞክሩ።",
+    "notFound": "ገጽ አልተገኘም",
+    "unauthorized": "የማይፈቀድ",
+    "forbidden": "መዳረሻ ተከልክሏል"
+  },
+  "navigation": {
+    "dashboard": "ዳሽቦርድ",
+    "bots": "ቦቶች",
+    "templates": "ቴምፕሌቶች",
+    "resources": "ሀብቶች",
+    "support": "ድጋፍ",
+    "monitoring": "መከታተያ",
+    "settings": "ቅንብሮች",
+    "logout": "መውጣት",
+    "menu": "ሜኑ",
+    "openMenu": "ሜኑን ክፈት",
+    "closeMenu": "ሜኑን ዝጋ",
+    "language": "ቋንቋ"
+  },
+  "support": {
+    "cta": "ችግር አሳውቅ",
+    "title": "የድጋፍ ቲኬት ፍጠር",
+    "subtitle": "ጉዳዩን በአጭሩ አስረዳ፤ በቅርቡ እንመልስልሃለን።",
+    "close": "ፓነሉን ዝጋ",
+    "cancel": "ሰርዝ",
+    "submit": "ቲኬት ላክ",
+    "disclaimer": "ሁሉም መረጃ በ GDPR መመሪያዎች ይተካል።",
+    "statusOverview": {
+      "heading": "ቀጣይ እርምጃዎች",
+      "personal": "መልሶቻችንን ለእርስዎ ብቻ እንሰጣለን እና ከቲኬቱ የአሁኑ ሁኔታ ጋር እንያያልን።",
+      "escalation": "የመጀመሪያውን መልስ ከላኩ በኋላ ቲኬቱን በራስ-ሰር ወደ Tier 2 እናስቀምጣለን።",
+      "updates": "የሁኔታ ለውጦች ሲኖሩ በቅርብ ጊዜ ዝርዝር መልእክቶችን ታቀበላለህ።"
+    },
+    "form": {
+      "category": "ምድብ",
+      "title": "ርዕስ",
+      "titlePlaceholder": "ጉዳዩን አጭር መግለጫ",
+      "description": "መግለጫ",
+      "descriptionPlaceholder": "ምን ተከሰተ? እባክህ እርምጃዎች ወይም አገናኞች ካሉ ጨምር።",
+      "metadataNotice": "ቴክኒክ መረጃ (ብራውዘር፣ ገፅ፣ ሰዓት) ለፈጣን መፍትሄ በራስ-ሰር ይጨመራል።"
+    },
+    "categories": {
+      "bug": "ችግር",
+      "billing": "ክፍያ",
+      "integration": "ኢንተግሬሽን",
+      "ux": "UX / ተጠቃሚ ተግባር",
+      "other": "ሌላ"
+    },
+    "success": {
+      "title": "ቲኬቱ ተልኳል",
+      "message": "እናመሰግናለን! የድጋፍ ቡድናችን በቶሎ ይመልሳል።",
+      "nextSteps": "በቅርቡ የማረጋገጫ መልእክት ታቀበላለህ፣ Tier 2 ሲጀምር የሁኔታ ዝርዝሮችን እናስተላልፋለን።"
+    },
+    "errors": {
+      "requiredTitle": "ርዕስና መግለጫ ያስፈልጋሉ",
+      "requiredMessage": "ቲኬቱን ለመላክ በፊት እባክዎ የግዴታ መስኮችን ሁሉ ይሙሉ።",
+      "submitTitle": "ቲኬቱ አልተላከም",
+      "submitMessage": "እባክዎን እንደገና ይሞክሩ ወይም በኢሜይል ያግኙን።"
+    },
+    "inbox": {
+      "title": "የድጋፍ መልዕክት ሳጥን",
+      "subtitle": "ቲኬቶችዎን ተከታትሉ እና ከድጋፍ ቡድናችን ጋር በቀጥታ ይወያዩ።",
+      "emptyTitle": "እስካሁን ቲኬት የለም",
+      "emptyDescription": "ጥሩ ነው! ችግር ካለ በታች ያለውን \"ችግር አሳውቅ\" ይጫኑ እኛም እንርዳዎታለን።",
+      "openTicket": "አዲስ ቲኬት ፍጠር",
+      "refresh": "አድስ",
+      "lastUpdated": "የመጨረሻ ማዘመን",
+      "replyLabel": "መልዕክትዎ",
+      "replyPlaceholder": "ለድጋፍ ቡድናችን አዲስ መልዕክት ይጻፉ…",
+      "replySubmit": "መልስ ላክ",
+      "customerReply": "እርስዎ",
+      "supportReply": "ድጋፍ",
+      "systemMessage": "ስርዓት",
+      "silentCheck": {
+         "running": "ለእርስዎ እየመረመርኩ ነው…",
+         "paymentStatusOk": "የክፍያ ሁኔታ ጥሩ ነው። ምንም የwebhook ስህተት አልተገኘም።",
+         "deploymentHealthy": "መዋቅሩ እና አገልግሎቶቹ በመደበኛው ሁኔታ ተገናኝተዋል።",
+         "uiTraceCaptured": "የUI ትክክለኛ ተከታታይ ተያይዟል። ቡድናችን ዝርዝሮቹን ይመረምራል።",
+         "completed": "መመርመር ተጠናቋል።",
+         "error": "መመርመሩ አልተሳካም። እባክዎ በኋላ ይሞክሩ።"
+       },
+      "autoEscalated": "መልስዎ ተቀምጧል – ቲኬቱ በራስ-ሰር ወደ Tier 2 ተልኳል።",
+      "status": {
+        "new": "አዲስ",
+        "investigating": "በመመርመር ላይ",
+        "waiting_customer": "እርስዎን በመጠባበቅ ላይ",
+        "resolved": "ተፈታ",
+        "closed": "ተዘጋ"
+      },
+      "priority": {
+        "low": "ዝቅተኛ",
+        "normal": "መደበኛ",
+        "high": "ከፍተኛ",
+        "urgent": "አስቸኳይ"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "WhatsApp Bot Builder",
+      "description": "ያለ ኮድ DSGVO-ተከታይ እና AI-ሚካኤል WhatsApp Business Bots ይፍጠሩ። ለንግድዎ ሙያዊ chatbot መፍትሄዎች።",
+      "copyright": "WhatsApp Bot Builder. ሁሉም መብቶች የተጠበቁ ናቸው።"
+    },
+    "customer": {
+      "title": "ድጋፍ & ክትትል",
+      "supportInbox": "የድጋፍ መልዕክቶች",
+      "reportIssue": "ችግር ሪፖርት ያድርጉ",
+      "monitoring": "ክትትል",
+      "support": "ድጋፍ"
+    },
+    "legal": {
+      "title": "ሕጋዊ",
+      "privacy": "የግላዊነት ፖሊሲ",
+      "terms": "ውሎች እና ሁኔታዎች",
+      "imprint": "ማተም",
+      "cookies": "የኩኪ ፖሊሲ",
+      "dataProcessing": "የውሂብ ማቀነባበር ስምምነት"
+    },
+    "contact": {
+      "title": "ያግኙ እና ድጋፍ",
+      "email": "info@owona.de",
+      "support": "ድጋፍ"
+    },
+    "disclaimer": "ይህ መተግበሪያ ለWhatsApp Business chatbots ለመፍጠር ነው። በራስዎ አደጋ ይጠቀሙ።",
+    "rights": "ሁሉም መብቶች የተጠበቁ ናቸው።"
+  },
+  "payments": {
+    "supportedMethodsLabel": "በእነዚህ ክፍያ ዘዴዎች ይክፈሉ",
+    "additionalMethodsLabel": "ተጨማሪ ክፍያ አማራጮች (Stripe)",
+    "badges": {
+      "comingSoon": "በቅርቡ"
+    },
+    "trust": {
+      "heading": "ደህንነቱ የተጠበቀ ክፍያ",
+      "subheading": "ሁሉም ግብይቶች በStripe እና PayPal በ256-bit TLS ይመሳሰላሉ",
+      "items": [
+        "PCI DSS ደረጃ 1 & 3D Secure 2 ድጋፍ",
+        "Apple Pay, Google Pay እና ባዮሜትሪክ ማረጋገጫ",
+        "ደረሰኞችና የደንበኞች መረጃ በኢዩ በGDPR መሰረት ይጠበቃሉ"
+      ],
+      "footerNote": "ሂደቱ በStripe እና PayPal – 256-bit TLS መመሳሰል"
+    },
+    "links": {
+      "pricingLabel": "ዋጋዎች",
+      "templatesLabel": "ቴምፕሌቶች",
+      "docsLabel": "ሰነዶች",
+      "resourcesLabel": "Resources"
+    }
+  }
+}
+
