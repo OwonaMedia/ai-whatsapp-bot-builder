@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, ChangeEvent } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import HelpIcon from '@/components/ui/HelpIcon';
