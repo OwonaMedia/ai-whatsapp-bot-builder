@@ -1,49 +1,12 @@
+# Standard Vercel ignores
 node_modules
 .git
-.env
 .env.local
 .DS_Store
-*.md
-*.txt
-*.log
-.backup
-all_workflows.json
-alle-workflows-export.json
-archive-org-solution.html
-*.backup
-*.exp
-*.tar.gz
-*.zip
 
-# Ignoriere alles außer frontend/
-/*
-!/frontend
-!/vercel.json
-!/.vercelignore
-!/.npmrc
-
-# Im frontend/ Ordner: Ignoriere Build-Artefakte
-frontend/node_modules
-frontend/.next
-frontend/dist
-frontend/build
-frontend/coverage
-frontend/.cache
-frontend/tmp
-frontend/temp
-
-# Dokumentation und Scripts im Root ignorieren
-docs/
-scripts/
-supabase/
-sales-mcp-server/
-support-mcp-server/
-infra/
-reverse-engineering/
-shared_resources/
-config/
-lib/
-*.sh
-*.py
-ecosystem.config.js
-nginx-whatsapp.conf
+# Build artifacts (will be in frontend/ due to rootDirectory setting)
+.next
+dist
+build
+coverage
+.cache
