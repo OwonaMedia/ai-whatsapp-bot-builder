@@ -10,6 +10,8 @@
     "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "react/no-unescaped-entities": "warn",
-    "@next/next/no-html-link-for-pages": "warn"
+    "@next/next/no-html-link-for-pages": "warn",
+    "prefer-const": "warn",
+    "@typescript-eslint/no-require-imports": "off"
   }
 }
