@@ -2,6 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "installCommand": "npm ci --legacy-peer-deps --no-audit --no-fund",
-  "framework": "nextjs",
-  "rootDirectory": "frontend"
+  "framework": "nextjs"
 }
