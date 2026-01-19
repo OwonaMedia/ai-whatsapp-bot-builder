@@ -42,7 +42,7 @@
     "jose": "^6.1.0",
     "lucide-react": "^0.468.0",
     "minimatch": "^9.0.5",
-    "next": "15.5.7",
+    "next": "15.5.9",
     "next-intl": "^3.22.4",
     "pdf-parse": "^2.4.5",
     "pdfkit": "^0.17.2",
